@@ -87,6 +87,7 @@ function translate() {
     // NAME & OCCUPATION
     document.getElementById("myname").innerHTML = cover[0];
     document.getElementById("occ").innerHTML = cover[2];
+    document.getElementById("cv").innerHTML = cover[4];
 	}
 
   // TRANSLATE TO PTBR
@@ -101,5 +102,6 @@ function translate() {
     // NAME & OCCUPATION
     document.getElementById("myname").innerHTML = cover[1];
     document.getElementById("occ").innerHTML = cover[3];
+    document.getElementById("cv").innerHTML = cover[5];
 	}
 }

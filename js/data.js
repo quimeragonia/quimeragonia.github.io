@@ -59,9 +59,14 @@
 								cover[1] = "Caralho";
 
 							// eng
-								cover[2] = "Designer and Illustration";
+								cover[2] = "Design and Illustration";
 							// ptbr
 								cover[3] = "Design e Ilustração";
+
+							// eng
+								cover[4] = "Download Resume";
+							// ptbr
+								cover[5] = "Baixar CV";
 
 		// about
 
