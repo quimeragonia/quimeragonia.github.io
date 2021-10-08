@@ -48,6 +48,11 @@
 							// ptbr
 								navi[13] = "Contato";
 
+							// eng
+								navi[14] = "Close";
+							// ptbr
+								navi[15] = "Fechar";
+
 
 
 		// NAME etc
@@ -56,7 +61,7 @@
 							// eng
 								myname[0] = "puta que pariu";
 							// ptbr
-								myname[1] = "Gabriella Ruivo";
+								myname[1] = "Caralho";
 
 		// about
 

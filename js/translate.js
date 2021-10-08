@@ -78,25 +78,29 @@ function translate() {
 	// TRANSLATE TO ENG
 	if (lang == 0)	{
     // NAVIGATION
-		document.getElementById("navi_lang").innerHTML = navi[0];
+    document.getElementById("navi_lang").innerHTML = navi[0];
 		document.getElementById("navi_about").innerHTML = navi[2];
 		document.getElementById("navi_experience").innerHTML = navi[4];
     document.getElementById("navi_education").innerHTML = navi[6];
     document.getElementById("navi_projects").innerHTML = navi[8];
     document.getElementById("navi_skills").innerHTML = navi[10];
     document.getElementById("navi_contact").innerHTML = navi[12];
+    document.getElementById("menuclose").innerHTML = navi[14];
     // NAME & OCCUPATION
     document.getElementById("myname").innerHTML = myname[0];
 	}
-  
+
   // TRANSLATE TO PTBR
 	if (lang == 1)	{
-		document.getElementById("navi_lang").innerHTML = navi[1];
+    document.getElementById("navi_lang").innerHTML = navi[1];
 		document.getElementById("navi_about").innerHTML = navi[3];
 		document.getElementById("navi_experience").innerHTML = navi[5];
     document.getElementById("navi_education").innerHTML = navi[7];
     document.getElementById("navi_projects").innerHTML = navi[9];
     document.getElementById("navi_skills").innerHTML = navi[11];
     document.getElementById("navi_contact").innerHTML = navi[13];
+    document.getElementById("menuclose").innerHTML = navi[15];
+    // NAME & OCCUPATION
+    document.getElementById("myname").innerHTML = myname[1];
 	}
 }
