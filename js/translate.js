@@ -2,7 +2,6 @@
 var lang = 0;
 
 window.onload = function() {
-  alert(lang);
 //	currentPage('index', lang);
   translate();
 }
