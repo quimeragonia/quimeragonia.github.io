@@ -48,20 +48,20 @@
 							// ptbr
 								navi[13] = "Contato";
 
-							// eng
-								navi[14] = "Close";
-							// ptbr
-								navi[15] = "Fechar";
-
 
 
 		// NAME etc
 
-			var myname = [];
+			var cover = [];
 							// eng
-								myname[0] = "puta que pariu";
+								cover[0] = "puta que pariu";
 							// ptbr
-								myname[1] = "Caralho";
+								cover[1] = "Caralho";
+
+							// eng
+								cover[2] = "Designer and Illustration";
+							// ptbr
+								cover[3] = "Design e Ilustração";
 
 		// about
 

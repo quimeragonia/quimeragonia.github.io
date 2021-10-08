@@ -84,9 +84,9 @@ function translate() {
     document.getElementById("navi_projects").innerHTML = navi[8];
     document.getElementById("navi_skills").innerHTML = navi[10];
     document.getElementById("navi_contact").innerHTML = navi[12];
-    document.getElementById("menuclose").innerHTML = navi[14];
     // NAME & OCCUPATION
-    document.getElementById("myname").innerHTML = myname[0];
+    document.getElementById("myname").innerHTML = cover[0];
+    document.getElementById("occ").innerHTML = cover[2];
 	}
 
   // TRANSLATE TO PTBR
@@ -98,8 +98,8 @@ function translate() {
     document.getElementById("navi_projects").innerHTML = navi[9];
     document.getElementById("navi_skills").innerHTML = navi[11];
     document.getElementById("navi_contact").innerHTML = navi[13];
-    document.getElementById("menuclose").innerHTML = navi[15];
     // NAME & OCCUPATION
-    document.getElementById("myname").innerHTML = myname[1];
+    document.getElementById("myname").innerHTML = cover[1];
+    document.getElementById("occ").innerHTML = cover[3];
 	}
 }
