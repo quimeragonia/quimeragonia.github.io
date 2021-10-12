@@ -3,6 +3,8 @@ var lang = 0;
 
 window.onload = function() {
 //	currentPage('index', lang);
+  if (document.referrer == "")
+    lang = 1;
   translate();
 }
 
