@@ -91,6 +91,12 @@ function translate() {
     // ABOUT
     document.getElementById("abt_title").innerHTML = about[0];
     document.getElementById("abt_text").innerHTML = about[2];
+    // EXPERIENCE
+    document.getElementById("exp_title").innerHTML = exp[0];
+    document.getElementById("exp_employer0").innerHTML = exp[8];
+    document.getElementById("exp_jobtitle0").innerHTML = exp[4];
+    document.getElementById("exp_jobdesc0").innerHTML = exp[6];
+
 	}
 
   // TRANSLATE TO PTBR
@@ -109,5 +115,10 @@ function translate() {
     // ABOUT
     document.getElementById("abt_title").innerHTML = about[1];
     document.getElementById("abt_text").innerHTML = about[3];
+    // EXPERIENCE
+    document.getElementById("exp_title").innerHTML = exp[1];
+    document.getElementById("exp_employer0").innerHTML = exp[8];
+    document.getElementById("exp_jobtitle0").innerHTML = exp[5];
+    document.getElementById("exp_jobdesc0").innerHTML = exp[7];
 	}
 }

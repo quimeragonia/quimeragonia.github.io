@@ -54,9 +54,9 @@
 
 			var cover = [];
 							// eng
-								cover[0] = "puta que pariu";
+								cover[0] = "Gabriella Ruivo";
 							// ptbr
-								cover[1] = "Caralho";
+								cover[1] = "Gabriella Ruivo";
 
 							// eng
 								cover[2] = "Design and Illustration";
@@ -83,7 +83,7 @@
 								about[3] = "Hey, <b style = 'color: #2781B3;'>Gabriella Ruivo</b> aqui!<br><br>Sou estudante de Design de Mídia Digital na PUC-Rio, atualmente no meu quarto semestre e estagiando no <a href = 'http://www.icad.puc-rio.br/'>ICAD Games</a>.<br><br>Afogada em <b>curiosidade</b>, eu me considero uma pessoa interdisciplinar. Meu coração bate para arte e tecnologia, e embora eu procure me especializar em ilustração e animação, não limito minha fascinação para nenhum campo, e gosto de vê-los se conectando. O mundo é grande e interessante demais!<br><br>Isso quer dizer que eu tenho uma <b>ampla gama de gostos</b>: meus interesses vão de histórias infantis até o ocasional horror psicológico. Também tenho algo por arte glitch e estéticas de tech retrô, como é possível ver nessa presente página anos 90/meio synthwave que codei.<br><br>Eu procuro mostrar minha paixão pelas coisas através do meu trabalho, dando meu melhor, e sou muito adaptável. Se você tiver alguma ideia, vamos conversar!";
 
 
-		// Education
+		// Experience
 
 			var exp = [];
 
@@ -93,25 +93,54 @@
 								exp[1] = "Experiência Profissional";
 
 
-
 							// eng
 								exp[2] = "2014, Rio de Janeiro, Brazil";
 							//ptbr
 								exp[3] = "2014, RJ";
 
+							// eng
+								exp[4] = "Maths Auxiliary Teacher";
+							//ptbr
+								exp[5] = "Monitora de Matemática";
+
+							// eng
+								exp[6] = "eng description [tl]";
+							//ptbr
+								exp[7] = "Atendimento de grupos de vestibulandos e de alunos do ensino fundamental e médio para resolução de apostilas. Também trabalhei com correção das mesmas e fiscalização de provas e simulados.";
+
 							// both
-								exp[4] = "Sistema pH de Ensino LTDA";
+								exp[8] = "Sistema pH de Ensino LTDA";
+
+
+
+		// Education
+
+
+			var educ = [];
 
 							// eng
-								exp[5] = "Maths auxiliary teacher";
+								educ[0] = "Education";
 							//ptbr
-								exp[6] = "Monitora de Matemática";
+								educ[1] = "Experiência Profissional";
+
 
 							// eng
-								exp[7] = "eng description [tl]";
+								educ[2] = "2014 - 2020, Rio de Janeiro, Brazil";
 							//ptbr
-								exp[8] = "Atendimento de grupos de vestibulandos e de alunos do ensino fundamental e médio para resolução de apostilas. Também trabalhei com correção das mesmas e fiscalização de provas e simulados.";
+								educ[3] = "2014 - 2020, RJ";
 
+							// eng
+								educ[4] = "Digital Media Design";
+							//ptbr
+								educ[5] = "Design - Mídia Digital";
+
+								educ[6] = "2018 - 2020";
+// ai num sei mano
+
+								educ[7] = "Atendimento de grupos de vestibulandos e de alunos do ensino fundamental e médio para resolução de apostilas. Também trabalhei com correção das mesmas e fiscalização de provas e simulados.";
+
+							// both
+								educ[8] = "Pontifícia Universidade Católica - PUC-Rio (Prouni)";
 
 	// !!!!!!!!!!!!!!!!
 	// AUTOMATIC TRANSLATIONS ENG & PTBR
