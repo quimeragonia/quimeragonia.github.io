@@ -88,6 +88,9 @@ function translate() {
     document.getElementById("myname").innerHTML = cover[0];
     document.getElementById("occ").innerHTML = cover[2];
     document.getElementById("cv").innerHTML = cover[4];
+    // ABOUT
+    document.getElementById("abt_title").innerHTML = about[0];
+    document.getElementById("abt_text").innerHTML = about[2];
 	}
 
   // TRANSLATE TO PTBR
@@ -103,5 +106,8 @@ function translate() {
     document.getElementById("myname").innerHTML = cover[1];
     document.getElementById("occ").innerHTML = cover[3];
     document.getElementById("cv").innerHTML = cover[5];
+    // ABOUT
+    document.getElementById("abt_title").innerHTML = about[1];
+    document.getElementById("abt_text").innerHTML = about[3];
 	}
 }

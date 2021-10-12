@@ -50,7 +50,7 @@
 
 
 
-		// NAME etc
+		// Introduction
 
 			var cover = [];
 							// eng
@@ -68,16 +68,50 @@
 							// ptbr
 								cover[5] = "Baixar CV";
 
-		// about
+		// About
 
 			var about = [];
 
-						// actual about
+							// eng
+								about[0] = "About Me";
+							//ptbr
+								about[1] = "Sobre Mim";
 
-							// english
-								about[0] = "Hey there, <b style = 'color: #2781B3;'>Gabriella Ruivo</b> here!<br><br>I'm a Brazilian Digital Media Design student at university PUC-Rio, currently in my 4th semester and an intern at <a href = 'http://www.icad.puc-rio.br/'>ICAD Games</a>. <br><br>Drowned in <b>curiosity</b>, I consider myself an interdisciplinary kinda person. My heart beats both for art and technology, but though i seek to specialize in illustration and animation, I make a point to not limit my fascination to any field, and like to see them connecting. The world is too big and interesting!<br><br>This means I also have a <b>wide range of tastes</b>: my interests go from wholesome children's stories to the occasional psychological horror. I also have a thing for glitch art and old-school tech aesthetics, as it shows in this 90s/synthwave-esque page I've coded.<br><br>I strive to show my passion through my work, giving it my all, and am very adaptable. If you have any nice ideas, let's talk!";
-							// portuguese
-								about[1] = "Hey, <b style = 'color: #2781B3;'>Gabriella Ruivo</b> aqui!<br><br>Sou estudante de Design de Mídia Digital na PUC-Rio, atualmente no meu quarto semestre e estagiando no <a href = 'http://www.icad.puc-rio.br/'>ICAD Games</a>.<br><br>Afogada em <b>curiosidade</b>, eu me considero uma pessoa interdisciplinar. Meu coração bate para arte e tecnologia, e embora eu procure me especializar em ilustração e animação, não limito minha fascinação para nenhum campo, e gosto de vê-los se conectando. O mundo é grande e interessante demais!<br><br>Isso quer dizer que eu tenho uma <b>ampla gama de gostos</b>: meus interesses vão de histórias infantis até o ocasional horror psicológico. Também tenho algo por arte glitch e estéticas de tech retrô, como é possível ver nessa presente página anos 90/meio synthwave que codei.<br><br>Eu procuro mostrar minha paixão pelas coisas através do meu trabalho, dando meu melhor, e sou muito adaptável. Se você tiver alguma ideia, vamos conversar!";
+							// eng
+								about[2] = "Hey there, <b style = 'color: #2781B3;'>Gabriella Ruivo</b> here!<br><br>I'm a Brazilian Digital Media Design student at university PUC-Rio, currently in my 4th semester and an intern at <a href = 'http://www.icad.puc-rio.br/'>ICAD Games</a>. <br><br>Drowned in <b>curiosity</b>, I consider myself an interdisciplinary kinda person. My heart beats both for art and technology, but though i seek to specialize in illustration and animation, I make a point to not limit my fascination to any field, and like to see them connecting. The world is too big and interesting!<br><br>This means I also have a <b>wide range of tastes</b>: my interests go from wholesome children's stories to the occasional psychological horror. I also have a thing for glitch art and old-school tech aesthetics, as it shows in this 90s/synthwave-esque page I've coded.<br><br>I strive to show my passion through my work, giving it my all, and am very adaptable. If you have any nice ideas, let's talk!";
+							// ptbr
+								about[3] = "Hey, <b style = 'color: #2781B3;'>Gabriella Ruivo</b> aqui!<br><br>Sou estudante de Design de Mídia Digital na PUC-Rio, atualmente no meu quarto semestre e estagiando no <a href = 'http://www.icad.puc-rio.br/'>ICAD Games</a>.<br><br>Afogada em <b>curiosidade</b>, eu me considero uma pessoa interdisciplinar. Meu coração bate para arte e tecnologia, e embora eu procure me especializar em ilustração e animação, não limito minha fascinação para nenhum campo, e gosto de vê-los se conectando. O mundo é grande e interessante demais!<br><br>Isso quer dizer que eu tenho uma <b>ampla gama de gostos</b>: meus interesses vão de histórias infantis até o ocasional horror psicológico. Também tenho algo por arte glitch e estéticas de tech retrô, como é possível ver nessa presente página anos 90/meio synthwave que codei.<br><br>Eu procuro mostrar minha paixão pelas coisas através do meu trabalho, dando meu melhor, e sou muito adaptável. Se você tiver alguma ideia, vamos conversar!";
+
+
+		// Education
+
+			var exp = [];
+
+							// eng
+								exp[0] = "Experience";
+							//ptbr
+								exp[1] = "Experiência Profissional";
+
+
+
+							// eng
+								exp[2] = "2014, Rio de Janeiro, Brazil";
+							//ptbr
+								exp[3] = "2014, RJ";
+
+							// both
+								exp[4] = "Sistema pH de Ensino LTDA";
+
+							// eng
+								exp[5] = "Maths auxiliary teacher";
+							//ptbr
+								exp[6] = "Monitora de Matemática";
+
+							// eng
+								exp[7] = "eng description [tl]";
+							//ptbr
+								exp[8] = "Atendimento de grupos de vestibulandos e de alunos do ensino fundamental e médio para resolução de apostilas. Também trabalhei com correção das mesmas e fiscalização de provas e simulados.";
+
 
 	// !!!!!!!!!!!!!!!!
 	// AUTOMATIC TRANSLATIONS ENG & PTBR
@@ -138,21 +172,6 @@
 					// portuguese
 						design[1] = "Voltar";
 
-		// ABOUT
-
-				// top
-
-					// english
-						about[2] = "about.txt";
-					// portuguese
-						about[3] = "sobre.txt";
-
-				// botões
-
-					// english
-						about[4] = "Back";
-					// portuguese
-						about[5] = "Voltar";
 
 	// !!!!!!!!!!!!!!!!
 	// BIBLIOTECA
