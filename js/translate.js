@@ -3,11 +3,9 @@ var lang = 0;
 
 window.onload = function() {
 //	currentPage('index', lang);
-  alert(lang + "a");
   if (document.referrer.length != 0)
     lang = 1;
   translate();
-  alert(lang + "b");
 }
 
 function currentPage(i, language) {
