@@ -2,9 +2,12 @@
 var lang = 0;
 
 window.onload = function() {
+  alert(document.referrer);
 //	currentPage('index', lang);
-  if (document.referrer.length != 0)
-    lang = 1;
+//  if (document.referrer.length != 0)
+//    lang = 1;
+    if (document.referrer == "https://quimeranoxia.github.io/ptbr")
+      lang = 1;
   translate();
 }
 
