@@ -6,6 +6,10 @@ window.onload = function() {
   translate();
 }
 
+function acessoPtbr() {
+lang = 1;
+}
+
 function currentPage(i, language) {
 	if (i == 'index') {
 		document.getElementById("about_container").style.display = "none";
