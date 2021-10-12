@@ -4,7 +4,7 @@ var lang = 0;
 window.onload = function() {
 //	currentPage('index', lang);
 alert(lang);
-  if (document.referrer != "")
+  if (document.referrer != NULL)
     lang = 1;
   translate();
   alert(lang);
