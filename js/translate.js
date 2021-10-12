@@ -3,11 +3,11 @@ var lang = 0;
 
 window.onload = function() {
 //	currentPage('index', lang);
-alert(lang);
-  if (document.referrer != NULL)
+  alert(lang + "a");
+  if (document.referrer.length != 0)
     lang = 1;
   translate();
-  alert(lang);
+  alert(lang + "b");
 }
 
 function currentPage(i, language) {
