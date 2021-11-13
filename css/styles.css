@@ -675,7 +675,8 @@ footer {
 }
 
 .project-image {
-  float: left
+  float: left;
+  max-width: 300px;
 }
 
 .project-image h3 {
