@@ -1039,7 +1039,11 @@ footer {
 
   #works img {
     max-width: 200px;
+    padding: 50px 5px;
   }
+
+  #projects {
+    padding: 50px 5px;
 
   .project-image img {
     max-width: 200px;
