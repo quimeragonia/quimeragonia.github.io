@@ -1037,9 +1037,6 @@ footer {
 
 @media only screen and (max-width: 480px) {
 
-  #works {
-    padding: 50px 5px;
-  }
 
   .project-image {
     max-width: 200px;
