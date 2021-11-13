@@ -623,7 +623,7 @@ footer {
   background: #fff;
   margin: 30px 30px;
   padding: 0;
-  width: 300px;
+  max-width: 300px;
   border-radius: 4px
 }
 
@@ -1041,8 +1041,8 @@ footer {
     padding: 50px 5px;
   }
 
-  #projects {
-    padding: 50px 5px;
+  .project-image {
+    max-width: 200px;
   }
 
   #lead-content h1 {
