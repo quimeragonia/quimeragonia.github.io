@@ -1036,29 +1036,27 @@ footer {
 
 @media only screen and (max-width: 480px) {
 
+  .work img {
+   max-width: 250px;
+  }
+
   .project {
     max-width: 200px;
     font-size: 1em;
   }
 
-/*
-  .project-image {
-    max-width: 200px;
-  }*/
   .project-image img {
     max-width: 200px;
-  }/*
-  .work {
-    width: 200px;
-  }*/
+  }
 
-  .work img{
-   max-width: 250px;
- }
+  .project-image h3 {
+      display: block;
+      text-align: center;
+      font-size: 1.5em;
+  }
 
-/*  .project-image {
-    max-width: 200px;
-  }*/
+
+
 
   #lead-content h1 {
     font-size: 1.5em
