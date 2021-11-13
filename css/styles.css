@@ -1008,7 +1008,7 @@ footer {
   .project-image h3 {
       display: block;
       text-align: center;
-      font-size: 1em;
+      font-size: 1.5em;
       font-weight: 300;
       color: #374054;
       margin: 20px 0 15px 0
@@ -1037,10 +1037,13 @@ footer {
 
 @media only screen and (max-width: 480px) {
 
-
-  .project-image {
-    max-width: 200px;
+  .project {
+    max-width: 300px;
   }
+
+/*  .project-image {
+    max-width: 200px;
+  }*/
 
   #lead-content h1 {
     font-size: 1.5em
