@@ -1041,7 +1041,7 @@ footer {
   }
 
   .project {
-    max-width: 200px;
+    max-width: 270px;
     text-align: center;
     font-size: 1em;
   }
@@ -1052,6 +1052,7 @@ footer {
 
   .project-image h3 {
       display: block;
+      font-size: 1em;
   }
 
 
