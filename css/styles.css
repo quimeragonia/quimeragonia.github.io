@@ -1008,7 +1008,7 @@ footer {
   .project-image h3 {
       display: block;
       text-align: center;
-      font-size: 1.5em;
+      font-size: 1em;
       font-weight: 300;
       color: #374054;
       margin: 20px 0 15px 0
@@ -1043,10 +1043,14 @@ footer {
   }
 
   #projects {
-    padding: 50px 5px;
+    padding: 50px 5px;}
 
-  .project-image img {
+  .project-image {
     max-width: 200px;
+  }
+
+  .project-image h3 {
+    font-size: 0.5em;
   }
 
   #lead-content h1 {
