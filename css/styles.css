@@ -1038,6 +1038,7 @@ footer {
 
   .project {
     max-width: 200px;
+    font-size: 1em;
   }
 
 /*
@@ -1052,7 +1053,7 @@ footer {
   }*/
 
   .work img{
-   max-width: 200px;
+   max-width: 250px;
  }
 
 /*  .project-image {
