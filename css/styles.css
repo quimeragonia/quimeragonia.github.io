@@ -1038,16 +1038,11 @@ footer {
 @media only screen and (max-width: 480px) {
 
   #works {
-    max-width: 200px;
     padding: 50px 5px;
   }
 
   #projects {
-    max-width: 200px;
-    padding: 50px 5px;}
-
-  .project-image h3 {
-    font-size: 0.5em;
+    padding: 50px 5px;
   }
 
   #lead-content h1 {
