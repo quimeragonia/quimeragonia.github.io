@@ -1037,22 +1037,21 @@ footer {
 @media only screen and (max-width: 480px) {
 
   .work img {
-   max-width: 250px;
+   max-width: 270px;
   }
 
   .project {
     max-width: 200px;
-    font-size: 1em;
   }
 
   .project-image img {
-    max-width: 200px;
+    max-width: 270px;
   }
 
   .project-image h3 {
       display: block;
       text-align: center;
-      font-size: 1.5em;
+      font-size: 1em;
   }
 
 
