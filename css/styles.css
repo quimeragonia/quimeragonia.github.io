@@ -682,6 +682,9 @@ footer {
 .project-image h3 {
   display: none
 }
+.project-image img {
+  max-width: 300px;
+}
 
 .project-info {
   position: absolute;
@@ -1033,6 +1036,15 @@ footer {
 }
 
 @media only screen and (max-width: 480px) {
+
+  #works img {
+    max-width: 200px;
+  }
+
+  .project-image img {
+    max-width: 200px;
+  }
+
   #lead-content h1 {
     font-size: 1.5em
   }
