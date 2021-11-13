@@ -576,6 +576,16 @@ footer {
   font-size: 3em;
 }
 
+#circle {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 0px 6px 3px 6px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 .X {
   position: absolute;
   top: 0px;
@@ -635,6 +645,10 @@ footer {
     font-weight: 300;
     color: #374054;
     margin: 20px 0 15px 0
+  }
+
+  .work-thumb img {
+    max-width: 300px;
   }
 
 
