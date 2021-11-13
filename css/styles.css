@@ -1041,9 +1041,17 @@ footer {
     width: 200px;
   }
 
+  .project img{
+    max-width: 200px;
+  }
+
   .work {
     width: 200px;
   }
+
+  .work img{
+   max-width: 200px;
+ }
 
 /*  .project-image {
     max-width: 200px;
