@@ -682,9 +682,6 @@ footer {
 .project-image h3 {
   display: none
 }
-.project-image img {
-  max-width: 300px;
-}
 
 .project-info {
   position: absolute;
