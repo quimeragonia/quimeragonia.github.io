@@ -1037,9 +1037,9 @@ footer {
 
 @media only screen and (max-width: 480px) {
 
-  /*.project {
-    width: 80%;
-  }*/
+  .project {
+    max-width: 200px;
+  }
 
 
   .project-image {
