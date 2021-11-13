@@ -1041,6 +1041,10 @@ footer {
     width: 200px;
   }
 
+
+  .project-image {
+    max-width: 200px;
+  }
   .project-image img {
     max-width: 200px;
   }
