@@ -2,6 +2,7 @@
 var lang = 0;
 
 window.onload = function() {
+  alert("a");
 //	currentPage('index', lang);
 //  if (document.referrer.length != 0)
 //    lang = 1;
