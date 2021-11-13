@@ -106,19 +106,19 @@ header li {
 
 header a {
   display: block;
-  color: #3498db;
+  color: #7d3bbf;
   padding: 0 10px 0 10px;
 }
 
 header a:hover {
-  color: #217dbb;
+  color: #612c96;
   text-decoration: none;
   background: #eee;
   border-radius: 4px
 }
 
 header a:focus {
-  color: #3498db;
+  color: #7d3bbf;
   text-decoration: none
 }
 
@@ -152,7 +152,7 @@ div.sticky {
   position: fixed;
   right: 15px;
   top: 10px;
-  color: #3498db;
+  color: #7d3bbf;
   font-size: 1.5em;
   z-index: 20;
   padding: 0 7px;
@@ -169,7 +169,7 @@ div.sticky {
   padding-right: 33px;
   padding-top: 6px;
   cursor: pointer;
-  color: #3498db
+  color: #7d3bbf
 }
 
 #mobile-menu-bg {
@@ -202,7 +202,7 @@ footer {
 
 .copyright p {
   margin: 0;
-  color: #74808a
+  color: #612c96
 }
 
 .top {
@@ -468,7 +468,7 @@ footer {
   margin: 0 0 15px 0
 }
 
-.vtimeline-content p {
+.vtlcontent {
   color: #74808a;
   font-size: 0.9em;
   margin: 0
@@ -1034,7 +1034,7 @@ footer {
   .project {
     max-width: 270px;
   }
-  
+
   .project-image {
     max-width: 270px;
   }
