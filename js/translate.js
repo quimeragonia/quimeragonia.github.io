@@ -100,6 +100,14 @@ function translate() {
     document.getElementById("exp_employer0").innerHTML = exp[8];
     document.getElementById("exp_jobtitle0").innerHTML = exp[4];
     document.getElementById("exp_jobdesc0").innerHTML = exp[6];
+    // EDUCATION
+    document.getElementById("educ_title").innerHTML = educ[0];
+    document.getElementById("educ_major01").innerHTML = educ[2];
+    document.getElementById("educ_major02").innerHTML = educ[4];
+    document.getElementById("educ_major03").innerHTML = educ[6];
+    document.getElementById("educ_desc01").innerHTML = educ[8];
+    document.getElementById("educ_desc02").innerHTML = educ[8];
+    document.getElementById("educ_desc03").innerHTML = educ[10];
 
 	}
 
@@ -124,5 +132,13 @@ function translate() {
     document.getElementById("exp_employer0").innerHTML = exp[8];
     document.getElementById("exp_jobtitle0").innerHTML = exp[5];
     document.getElementById("exp_jobdesc0").innerHTML = exp[7];
+    // EDUCATION
+    document.getElementById("educ_title").innerHTML = educ[1];
+    document.getElementById("educ_major01").innerHTML = educ[3];
+    document.getElementById("educ_major02").innerHTML = educ[5];
+    document.getElementById("educ_major03").innerHTML = educ[7];
+    document.getElementById("educ_desc01").innerHTML = educ[9];
+    document.getElementById("educ_desc02").innerHTML = educ[9];
+    document.getElementById("educ_desc03").innerHTML = educ[11];
 	}
 }

@@ -557,6 +557,89 @@ footer {
   padding: 0 0 0 15px
 }
 
+
+/* DISPLAY ARTES  */
+
+#imagemampliada {
+  display: none;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  position:absolute;
+  overflow: hidden;
+}
+
+#imagemampliada i {
+  cursor: pointer;
+  font-size: 3em;
+}
+
+.X {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 33px 33px 0 0;
+  z-index: 1;
+}
+
+.X:hover {
+  text-decoration: none;
+}
+
+#fullimg {
+  display: none;
+  max-width: 93%;
+  max-height: 93%;
+  z-index: 0;
+}
+
+#works {
+  padding: 50px 15px;
+  border-bottom: 1px solid #dcd9d9;
+  text-align: center
+}
+
+#works h2 {
+  color: #374054;
+  margin-bottom: 50px
+}
+
+.work {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  background: #fff;
+  margin: 30px 30px;
+  padding: 0;
+  width: 300px;
+  border-radius: 4px
+}
+
+.work-thumb {
+  float: left;
+  position: relative;
+  margin: 0;
+  top: auto;
+  transform: none;
+  max-width: 100%;
+  max-height: 100%;
+  cursor: pointer;
+}
+
+.work-thumb h3 {
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #374054;
+    margin: 20px 0 15px 0
+  }
+
+
+/* FIM DISPLAY ARTES */
+
 #projects {
   padding: 50px 15px;
   border-bottom: 1px solid #dcd9d9;
@@ -581,6 +664,10 @@ footer {
   float: left
 }
 
+.project-image h3 {
+  display: none
+}
+
 .project-info {
   position: absolute;
   top: 50%;
@@ -601,13 +688,13 @@ footer {
   margin: 0 0 15px 0;
   font-size: 0.9em
 }
-
+/*
 .no-image .project-info {
   position: relative;
   margin: 0;
   padding: 30px 15px;
   transform: none
-}
+}*/
 
 #more-projects {
   display: none
@@ -781,6 +868,14 @@ footer {
 }
 
 @media only screen and (max-width: 992px) {
+
+  /* Hide works beyond 6 */
+
+    #w6, #w7, #w8, #w9 {
+      display: none;
+    }
+
+
   #lead {
     height: auto;
     min-height: auto;
@@ -821,6 +916,13 @@ footer {
     bottom: 0;
     height: 100%;
   }
+
+  /* Hide works beyond 5 */
+
+    #w5, #w6, #w7, #w8, #w9 {
+      display: none;
+    }
+
 
   #mobile-menu-open, #mobile-menu-close {
     display: block;
@@ -863,7 +965,38 @@ footer {
     float: none
   }
 
+  .project {
+    display: inline-block;
+    margin: 30px 30px;
+    padding: 0;
+    width: 300px;
+  }
+
+  .project-info {
+    display: none
+  }
+
+  .project-info h3 {
+    display: none
+  }
+
   .project-image {
+    position: relative;
+    margin: 0;
+    top: auto;
+    transform: none
+  }
+
+  .project-image h3 {
+      display: block;
+      text-align: center;
+      font-size: 1.5em;
+      font-weight: 300;
+      color: #374054;
+      margin: 20px 0 15px 0
+    }
+
+  /*.project-image {
     display: none
   }
 
@@ -873,7 +1006,7 @@ footer {
     padding: 30px 15px;
     top: auto;
     transform: none
-  }
+  }*/
 
   footer {
     text-align: center

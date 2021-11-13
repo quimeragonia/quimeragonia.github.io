@@ -54,9 +54,9 @@
 
 			var cover = [];
 							// eng
-								cover[0] = "Gabriella Ruivo";
+								cover[0] = "Quimeranoxia";
 							// ptbr
-								cover[1] = "Gabriella Ruivo";
+								cover[1] = "Quimeranóxia";
 
 							// eng
 								cover[2] = "Design and Illustration";
@@ -78,9 +78,9 @@
 								about[1] = "Sobre Mim";
 
 							// eng
-								about[2] = "Hey there, <b style = 'color: #2781B3;'>Gabriella Ruivo</b> here!<br><br>I'm a Brazilian Digital Media Design student at university PUC-Rio, currently in my 4th semester and an intern at <a href = 'http://www.icad.puc-rio.br/'>ICAD Games</a>. <br><br>Drowned in <b>curiosity</b>, I consider myself an interdisciplinary kinda person. My heart beats both for art and technology, but though i seek to specialize in illustration and animation, I make a point to not limit my fascination to any field, and like to see them connecting. The world is too big and interesting!<br><br>This means I also have a <b>wide range of tastes</b>: my interests go from wholesome children's stories to the occasional psychological horror. I also have a thing for glitch art and old-school tech aesthetics, as it shows in this 90s/synthwave-esque page I've coded.<br><br>I strive to show my passion through my work, giving it my all, and am very adaptable. If you have any nice ideas, let's talk!";
+								about[2] = "Hey there, <b style = 'color: #000;'>Gabriella Ruivo</b> here!<br><br>I'm a Brazilian Digital Media Design student at university PUC-Rio, currently in my 4th semester and an intern at <a href = 'http://www.icad.puc-rio.br/'>ICAD Games</a>. <br><br>Drowned in <b>curiosity</b>, I consider myself an interdisciplinary kinda person. My heart beats both for art and technology, but though i seek to specialize in illustration and animation, I make a point to not limit my fascination to any field, and like to see them connecting. The world is too big and interesting!<br><br>This means I also have a <b>wide range of tastes</b>: my interests go from wholesome children's stories to the occasional psychological horror. I also have a thing for glitch art and old-school tech aesthetics.<br><br>I strive to show my passion through my work, giving it my all, and am very adaptable. If you have any nice ideas, let's talk!";
 							// ptbr
-								about[3] = "Hey, <b style = 'color: #2781B3;'>Gabriella Ruivo</b> aqui!<br><br>Sou estudante de Design de Mídia Digital na PUC-Rio, atualmente no meu quarto semestre e estagiando no <a href = 'http://www.icad.puc-rio.br/'>ICAD Games</a>.<br><br>Afogada em <b>curiosidade</b>, eu me considero uma pessoa interdisciplinar. Meu coração bate para arte e tecnologia, e embora eu procure me especializar em ilustração e animação, não limito minha fascinação para nenhum campo, e gosto de vê-los se conectando. O mundo é grande e interessante demais!<br><br>Isso quer dizer que eu tenho uma <b>ampla gama de gostos</b>: meus interesses vão de histórias infantis até o ocasional horror psicológico. Também tenho algo por arte glitch e estéticas de tech retrô, como é possível ver nessa presente página anos 90/meio synthwave que codei.<br><br>Eu procuro mostrar minha paixão pelas coisas através do meu trabalho, dando meu melhor, e sou muito adaptável. Se você tiver alguma ideia, vamos conversar!";
+								about[3] = "Olá, <b style = 'color: #000;'>Gabriella Ruivo</b> aqui!<br><br>Sou estudante de Design de Mídia Digital na PUC-Rio, atualmente no meu quarto semestre e estagiando no <a href = 'http://www.icad.puc-rio.br/'>ICAD Games</a>.<br><br>Afogada em <b>curiosidade</b>, eu me considero uma pessoa interdisciplinar. Meu coração bate para arte e tecnologia, e embora eu procure me especializar em ilustração e animação, não limito minha fascinação para nenhum campo, e gosto de vê-los se conectando. O mundo é grande e interessante demais!<br><br>Isso quer dizer que eu tenho uma <b>ampla gama de gostos</b>: meus interesses vão de histórias infantis até o ocasional horror psicológico. Também tenho algo por arte glitch e estéticas de tech retrô.<br><br>Eu procuro mostrar minha paixão pelas coisas através do meu trabalho, dando meu melhor, e sou muito adaptável. Se você tiver alguma ideia, vamos conversar!";
 
 
 		// Experience
@@ -121,26 +121,51 @@
 							// eng
 								educ[0] = "Education";
 							//ptbr
-								educ[1] = "Experiência Profissional";
-
-
-							// eng
-								educ[2] = "2014 - 2020, Rio de Janeiro, Brazil";
-							//ptbr
-								educ[3] = "2014 - 2020, RJ";
+								educ[1] = "Formação";
 
 							// eng
-								educ[4] = "Digital Media Design";
+								educ[2] = "<b>Digital Media Design</b> (Interrupted)";
 							//ptbr
-								educ[5] = "Design - Mídia Digital";
+								educ[3] = "<b>Design - Mídia Digital</b> (Interrompido)";
 
-								educ[6] = "2018 - 2020";
+							// eng
+								educ[4] = "<b>Mechanical Engineering</b> (Interrupted)";
+							//ptbr
+								educ[5] = "<b>Engenharia Mecânica</b> (Interrompido)";
+
+							// eng
+								educ[6] = "<b>High School</b> (Complete)";
+							//ptbr
+								educ[7] = "<b>Ensino Médio Completo</b>";
+
+							// eng
+								educ[8] = "<a href = 'http:\\\\prouniportal.mec.gov.br/'>Prouni</a> 100% Scholarship.</a>";
+							//ptbr
+								educ[9] = "Bolsa 100% pelo <a href = 'http:\\\\prouniportal.mec.gov.br/'>Prouni</a>.";
+
+							// eng
+								educ[10] = "<a href = 'https:\\\\www.ismart.org.br/'>ISMART</a> 100% Scholarship.";
+							//ptbr
+								educ[11] = "Bolsa 100% pelo <a href = 'https:\\\\www.ismart.org.br/'>ISMART</a>.";
+
+
+
+		// Works
+
+			var thumbnail = [];
+
+			var full = [];
+
+								full[0]= "images/lead-bg.jpg";
+								full[1]= "images/project.jpg";
+								full[2]= "images/project.jpg";
+								full[3]= "images/project.jpg";
+								full[4]= "images/project.jpg";
+								full[5]= "images/project.jpg";
+								full[6]= "images/project.jpg";
+
 // ai num sei mano
 
-								educ[7] = "Atendimento de grupos de vestibulandos e de alunos do ensino fundamental e médio para resolução de apostilas. Também trabalhei com correção das mesmas e fiscalização de provas e simulados.";
-
-							// both
-								educ[8] = "Pontifícia Universidade Católica - PUC-Rio (Prouni)";
 
 	// !!!!!!!!!!!!!!!!
 	// AUTOMATIC TRANSLATIONS ENG & PTBR
