@@ -1040,6 +1040,16 @@ footer {
    max-width: 270px;
   }
 
+<<<<<<< HEAD
+=======
+  .project-image {
+    font-size: 0.5em;
+  }
+
+  .project-image h3 {
+    font-size: 0.5em;
+  }
+>>>>>>> 5b4a9f4a2b5e6c3e4a1502e5c149c393b4794293
 
   .project-image img {
     max-width: 270px;
