@@ -1040,13 +1040,20 @@ footer {
    max-width: 270px;
   }
 
+  .project-image h3 {
+    font-size: 1em;
+  }
+
   .project-image img {
     max-width: 270px;
   }
 
 
+
+
+
   #lead-content h1 {
-    font-size: 1em
+    font-size: 1.5em
   }
 
   #lead-content h2 {
