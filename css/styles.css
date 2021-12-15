@@ -27,7 +27,7 @@ Palette
 body {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
-  background-color: #fbf2d1;           /* 1st bg colour   */
+  background-color: #fff;           /* 1st bg colour   */
 }
 
 body.active {
@@ -273,7 +273,7 @@ footer {
 }
 
 .btn-rounded-white:hover {
-  color: #783c55;  
+  color: #783c55;
   background: #fff;
   text-decoration: none
 }
@@ -307,7 +307,7 @@ footer {
 }
 
 .background-alt {
-  background: #fff           /* 2nd bg colour */
+  background: #fbf2d1           /* 2nd bg colour */
 }
 
 #lead {
@@ -584,6 +584,7 @@ footer {
   justify-content: center;
   position:absolute;
   overflow: hidden;
+  background-color: transparent;
 }
 
 #imagemampliada i {
@@ -618,6 +619,8 @@ footer {
   max-width: 93%;
   max-height: 93%;
   z-index: 0;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: high-quality;
 }
 
 #works {

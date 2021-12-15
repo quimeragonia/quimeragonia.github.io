@@ -27,9 +27,8 @@ function ampliar (i) {
   document.getElementById("fullimg").style.display = "flex";
 
   // Transition to black bg
-  document.body.style.transition = "all 0.3s";
-	document.body.style.backgroundColor = "black";
-  document.body.style.overflow = "hidden";
+  document.getElementById("imagemampliada").style.transition = "all 0.3s";
+	document.getElementById("imagemampliada").style.backgroundColor = "black";
 
   // img
 	document.getElementById("fullimg").src = full[i];
@@ -41,11 +40,11 @@ function fechar () {
   document.getElementById("allpage").style.transition = "all 0.3s";
   document.getElementById("allpage").style.display = "inline";
   window.scrollTo(0, maintainPageY);
+  document.getElementById("imagemampliada").style.transition = "all 0.3s";
   document.getElementById("imagemampliada").style.display = "none";
   document.getElementById("fullimg").style.display = "none";
 
   // Transition back to the page
-  document.body.style.transition = "all 0.3s";
-  document.body.style.backgroundColor = "white";
-  document.body.style.overflow = "auto";
+  document.getElementById("imagemampliada").style.transition = "all 0.3s";
+  document.getElementById("imagemampliada").style.backgroundColor = "transparent";
 }
