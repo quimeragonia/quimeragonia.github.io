@@ -137,7 +137,7 @@
 								educ[5] = "<b>Engenharia Mecânica</b> (Interrompido)";
 
 							// eng
-								educ[6] = "<b>High School</b> (Complete)";
+								educ[6] = "<b>High School</b>";
 							//ptbr
 								educ[7] = "<b>Ensino Médio Completo</b>";
 
@@ -157,13 +157,21 @@
 
 			var thumbnail = [];
 
+								thumbnail[0]= "images/thumb_aneldevidro1920.jpg";
+								thumbnail[1]= "images/thumb_shuwukong1920.jpg";
+								thumbnail[2]= "images/lead-bg.jpg";
+								thumbnail[3]= "images/lead-bg.jpg";
+								thumbnail[4]= "images/thumb_giorno1920.jpg";
+								thumbnail[5]= "images/lead-bg.jpg";
+								thumbnail[6]= "images/lead-bg.jpg";
+
 			var full = [];
 
-								full[0]= "images/lead-bg.jpg";
-								full[1]= "images/project.jpg";
+								full[0]= "images/full_aneldevidro1920.jpg";
+								full[1]= "images/full_shuwukong1920.jpg";
 								full[2]= "images/project.jpg";
 								full[3]= "images/project.jpg";
-								full[4]= "images/project.jpg";
+								full[4]= "images/full_giorno1920.jpg";
 								full[5]= "images/project.jpg";
 								full[6]= "images/project.jpg";
 

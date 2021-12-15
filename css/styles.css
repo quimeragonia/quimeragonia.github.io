@@ -11,9 +11,23 @@
     Gulp and send to the /css folder which is then loaded on the page.
 */
 
+
+
+
+/*
+
+Palette
+#783c55 - colour1
+#cb666b - colour2
+#dc9e76 - colour3
+#fbf2d1 - colour4 (or 1st bg)
+
+*/
+
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 16px
+  font-size: 16px;
+  background-color: #fbf2d1;           /* 1st bg colour   */
 }
 
 body.active {
@@ -106,12 +120,12 @@ header li {
 
 header a {
   display: block;
-  color: #7d3bbf;
+  color: #783c55;
   padding: 0 10px 0 10px;
 }
 
 header a:hover {
-  color: #612c96;
+  color: #cb666b;
   text-decoration: none;
   background: #eee;
   border-radius: 4px
@@ -152,7 +166,7 @@ div.sticky {
   position: fixed;
   right: 15px;
   top: 10px;
-  color: #7d3bbf;
+  color: #783c55;
   font-size: 1.5em;
   z-index: 20;
   padding: 0 7px;
@@ -169,7 +183,7 @@ div.sticky {
   padding-right: 33px;
   padding-top: 6px;
   cursor: pointer;
-  color: #7d3bbf
+  color: #783c55
 }
 
 #mobile-menu-bg {
@@ -202,7 +216,7 @@ footer {
 
 .copyright p {
   margin: 0;
-  color: #612c96
+  color: #783c55
 }
 
 .top {
@@ -241,12 +255,12 @@ footer {
 
 .social a {
   display: block;
-  color: #74808a;
+  color: #cb666b;
   padding: 10px
 }
 
 .social a:hover {
-  color: #3498db
+  color: #783c55
 }
 
 .btn-rounded-white {
@@ -259,7 +273,7 @@ footer {
 }
 
 .btn-rounded-white:hover {
-  color: #3498db;
+  color: #783c55;  
   background: #fff;
   text-decoration: none
 }
@@ -289,11 +303,11 @@ footer {
   left: 0;
   right: 0;
   margin: 0 auto;
-  background: #3498db
+  background: #cb666b
 }
 
 .background-alt {
-  background: #f2f2f5
+  background: #fff           /* 2nd bg colour */
 }
 
 #lead {
@@ -330,7 +344,7 @@ footer {
 }
 
 #lead-content h2 {
-  color: #a0cfee;
+  color: #cb666b;
   font-weight: 500;
   font-size: 2.25em;
   margin-bottom: 15px
@@ -344,7 +358,7 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(33, 125, 187, 0.8);
+  background: rgba(220, 158, 118, 0.8);
   z-index: 1
 }
 
@@ -366,7 +380,7 @@ footer {
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  border: 3px solid #a0cfee;
+  border: 3px solid #cb666b;        /* colour2 */
   text-align: center
 }
 
@@ -396,7 +410,7 @@ footer {
 }
 
 #about h2 {
-  color: #374054
+  color: #783c55
 }
 
 #about p {
@@ -411,7 +425,7 @@ footer {
 }
 
 #experience h2 {
-  color: #374054
+  color: #783c55
 }
 
 #experience-timeline {
@@ -429,7 +443,7 @@ footer {
   right: auto;
   height: 100%;
   width: 3px;
-  background: #3498db;
+  background: #783c55;
   z-index: 0
 }
 
@@ -438,8 +452,8 @@ footer {
   content: '';
   width: 3px;
   height: 40px;
-  background: #3498db;
-  background: linear-gradient(to bottom, #3498db, rgba(52, 152, 219, 0));
+  background: #783c55;
+  background: linear-gradient(to bottom, #783c55, rgba(120, 60, 85, 0)); /* ACHEI */
   top: 100%;
   left: 303px
 }
@@ -456,7 +470,7 @@ footer {
 .vtimeline-content h3 {
   font-size: 1.5em;
   font-weight: 300;
-  color: #374054;
+  color: #783c55;
   display: inline-block;
   margin: 0
 }
@@ -464,7 +478,7 @@ footer {
 .vtimeline-content h4 {
   font-size: 1.2em;
   font-weight: 300;
-  color: #7e8890;
+  color: #783c55;                     /* colour1 */
   margin: 0 0 15px 0
 }
 
@@ -483,10 +497,10 @@ footer {
 
 .vtimeline-icon {
   position: relative;
-  color: #fff;
+  color: #fff;                      /* bg2 */
   width: 50px;
   height: 50px;
-  background: #3498db;
+  background: #783d56;                 /* colour1  */
   border-radius: 50%;
   float: left;
   z-index: 99;
@@ -506,7 +520,7 @@ footer {
   left: 0;
   top: 10px;
   font-weight: 300;
-  color: #374054
+  color: #783d56                      /* colour1  */
 }
 
 #education {
@@ -516,7 +530,7 @@ footer {
 }
 
 #education h2 {
-  color: #374054;
+  color: #783c55;
   margin-bottom: 50px
 }
 
@@ -525,7 +539,8 @@ footer {
   margin: 0 auto 30px auto;
   padding: 15px;
   border: 1px solid #dcd9d9;
-  text-align: left
+  text-align: left;
+  background: #fff;
 }
 
 .education-block h3 {
@@ -612,7 +627,7 @@ footer {
 }
 
 #works h2 {
-  color: #374054;
+  color: #783c55;
   margin-bottom: 50px
 }
 
@@ -620,7 +635,7 @@ footer {
   position: relative;
   display: inline-block;
   overflow: hidden;
-  background: #fff;
+  background: #fbf2d1;                         /* colour4 */
   margin: 30px 30px;
   padding: 0;
   max-width: 300px;
@@ -661,7 +676,7 @@ footer {
 }
 
 #projects h2 {
-  color: #374054;
+  color: #783c55;
   margin-bottom: 50px
 }
 
@@ -719,7 +734,8 @@ footer {
 
 #skills {
   padding: 50px 15px;
-  text-align: center
+  text-align: center;
+  background: #fff;
 }
 
 #skills h2 {
@@ -747,7 +763,7 @@ footer {
 
 #contact {
   padding: 50px 15px;
-  background: #3498db;
+  background: #783c55;
   text-align: center
 }
 
@@ -769,7 +785,7 @@ footer {
   border-radius: 4px;
   border: none;
   margin-bottom: 10px;
-  background: #1d6fa5;
+  background: #dc9e76;
   color: #fff;
   transition: .5s ease all
 }
@@ -794,7 +810,7 @@ footer {
 
 #contact-form input:focus, #contact-form textarea:focus {
   outline: none;
-  background: #16527a
+  background: #cb666b
 }
 
 #contact-form textarea {
@@ -809,7 +825,7 @@ footer {
   border-radius: 4px;
   padding: 5px 10px;
   border: none;
-  color: #3498db;
+  color: #783c55;
   font-weight: 700;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: .5s ease all
