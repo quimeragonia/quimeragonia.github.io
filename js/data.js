@@ -159,11 +159,13 @@
 
 								thumbnail[0]= "images/thumb_aneldevidro1920.jpg";
 								thumbnail[1]= "images/thumb_shuwukong1920.jpg";
-								thumbnail[2]= "images/lead-bg.jpg";
-								thumbnail[3]= "images/lead-bg.jpg";
+								thumbnail[2]= "images/project.jpg";
+								thumbnail[3]= "images/project.jpg";
 								thumbnail[4]= "images/thumb_giorno1920.jpg";
-								thumbnail[5]= "images/lead-bg.jpg";
-								thumbnail[6]= "images/lead-bg.jpg";
+								thumbnail[5]= "images/project.jpg";
+								thumbnail[6]= "images/project.jpg";
+								thumbnail[7]= "images/project.jpg";
+								thumbnail[8]= "images/project.jpg";
 
 			var full = [];
 
@@ -174,6 +176,8 @@
 								full[4]= "images/full_giorno1920.jpg";
 								full[5]= "images/project.jpg";
 								full[6]= "images/project.jpg";
+								full[7]= "images/project.jpg";
+								full[8]= "images/project.jpg";
 
 // ai num sei mano
 
