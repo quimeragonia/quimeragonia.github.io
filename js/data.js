@@ -172,7 +172,7 @@
 								full[0]= "images/full_aneldevidro1920.jpg";
 								full[1]= "images/full_shuwukong1920.jpg";
 								full[2]= "images/full_rabbitstarvation1920.jpg";
-								full[3]= "images/full_miranharafinha.jpg";
+								full[3]= "images/full_miranharafinha1920.jpg";
 								full[4]= "images/full_giorno1920.jpg";
 								full[5]= "images/project.jpg";
 								full[6]= "images/project.jpg";

@@ -315,7 +315,7 @@ footer {
   height: 100vh;
   min-height: 500px;
   max-height: 1080px;
-  background: url(../images/lead-bg.jpg);
+  background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url("../images/lead-bg.jpg");
   background-size: cover;
   padding: 15px;
   overflow: hidden
@@ -584,7 +584,6 @@ footer {
   justify-content: center;
   position:absolute;
   overflow: hidden;
-  background-color: transparent;
 }
 
 #imagemampliada i {
@@ -656,18 +655,9 @@ footer {
   cursor: pointer;
 }
 
-.work-thumb h3 {
-    display: block;
-    text-align: center;
-    font-size: 1.5em;
-    font-weight: 300;
-    color: #374054;
-    margin: 20px 0 15px 0
-  }
-
-  .work-thumb img {
+.work-thumb img {
     max-width: 300px;
-  }
+}
 
 
 /* FIM DISPLAY ARTES */
@@ -953,9 +943,28 @@ footer {
     height: 100%;
   }
 
+
+
+  /* PRA PÁGINA NÃO QUEBRAR PELO AMOR DE DEUS */
+    .work img {
+     max-width: 260px;
+    }
+
+    .project {
+      max-width: 260px;
+    }
+
+    .project-image {
+      max-width: 260px;
+    }
+    .project-image img {
+      max-width: 260px;
+    }
+  /* ATÉ AQUI */
+
   /* Hide works beyond 5 */
 
-    #w5, #w6, #w7, #w8, #w9 {
+    #w6, #w7, #w8, #w9 {
       display: none;
     }
 
@@ -1042,23 +1051,28 @@ footer {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 680px) {
+
+
+  #w5, #w6, #w7, #w8, #w9 {
+    display: none;
+  }
 
 
 /* PRA PÁGINA NÃO QUEBRAR PELO AMOR DE DEUS */
   .work img {
-   max-width: 270px;
+   max-width: 260px;
   }
 
   .project {
-    max-width: 270px;
+    max-width: 260px;
   }
 
   .project-image {
-    max-width: 270px;
+    max-width: 260px;
   }
   .project-image img {
-    max-width: 270px;
+    max-width: 260px;
   }
 /* ATÉ AQUI */
 
