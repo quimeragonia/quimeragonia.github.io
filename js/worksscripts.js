@@ -2,6 +2,9 @@ var idImg = -1;
 var maintainPageY = -1;
 
 
+
+// IMPORTANTE: fazer uma função que já deixa todas as imagens full carregadas, e aí a ampliar só ativa o display delas. pro usuário não esperar elas carregarem lol
+
 function loadThumbnails () {
   // Loads thumbnails
   document.getElementById("img0").src = thumbnail[0];

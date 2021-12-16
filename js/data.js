@@ -161,9 +161,9 @@
 								thumbnail[1]= "images/thumb_shuwukong1920.jpg";
 								thumbnail[2]= "images/thumb_rabbitstarvation1920.jpg";
 								thumbnail[3]= "images/thumb_miranharafinha1920.jpg";
-								thumbnail[4]= "images/thumb_giorno1920.jpg";
-								thumbnail[5]= "images/project.jpg";
-								thumbnail[6]= "images/project.jpg";
+								thumbnail[4]= "images/thumb_rinnekun1920.jpg";
+								thumbnail[5]= "images/thumb_giorno1920.jpg";
+								thumbnail[6]= "images/thumb_summervintage011920.jpg";
 								thumbnail[7]= "images/project.jpg";
 								thumbnail[8]= "images/project.jpg";
 
@@ -173,9 +173,9 @@
 								full[1]= "images/full_shuwukong1920.jpg";
 								full[2]= "images/full_rabbitstarvation1920.jpg";
 								full[3]= "images/full_miranharafinha1920.jpg";
-								full[4]= "images/full_giorno1920.jpg";
-								full[5]= "images/project.jpg";
-								full[6]= "images/project.jpg";
+								full[4]= "images/full_rinnekun1920.jpg";
+								full[5]= "images/full_giorno1920.jpg";
+								full[6]= "images/full_summervintage011920.jpg";
 								full[7]= "images/project.jpg";
 								full[8]= "images/project.jpg";
 
