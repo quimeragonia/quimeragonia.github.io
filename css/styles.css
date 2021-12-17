@@ -172,7 +172,7 @@ div.sticky {
 
 #menuX {
     position: absolute;
-    right: 20px;
+    right: 10px;
     top: 10px;
     overflow: hidden;
     height: 35px;
@@ -1203,14 +1203,7 @@ footer {
   }
 }
 
-/* Detects mobile */
-@media only screen and (hover: none) and (pointer: coarse){
 
-  #menuX {
-    right: 10px;
-  }
-
-}
 
 
 /* BARRA DE ROLAGEM */
