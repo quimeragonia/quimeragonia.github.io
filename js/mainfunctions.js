@@ -1,5 +1,6 @@
 // Starts in english
 var lang = 0;
+var maintainPageY = -1;
 
 window.onload = function() {
   loadWorks();
@@ -9,57 +10,26 @@ window.onload = function() {
   translate();
 }
 
-function currentPage(i, language) {
-	if (i == 'index') {
-		document.getElementById("about_container").style.display = "none";
-		document.getElementById("illustration_container").style.display = "none";
-		document.getElementById("design_container").style.display = "none";
-		document.getElementById("index_container").style.display = "flex";
+function mobilemenuabrir () {
+  // Y atual da página
+  maintainPageY = window.pageYOffset;
+  // Hides entire page
+  document.getElementById("allpage").style.transition = "all 0.3s";
+  document.getElementById("allpage").style.display = "none";
+  // Transition to white bg
+  document.body.style.transition = "all 0.3s";
+	document.body.style.backgroundColor = "black";
+}
 
-		document.body.style.overflowY = "hidden";
-	}
-
-	if (i == 'about') {
-		document.getElementById("index_container").style.display = "none";
-		document.getElementById("illustration_container").style.display = "none";
-		document.getElementById("design_container").style.display = "none";
-		document.getElementById("about_container").style.display = "flex";
-
-		document.body.style.overflowY = "hidden";
-	}
-
-	if (i == 'illustration') {
-		document.getElementById("about_container").style.display = "none";
-		document.getElementById("index_container").style.display = "none";
-		document.getElementById("design_container").style.display = "none";
-		document.getElementById("illustration_container").style.display = "inline";
-
-		illustTab('original')
-		thumbnails_illust();
-		document.getElementById("button_orig").disabled = true;
-		document.getElementById("button_fan").disabled = false;
-
-		document.body.style.overflowY = "scroll";
-	}
-
-	if (i == 'design') {
-		document.getElementById("about_container").style.display = "none";
-		document.getElementById("index_container").style.display = "none";
-		document.getElementById("illustration_container").style.display = "none";
-		document.getElementById("design_container").style.display = "inline";
-
-		thumbnails_illust();
-
-		document.body.style.overflowY = "scroll";
-	}
-
-
-
-	if (language != 0 && language != 1) {
-		translate(language);
-		document.getElementById("eng").disabled = true;
-		document.getElementById("ptbr").disabled = false;
-	}
+function mobilemenufechar () {
+  // Displays back entire page
+  document.getElementById("allpage").style.transition = "all 0.3s";
+  document.getElementById("allpage").style.display = "inline";
+  // Mantém Y da página (precisa estar nessa ordem depois das outras coisas!)
+  window.scrollTo(0, maintainPageY);
+  // Fade out back to the page
+  document.body.style.transition = "none";
+  document.body.style.backgroundColor = "transparent";
 }
 
 function changeLanguage() {

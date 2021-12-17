@@ -1,5 +1,4 @@
 var idImg = -1;
-var maintainPageY = -1;
 
 function loadWorks () {
   for (let n = 0; n < 9; n++) {
