@@ -1,58 +1,41 @@
 var idImg = -1;
 var maintainPageY = -1;
 
-
-
-// IMPORTANTE: fazer uma função que já deixa todas as imagens full carregadas, e aí a ampliar só ativa o display delas. pro usuário não esperar elas carregarem lol
-
-function loadThumbnails () {
-  // Loads thumbnails
-  document.getElementById("img0").src = thumbnail[0];
-  document.getElementById("img1").src = thumbnail[1];
-  document.getElementById("img2").src = thumbnail[2];
-  document.getElementById("img3").src = thumbnail[3];
-  document.getElementById("img4").src = thumbnail[4];
-  document.getElementById("img5").src = thumbnail[5];
-  document.getElementById("img6").src = thumbnail[6];
-  document.getElementById("img7").src = thumbnail[7];
-  document.getElementById("img8").src = thumbnail[8];
+function loadWorks () {
+  for (n = 0; n < 9; n++) {
+    document.getElementById("img" + String(n)).src = thumbnail[n];
+    document.getElementById("full" + String(n)).src = full[n];
+  }
 }
 
 
 function ampliar (i) {
   // Y atual da página
   maintainPageY = window.pageYOffset;
-
-
-
-  // Hiding entire page + showing image
-
+  // Hides entire page
   document.getElementById("allpage").style.transition = "all 0.3s";
   document.getElementById("allpage").style.display = "none";
   document.getElementById("imagemampliada").style.display = "flex";
-  document.getElementById("fullimg").style.transition = "all 0.3s";
-  document.getElementById("fullimg").style.display = "flex";
-
   // Transition to black bg
   document.body.style.transition = "all 0.3s";
 	document.body.style.backgroundColor = "black";
-
-  // img
-	document.getElementById("fullimg").src = full[i];
+  // Displays image
+  document.getElementById("full" + String(i)).style.transition = "all 0.3s";
+  document.getElementById("full" + String(i)).style.display = "flex";
+  // id to close
   idImg = i;
 }
 
 function fechar () {
-  // Hiding image + mantém Y da página + showing entire page
+  // Hides image
+  document.getElementById("full" + String(idImg)).style.transition = "all 0.3s";
+  document.getElementById("full" + String(idImg)).style.display = "none";
+  // Displays back entire page
+  document.getElementById("imagemampliada").style.display = "none";
   document.getElementById("allpage").style.transition = "all 0.3s";
   document.getElementById("allpage").style.display = "inline";
+  // Mantém Y da página (precisa estar nessa ordem depois das outras coisas!)
   window.scrollTo(0, maintainPageY);
-  document.getElementById("fullimg").style.transition = "all 0.3s";
-  document.getElementById("imagemampliada").style.transition = "all 0.3s";
-  document.getElementById("imagemampliada").style.display = "none";
-  document.getElementById("fullimg").style.display = "none";
-
-  // Transition back to the page
-  document.body.style.transition = "none";
+  // Fade out back to the page
   document.body.style.backgroundColor = "transparent";
 }

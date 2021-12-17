@@ -39,6 +39,16 @@ p {
   display: inline;
 }
 
+body a{
+  text-decoration: none #cb666b
+}
+
+body a:active{
+  text-decoration: underline dashed;
+  color: #783c55;
+}
+
+
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -132,7 +142,7 @@ header a:hover {
 }
 
 header a:focus {
-  color: #7d3bbf;
+  color: #cb666b;
   text-decoration: none
 }
 
@@ -344,7 +354,7 @@ footer {
 }
 
 #lead-content h2 {
-  color: #cb666b;
+  color: #fbf2d1;
   font-weight: 500;
   font-size: 2.25em;
   margin-bottom: 15px
@@ -591,29 +601,40 @@ footer {
   font-size: 3em;
 }
 
-#circle {
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  padding: 0px 6px 3px 6px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
+#X {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    overflow: hidden;
+    height: 30px;
+    width: 30px;  /* maintain 1:1 aspect ratio */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 999999;
+    cursor: pointer;
+    border: 4px solid #eee;
+    border-radius: 50%;
+    background-color: #eee;
 }
 
-.X {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  padding: 33px 33px 0 0;
-  z-index: 1;
+#X::before, #X::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 4px; /* cross thickness */
+    background-color: #000;
 }
 
-.X:hover {
-  text-decoration: none;
+#X::before {
+    transform: rotate(45deg);
 }
 
-#fullimg {
+#X::after {
+    transform: rotate(-45deg);
+}
+
+#full0, #full1, #full2, #full3, #full4, #full5, #full6, #full7, #full8 {
   display: none;
   max-width: 93%;
   max-height: 93%;
@@ -659,6 +680,8 @@ footer {
     max-width: 300px;
     object-fit: cover;
 }
+
+
 
 
 /* FIM DISPLAY ARTES */
@@ -948,18 +971,18 @@ footer {
 
   /* PRA PÁGINA NÃO QUEBRAR PELO AMOR DE DEUS */
     .work img {
-     max-width: 260px;
+     max-width: 270px;
     }
 
     .project {
-      max-width: 260px;
+      max-width: 270px;
     }
 
     .project-image {
-      max-width: 260px;
+      max-width: 270px;
     }
     .project-image img {
-      max-width: 260px;
+      max-width: 270px;
     }
   /* ATÉ AQUI */
 

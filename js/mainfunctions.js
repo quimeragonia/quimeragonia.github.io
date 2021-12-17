@@ -5,7 +5,8 @@ window.onload = function() {
 //	currentPage('index', lang);
 //  if (document.referrer.length != 0)
 //    lang = 1;
-  loadThumbnails();
+//  loadThumbnails();
+  loadWorks();
     if (document.referrer == "https://quimeranoxia.github.io/ptbr")
       lang = 1;
   translate();
