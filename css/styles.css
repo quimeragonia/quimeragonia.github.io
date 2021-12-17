@@ -1077,16 +1077,12 @@ footer {
     display: block;
   }
 
-  #menuX {
-    right: 10px;
-  }
-
   #menu {
-    height: 80%;
+    height: 100%;
     overflow-y: auto;
     box-shadow: none;
     border-radius: 0;
-    width: 100%
+    width: 100%;
   }
 
   #menu p {
@@ -1205,6 +1201,15 @@ footer {
     font-size: 0.9em;
     padding: 5px 10px
   }
+}
+
+/* Detects mobile */
+@media only screen and (hover: none) and (pointer: coarse){
+
+  #menuX {
+    right: 10px;
+  }
+
 }
 
 
