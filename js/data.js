@@ -24,6 +24,11 @@
 								navi[3] = "Sobre";
 
 							// eng
+//								navi[4] = "Works";
+							// ptbr
+	//							navi[5] = "Ilustrações";
+
+							// eng
 								navi[4] = "Experience";
 							// ptbr
 								navi[5] = "Experiência";
@@ -113,6 +118,8 @@
 
 							// both
 								exp[8] = "Sistema pH de Ensino LTDA";
+
+								// ICAD PORRA
 
 
 

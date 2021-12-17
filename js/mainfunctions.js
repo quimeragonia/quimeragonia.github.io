@@ -2,13 +2,10 @@
 var lang = 0;
 
 window.onload = function() {
-//	currentPage('index', lang);
-//  if (document.referrer.length != 0)
-//    lang = 1;
-//  loadThumbnails();
   loadWorks();
-    if (document.referrer == "https://quimeranoxia.github.io/ptbr")
-      lang = 1;
+  // Detecta se o link ptbr foi dado para traduzir em português
+  if (document.referrer == "https://quimeranoxia.github.io/ptbr")
+    lang = 1;
   translate();
 }
 
@@ -66,7 +63,6 @@ function currentPage(i, language) {
 }
 
 function changeLanguage() {
-
   if (lang != 0 && lang != 1)
     lang = 0;
   else

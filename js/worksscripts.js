@@ -2,12 +2,11 @@ var idImg = -1;
 var maintainPageY = -1;
 
 function loadWorks () {
-  for (n = 0; n < 9; n++) {
+  for (let n = 0; n < 9; n++) {
     document.getElementById("img" + String(n)).src = thumbnail[n];
     document.getElementById("full" + String(n)).src = full[n];
   }
 }
-
 
 function ampliar (i) {
   // Y atual da página
@@ -37,5 +36,6 @@ function fechar () {
   // Mantém Y da página (precisa estar nessa ordem depois das outras coisas!)
   window.scrollTo(0, maintainPageY);
   // Fade out back to the page
+  document.body.style.transition = "none";
   document.body.style.backgroundColor = "transparent";
 }

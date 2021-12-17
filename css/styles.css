@@ -40,11 +40,11 @@ p {
 }
 
 body a{
-  text-decoration: none #cb666b
+  text-decoration: none;
 }
 
 body a:active{
-  text-decoration: underline dashed;
+  text-decoration: none;
   color: #783c55;
 }
 
@@ -285,7 +285,8 @@ footer {
 .btn-rounded-white:hover {
   color: #783c55;
   background: #fff;
-  text-decoration: none
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .shadow {
@@ -354,7 +355,7 @@ footer {
 }
 
 #lead-content h2 {
-  color: #fbf2d1;
+  color: #783c55;
   font-weight: 500;
   font-size: 2.25em;
   margin-bottom: 15px
@@ -681,8 +682,42 @@ footer {
     object-fit: cover;
 }
 
+#seemore {
+  vertical-align: middle;
+}
 
+#seemoretext {
+  display: inline;
+  font: 1.2em bold, 'Lato', sans-serif;
+  color: #783c55;
+  padding-right: 5px;
+  text-decoration: none;
+}
 
+#seemoretext a {
+  text-decoration: none;
+}
+
+#seemoretext a:hover {
+    text-decoration: none;
+}
+
+#seemorearrow {
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border: 3px solid #783c55;
+  transform: rotate(-90deg);
+}
+
+.arrow {
+  animation: pulsate 1.5s ease;
+  animation-iteration-count: infinite;
+  padding-top: 5px;
+  justify-content: center;
+  color: #783c55;
+}
 
 /* FIM DISPLAY ARTES */
 
