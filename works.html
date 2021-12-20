@@ -26,32 +26,38 @@
     <header class="sticky noselect">
 
         <div id="mobile-menu-close">
+            <div id ="mobile-menu-bg"></div>
+            <div id = "menuX" aria-hidden="true" class ="shadow"></div>
+
+            <!-- Coisa que funciona ainda
             <i class="fa fa-times" aria-hidden="true"></i><div id ="mobile-menu-bg"></div>
+          -->
         </div>
+
 
 
         <ul id="menu" class="shadow" style ="z-index: 30;">
             <li>
-                <a href="/#about"><p id = "navi_about">About</p></a>
+                <a href="#about"><p id = "navi_about">About</p></a>
             </li>
             <li>
-                <a href="/#works"><p id = "navi_works">Works</p></a>
+                <a href="#works"><p id = "navi_works">Works</p></a>
             </li>
             <li>
-                <a href="/#projects"><p id = "navi_projects">Projects</p></a>
+                <a href="#projects"><p id = "navi_projects">Projects</p></a>
             </li>
             <li>
-                <a href="/#experience"><p id = "navi_experience">Experience</p></a>
+                <a href="#experience"><p id = "navi_experience">Experience</p></a>
             </li>
             <li>
-                <a href="/#education"><p id = "navi_education">Education</p></a>
+                <a href="#education"><p id = "navi_education">Education</p></a>
             </li>
 
             <li>
-                <a href="/#skills"><p id = "navi_skills">Skills</p></a>
+                <a href="#skills"><p id = "navi_skills">Skills</p></a>
             </li>
             <li>
-                <a href="/#contact"><p id = "navi_contact">Contact</p></a>
+                <a href="#contact"><p id = "navi_contact">Contact</p></a>
             </li>
             <li>
                 <a onclick = "changeLanguage();" style="cursor: pointer;"><b><p id = "navi_lang">Em Português</p></b></a>
@@ -60,8 +66,25 @@
     </header>
     <!-- End header -->
 
+    <!-- BEGIN #lead -->
+    <div id="lead">
+        <div id="lead-content">
+            <h1><p id="myname">Quimeranoxia</p></h1>
+            <h2><p id="occ">Design and Illustration</p></h2>
+            <a href="/cv/Gabriella Ruivo CV_ptbr.pdf" class="btn-rounded-white"><p id="cv">Download Resume</p></a>
+        </div>
+        <!-- End #lead-content -->
 
+        <div id="lead-overlay"></div>
 
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
 
 
     <!-- BEGIN #works -->
@@ -151,7 +174,18 @@
                 </div>
                 <!-- End .work 8 -->
             </div>
-            <a href="/">Go back</a>
+            <div id ="seemore">
+              <a href="/">
+                <div id ="seemorearrow" style = "transform: rotate(180deg);">
+                  <i class="fa fa-chevron-down arrow" aria-hidden="true">
+                  </i>
+                </div>
+                <div id = "seemoretext">
+                  Go back
+                </div>
+
+              </a>
+            </div>
         </div>
     </div>
     <!-- End #works -->
@@ -200,15 +234,24 @@
 
     </div>
     <!-- End #allpage -->
-    <div id = "imagemampliada">
-      <div class = "X">
-        <i class="fa fa-times" id = "circle" onclick = "fechar();"></i>
-      </div>
-      <img id ="fullimg"/>
 
+    <!-- ESTOQUE DE IMAGENS AMPLIADAS -->
+    <div id = "imagemampliada" oncontextmenu="return false;">
 
+      <div id = "X" onclick = "fechar();"></div>
 
+      <img id = "full0"/>
+      <img id = "full1"/>
+      <img id = "full2"/>
+      <img id = "full3"/>
+      <img id = "full4"/>
+      <img id = "full5"/>
+      <img id = "full6"/>
+      <img id = "full7"/>
+      <img id = "full8"/>
     </div>
+    <!-- Fim do estoque de imagens ampliadas -->
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
