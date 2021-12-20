@@ -186,8 +186,8 @@
 								full[7]= "images/full_mika.jpg";
 								full[8]= "images/full_summervintage011920.jpg";
 
-// ai num sei mano
 
+// old stuff
 
 	// !!!!!!!!!!!!!!!!
 	// AUTOMATIC TRANSLATIONS ENG & PTBR
