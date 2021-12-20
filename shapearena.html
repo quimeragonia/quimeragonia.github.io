@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quimerafólio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <script type = "text/javascript" src = "js/data.js"></script>
+    <script type = "text/javascript" src = "js/worksscripts.js"></script>
+    <script type = "text/javascript" src = "js/translate.js"></script>
+</head>
+
+<body><div id = "allpage">
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i></div>
+
+    <!-- End #mobile-menu-toggle -->
+    <header class="sticky noselect">
+
+        <div id="mobile-menu-close">
+            <i class="fa fa-times" aria-hidden="true"></i><div id ="mobile-menu-bg"></div>
+        </div>
+
+
+        <ul id="menu" class="shadow" style ="z-index: 30;">
+            <li>
+                <a href="/#about"><p id = "navi_about">About</p></a>
+            </li>
+            <li>
+                <a href="/#works"><p id = "navi_works">Works</p></a>
+            </li>
+            <li>
+                <a href="/#projects"><p id = "navi_projects">Projects</p></a>
+            </li>
+            <li>
+                <a href="/#experience"><p id = "navi_experience">Experience</p></a>
+            </li>
+            <li>
+                <a href="/#education"><p id = "navi_education">Education</p></a>
+            </li>
+
+            <li>
+                <a href="/#skills"><p id = "navi_skills">Skills</p></a>
+            </li>
+            <li>
+                <a href="/#contact"><p id = "navi_contact">Contact</p></a>
+            </li>
+            <li>
+                <a onclick = "changeLanguage();" style="cursor: pointer;"><b><p id = "navi_lang">Em Português</p></b></a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+
+
+
+
+    <!-- BEGIN #projects -->
+    <div id="projects">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <h3>Game: Shape Arena</h3>
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Game: Shape Arena</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <h3>dsfdsfdsdsfsdsfdsasasdasdassdaddsas</h3>
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Project Name Here</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2020 YOUR NAME
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    </div>
+    <!-- End #allpage -->
+    <div id = "imagemampliada">
+      <div class = "X">
+        <i class="fa fa-times" id = "circle" onclick = "fechar();"></i>
+      </div>
+      <img id ="fullimg"/>
+
+
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+
+</body>
+
+</html>

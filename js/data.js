@@ -83,9 +83,9 @@
 								about[1] = "Sobre Mim";
 
 							// eng
-								about[2] = "i love shu itsuki";
+								about[2] = "hellooo site still being made";
 							// ptbr
-								about[3] = "eu amo o shu itsuki";
+								about[3] = "boa noite consagrados tamo em construção ainda bjs";
 //Hey there, <b style = 'color: #000;'>Gabriella Ruivo</b> here!<br><br>I'm a Brazilian Digital Media Design student at university PUC-Rio, currently in my 4th semester and an intern at <a href = 'http://www.icad.puc-rio.br/'>ICAD Games</a>. <br><br>Drowned in <b>curiosity</b>, I consider myself an interdisciplinary kinda person. My heart beats both for art and technology, but though i seek to specialize in illustration and animation, I make a point to not limit my fascination to any field, and like to see them connecting. The world is too big and interesting!<br><br>This means I also have a <b>wide range of tastes</b>: my interests go from wholesome children's stories to the occasional psychological horror. I also have a thing for glitch art and old-school tech aesthetics.<br><br>I strive to show my passion through my work, giving it my all, and am very adaptable. If you have any nice ideas, let's talk!
 
 //"Olá, <b style = 'color: #000;'>Gabriella Ruivo</b> aqui!<br><br>Sou estudante de Design de Mídia Digital na PUC-Rio, atualmente no meu quarto semestre e estagiando no <a href = 'http://www.icad.puc-rio.br/'>ICAD Games</a>.<br><br>Afogada em <b>curiosidade</b>, eu me considero uma pessoa interdisciplinar. Meu coração bate para arte e tecnologia, e embora eu procure me especializar em ilustração e animação, não limito minha fascinação para nenhum campo, e gosto de vê-los se conectando. O mundo é grande e interessante demais!<br><br>Isso quer dizer que eu tenho uma <b>ampla gama de gostos</b>: meus interesses vão de histórias infantis até o ocasional horror psicológico. Também tenho algo por arte glitch e estéticas de tech retrô.<br><br>Eu procuro mostrar minha paixão pelas coisas através do meu trabalho, dando meu melhor, e sou muito adaptável. Se você tiver alguma ideia, vamos conversar!
@@ -170,9 +170,9 @@
 								thumbnail[3]= "images/thumb_miranharafinha1920.jpg";
 								thumbnail[4]= "images/thumb_rinnekun1920.jpg";
 								thumbnail[5]= "images/thumb_giorno1920.jpg";
-								thumbnail[6]= "images/thumb_summervintage011920.jpg";
-								thumbnail[7]= "images/project.jpg";
-								thumbnail[8]= "images/project.jpg";
+								thumbnail[6]= "images/thumb_detetive1920.jpg";
+								thumbnail[7]= "images/thumb_mika.jpg";
+								thumbnail[8]= "images/thumb_summervintage011920.jpg";
 
 			var full = [];
 
@@ -182,9 +182,9 @@
 								full[3]= "images/full_miranharafinha1920.jpg";
 								full[4]= "images/full_rinnekun1920.jpg";
 								full[5]= "images/full_giorno1920.jpg";
-								full[6]= "images/full_summervintage011920.jpg";
-								full[7]= "images/project.jpg";
-								full[8]= "images/project.jpg";
+								full[6]= "images/full_detetive1920.gif";
+								full[7]= "images/full_mika.jpg";
+								full[8]= "images/full_summervintage011920.jpg";
 
 // ai num sei mano
 
