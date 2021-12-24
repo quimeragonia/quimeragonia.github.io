@@ -1,0 +1,9 @@
+toinhonhon da flecha
+plataforma se desfazendo
+
+unused: credits
+
+
+ANIMATE IN CSS (pegar spritesheets):
+skill_triângulo
+brilho
