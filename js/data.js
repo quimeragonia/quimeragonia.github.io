@@ -24,34 +24,34 @@
 								navi[3] = "Sobre";
 
 							// eng
-//								navi[4] = "Works";
+								navi[4] = "Works";
 							// ptbr
-	//							navi[5] = "Ilustrações";
+								navi[5] = "Ilustrações";
 
 							// eng
-								navi[4] = "Experience";
+								navi[6] = "Experience";
 							// ptbr
-								navi[5] = "Experiência";
+								navi[7] = "Experiência";
 
 							// eng
-								navi[6] = "Education";
+								navi[8] = "Education";
 							// ptbr
-								navi[7] = "Formação";
+								navi[9] = "Formação";
 
 							// eng
-								navi[8] = "Projects";
+								navi[10] = "Projects";
 							// ptbr
-								navi[9] = "Projetos";
+								navi[11] = "Projetos";
 
 							// eng
-								navi[10] = "Skills";
+								navi[12] = "Skills";
 							// ptbr
-								navi[11] = "Habilidades";
+								navi[13] = "Habilidades";
 
 							// eng
-								navi[12] = "Contact";
+								navi[14] = "Contact";
 							// ptbr
-								navi[13] = "Contato";
+								navi[15] = "Contato";
 
 
 
@@ -193,3 +193,16 @@
 
 								thumbproject[0]= "projects/thumb_shapearena.jpg";
 								thumbproject[1]= "";
+
+
+
+
+
+			// PROJECT PAGES
+
+				// SHAPE ARENA
+
+			var shapedesc = [];
+
+							shapedesc[0]= "Shape Arena é um jogo multiplayer 2D local no qual os jogadores controlam guerreiras formas geométricas habilmente desenhadas no quadro negro, lutando para coletar todas as balinhas e conquistar a maior pontuação.";
+							shapedesc[1]= "Shape Arena é um jogo multiplayer 2D local no qual os jogadores controlam guerreiras formas geométricas habilmente desenhadas no quadro negro, lutando para coletar todas as balinhas e conquistar a maior pontuação.";

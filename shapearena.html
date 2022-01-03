@@ -12,10 +12,11 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/projectstyles.css" rel="stylesheet">
 
     <script type = "text/javascript" src = "js/data.js"></script>
-    <script type = "text/javascript" src = "js/worksscripts.js"></script>
-    <script type = "text/javascript" src = "js/translate.js"></script>
+    <script type = "text/javascript" src = "js/projectsscripts.js"></script>
+    <script type = "text/javascript" src = "js/mainfunctions.js"></script>
 </head>
 
 <body><div id = "allpage">
@@ -65,46 +66,71 @@
 
 
     <!-- BEGIN #projects -->
-    <div id="projects">
-        <h2 class="heading">Projects</h2>
+      <div id="projects">
+        <h2 class="heading"><br>Shape Arena</h2>
+
+
+
+    <!-- BEGIN descrição -->
         <div class="container">
             <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <h3>Game: Shape Arena</h3>
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Game: Shape Arena</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
+                <div class="project shadow-large normaltext" style ="padding-top: 10px; padding-bottom: 10px;">
+                    <p id ="shapearenadesc">blablabla falar sobre como fui designer no jogo etc, sendo o mais notável a tela principal. mais abaixo você pode ver um currículo de todas as animações pelas quais fui responsável.</p>
                     <!-- End .project-info -->
                 </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <h3>dsfdsfdsdsfsdsfdsasasdasdassdaddsas</h3>
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
             </div>
         </div>
-    </div>
+    <!-- END descrição -->
+
+        <br><br>
+        <button onclick="test(1);">Fundo shape</button>---<button onclick="test(2);">Fundo quadro</button>
+        <br><br>
+    <!-- BEGIN quadro shape -->
+        <div class ="container">
+          <div id ="ShapeCanvas" class = "projecttext shadow-large">
+            <div id = "initialtext">
+
+                Please click on the buttons below.<br><br>
+                <button id = "list_general" onclick ="generatelist0();">General</button><br>
+                <button id = "list_hazards" onclick ="generatelist1();">Hazards</button><br>
+                <button id = "list_skills" onclick ="generatelist2();">Shape Skills</button><br>
+                <button id = "list_unused" onclick ="generatelist3();">Unused</button><br>
+
+            </div>
+
+            <div id ="general0">
+            </div>
+            <div id ="general1">
+            </div>
+            <div id ="general2">
+            </div>
+            <div id ="general3">
+            </div>
+            <div id ="general4">
+            </div>
+            <div id ="hazards0">
+            </div>
+            <div id ="hazards1">
+            </div>
+            <div id ="hazards2">
+            </div>
+
+            <!-- Mainscreen -->
+            <div id ="MainScreen">
+            </div>
+
+            <!-- bg -->
+            <div class ="boardbg">
+            </div>
+
+          </div>
+        </div>
+
+
+    <!-- END quadro shape -->
+
+
+
     <!-- End #projects -->
 
 
@@ -151,15 +177,6 @@
 
     </div>
     <!-- End #allpage -->
-    <div id = "imagemampliada">
-      <div class = "X">
-        <i class="fa fa-times" id = "circle" onclick = "fechar();"></i>
-      </div>
-      <img id ="fullimg"/>
-
-
-
-    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>

@@ -1,0 +1,36 @@
+animações:
+GERAL
+- tela principal OK
+- shapes OK
+- balinha girando + brilho
+- apagador
+- plataforma OK
+- lupa
+- semáforo (não tenho a mínima ideia de como vou pegar essa merda)
+6 coisas + 1 coisa grande (semáforo)
+
+SKILLS
+- bolinha sonic
+- triângulo foguete
+2 coisas
+
+HAZARDS
+- bomba
+- battleroyale OK
+- atirador + bullet
+- pilar + poeira
+- toinhoinhoim da flecha
+3 coisas + 2 coisas enormes (pilar e battleroyale)
+
+UNUSED
+- tipos de bolhas x6
+- item vida antigo x2
+- objetivo
+- trampolim
+- opening credits fadeout
+
+
+dar créditos
+bg feito por marimaki
+logo feita por flavisky
+(buscar no site do icad links pras coisas delas lol)

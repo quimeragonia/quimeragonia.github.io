@@ -3,11 +3,16 @@ var lang = 0;
 var maintainPageY = -1;
 
 window.onload = function() {
+
+  if (window.location.href == "file:///D:/github/quimeranoxia.github.io/shapearena.html" || window.location.href == "https://quimeranoxia.github.io/shapearena")
+    translateshape();
+  else {
   loadWorks();
   // Detecta se o link ptbr foi dado para traduzir em português
   if (document.referrer == "https://quimeranoxia.github.io/ptbr")
     lang = 1;
   translate();
+  }
 }
 
 function mobilemenuabrir () {
@@ -41,7 +46,12 @@ function changeLanguage() {
     }
     else
       lang = 0;
-  translate();
+
+  if (window.location.href == "file:///D:/github/quimeranoxia.github.io/shapearena.html" || window.location.href == "https://quimeranoxia.github.io/shapearena")
+        translateshape();
+  else {
+        translate();
+  }
 }
 
 function translate() {
@@ -51,11 +61,12 @@ function translate() {
     // NAVIGATION
     document.getElementById("navi_lang").innerHTML = navi[0];
 		document.getElementById("navi_about").innerHTML = navi[2];
-		document.getElementById("navi_experience").innerHTML = navi[4];
-    document.getElementById("navi_education").innerHTML = navi[6];
-    document.getElementById("navi_projects").innerHTML = navi[8];
-    document.getElementById("navi_skills").innerHTML = navi[10];
-    document.getElementById("navi_contact").innerHTML = navi[12];
+    document.getElementById("navi_works").innerHTML = navi[4];
+		document.getElementById("navi_experience").innerHTML = navi[6];
+    document.getElementById("navi_education").innerHTML = navi[8];
+    document.getElementById("navi_projects").innerHTML = navi[10];
+    document.getElementById("navi_skills").innerHTML = navi[12];
+    document.getElementById("navi_contact").innerHTML = navi[14];
     // NAME & OCCUPATION
     document.getElementById("myname").innerHTML = cover[0];
     document.getElementById("occ").innerHTML = cover[2];
@@ -83,11 +94,12 @@ function translate() {
 	if (lang == 1)	{
     document.getElementById("navi_lang").innerHTML = navi[1];
 		document.getElementById("navi_about").innerHTML = navi[3];
-		document.getElementById("navi_experience").innerHTML = navi[5];
-    document.getElementById("navi_education").innerHTML = navi[7];
-    document.getElementById("navi_projects").innerHTML = navi[9];
-    document.getElementById("navi_skills").innerHTML = navi[11];
-    document.getElementById("navi_contact").innerHTML = navi[13];
+    document.getElementById("navi_works").innerHTML = navi[5];
+		document.getElementById("navi_experience").innerHTML = navi[7];
+    document.getElementById("navi_education").innerHTML = navi[9];
+    document.getElementById("navi_projects").innerHTML = navi[11];
+    document.getElementById("navi_skills").innerHTML = navi[13];
+    document.getElementById("navi_contact").innerHTML = navi[15];
     // NAME & OCCUPATION
     document.getElementById("myname").innerHTML = cover[1];
     document.getElementById("occ").innerHTML = cover[3];
