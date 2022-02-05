@@ -27,14 +27,14 @@ function shapenavigation(n) {
 //    for (i = 0; i < 7; n++) {
 //        document.getElementById("general" + String(i)).style.display = "inline-block";
 //      }
-    for (i = 0; i < 6; n++) {
-        document.getElementById("hazards" + String(i)).style.display = "none";
-      }
-    for (i = 0; i < 1 ;n++) {
-        document.getElementById("project" + String(i)).style.display = "none";
-      }
+//    for (i = 0; i < 6; n++) {
+//        document.getElementById("hazards" + String(i)).style.display = "none";
+//      }
+//    for (i = 0; i < 1 ;n++) {
+//        document.getElementById("project" + String(i)).style.display = "none";
+//      }
     }
-  if (n == 2) { // HAZARDS
+  if (n == 20) { // HAZARDS
     for (i = 0; i < 7; n++) {
         document.getElementById("general" + String(n)).style.display = "none";
       }

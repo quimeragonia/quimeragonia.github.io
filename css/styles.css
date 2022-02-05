@@ -628,11 +628,16 @@ footer {
   justify-content: center;
   position:absolute;
   overflow: hidden;
+  user-select:none;
 }
 
 #imagemampliada i {
   cursor: pointer;
   font-size: 3em;
+}
+
+#imagemampliada img {
+  pointer-events: none;
 }
 
 #X {
@@ -681,11 +686,13 @@ footer {
   padding: 50px 15px;
   border-bottom: 1px solid #dcd9d9;
   text-align: center;
+  user-select:none;
 }
 
 #works h2 {
   color: #783c55;
-  margin-bottom: 50px
+  margin-bottom: 50px;
+  user-select:text;
 }
 
 .work {
@@ -713,6 +720,7 @@ footer {
 .work-thumb img {
     max-width: 300px;
     object-fit: cover;
+    user-select:none;
 }
 
 #seemore {

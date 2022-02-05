@@ -202,7 +202,7 @@ margin-top: 20%;
 /* shapes OK */
 
 #general0 { /* circle */
-    display: none; /* orig: inline-block */
+    display: inline-block; /* orig: inline-block */
     float: left;
     position: absolute;
     top: 50%;
@@ -220,7 +220,7 @@ margin-top: 20%;
 }
 
 #general1 { /* square */
-    display: none; /* orig: inline-block */
+    display: inline-block; /* orig: inline-block */
     float: left;
     position: absolute;
     top: 50%;
@@ -238,7 +238,7 @@ margin-top: 20%;
 }
 
 #general2 { /* triangle */
-    display: none; /* orig: inline-block */
+    display: inline-block; /* orig: inline-block */
     float: left;
     position: absolute;
     top: 50%;
@@ -256,7 +256,7 @@ margin-top: 20%;
 }
 
 #general3 { /* star */
-    display: none; /* orig: inline-block */
+    display: inline-block; /* orig: inline-block */
     float: left;
     position: absolute;
     top: 50%;
@@ -276,7 +276,7 @@ margin-top: 20%;
 
 /* plataforma OK */
 #general4 {
-    display: none; /* orig: inline-block */
+    display: inline-block; /* orig: inline-block */
     float: left;
     position: absolute;
     top: 50%;
@@ -297,7 +297,7 @@ margin-top: 20%;
 /* balinha OK */
 
 #general5 { /* brilho */
-    display: none; /* orig: inline-block */
+    display: inline-block; /* orig: inline-block */
     float: left;
     position: absolute;
     top: 50%;
@@ -316,7 +316,7 @@ margin-top: 20%;
 }
 
 #general6 { /* balinha */
-  display: none; /* orig: inline-block */
+  display: inline-block; /* orig: inline-block */
   float: left;
   position: absolute;
   top: 50%;
@@ -341,7 +341,7 @@ margin-top: 20%;
 /* battle royale OK */
 
 #hazards0 {
-    display: none; /* orig: inline-block */
+    display: inline-block; /* orig: inline-block */
     float: left;
     position: absolute;
     top: 20%;
@@ -359,7 +359,7 @@ margin-top: 20%;
 }
 
 #hazards1 {
-    display: none; /* orig: inline-block */
+    display: inline-block; /* orig: inline-block */
     float: left;
     position: absolute;
     top: 20%;
@@ -377,7 +377,7 @@ margin-top: 20%;
 }
 
 #hazards2 {
-    display: none; /* orig: inline-block */
+    display: inline-block; /* orig: inline-block */
     float: left;
     position: absolute;
     top: 20%;
@@ -392,7 +392,7 @@ margin-top: 20%;
 /* pilar OK */
 
 #hazards3 { /*pilar descendo */
-    display: none; /* orig: inline-block */
+    display: inline-block; /* orig: inline-block */
     float: left;
     position: absolute;
     right: 10%;
@@ -410,7 +410,7 @@ margin-top: 20%;
 }
 
 #hazards4 { /*pilar poeira. vou ter que adicionar frames em branco na spritesheet pra ter o pilar descendo */
-    display: none; /* orig: inline-block */
+    display: inline-block; /* orig: inline-block */
     float: left;
     position: absolute;
     bottom: 5%;
@@ -424,7 +424,7 @@ margin-top: 20%;
 }
 
 #hazards5 { /*pilar poeira. vou ter que adicionar frames em branco na spritesheet pra ter o pilar descendo */
-    display: none; /* orig: inline-block */
+    display: inline-block; /* orig: inline-block */
     float: left;
     position: absolute;
     bottom: 5%;
@@ -449,9 +449,6 @@ margin-top: 20%;
 /* ANIMAÇÃO RESPONSIVA SPRITESHEETS */
 /* utilizar calc() para resize   ex. width: calc(550px * 0.4);*/
 
-background-size: ;
-animation: plataforma0 2s steps(16) infinite; /* play: animation timing. steps: number of frames in the animation. */
-}
 
 @keyframes plataforma0 {
 from {background-position: 0 top;}
