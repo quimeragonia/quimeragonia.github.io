@@ -83,9 +83,9 @@
 								about[1] = "Sobre Mim";
 
 							// eng
-								about[2] = "hellooo site still being made<br><br>e-mail: gabriella.ruivo.1@gmail.com";
+								about[2] = "Page under construction. Thank you for the patience.<br><br>e-mail: gabriella.ruivo.1@gmail.com";
 							// ptbr
-								about[3] = "boa noite consagrados tamo em construção ainda bjs<br><br>e-mail: gabriella.ruivo.1@gmail.com";
+								about[3] = "Página em construção. Obrigada pela paciência.<br><br>e-mail: gabriella.ruivo.1@gmail.com";
 //Hey there, <b style = 'color: #000;'>Gabriella Ruivo</b> here!<br><br>I'm a Brazilian Digital Media Design student at university PUC-Rio, currently in my 4th semester and an intern at <a href = 'http://www.icad.puc-rio.br/'>ICAD Games</a>. <br><br>Drowned in <b>curiosity</b>, I consider myself an interdisciplinary kinda person. My heart beats both for art and technology, but though i seek to specialize in illustration and animation, I make a point to not limit my fascination to any field, and like to see them connecting. The world is too big and interesting!<br><br>This means I also have a <b>wide range of tastes</b>: my interests go from wholesome children's stories to the occasional psychological horror. I also have a thing for glitch art and old-school tech aesthetics.<br><br>I strive to show my passion through my work, giving it my all, and am very adaptable. If you have any nice ideas, let's talk!
 
 //"Olá, <b style = 'color: #000;'>Gabriella Ruivo</b> aqui!<br><br>Sou estudante de Design de Mídia Digital na PUC-Rio, atualmente no meu quarto semestre e estagiando no <a href = 'http://www.icad.puc-rio.br/'>ICAD Games</a>.<br><br>Afogada em <b>curiosidade</b>, eu me considero uma pessoa interdisciplinar. Meu coração bate para arte e tecnologia, e embora eu procure me especializar em ilustração e animação, não limito minha fascinação para nenhum campo, e gosto de vê-los se conectando. O mundo é grande e interessante demais!<br><br>Isso quer dizer que eu tenho uma <b>ampla gama de gostos</b>: meus interesses vão de histórias infantis até o ocasional horror psicológico. Também tenho algo por arte glitch e estéticas de tech retrô.<br><br>Eu procuro mostrar minha paixão pelas coisas através do meu trabalho, dando meu melhor, e sou muito adaptável. Se você tiver alguma ideia, vamos conversar!
@@ -100,26 +100,41 @@
 							//ptbr
 								exp[1] = "Experiência Profissional";
 
+						// 3. ICAD
 
 							// eng
-								exp[2] = "2014, Rio de Janeiro, Brazil";
+								exp[2] = "Designer and Animator";
 							//ptbr
-								exp[3] = "2014, RJ";
+								exp[3] = "Designer e Animadora";
 
 							// eng
-								exp[4] = "Maths Auxiliary Teacher";
+								exp[4] = "eng description [tl]";
 							//ptbr
-								exp[5] = "Monitora de Matemática";
+								exp[5] = "Laboratório para pesquisa e desenvolvimento de jogos. Trabalhei com uma equipe para desenvolvimento do jogo <a href ='https://store.steampowered.com/app/1222390/Shape_Arena/'>Shape Arena</a>, lançado oficialmente em Ago/2020 na plataforma de jogos Steam.";
+
+						// 2. Brinkcenter
 
 							// eng
-								exp[6] = "eng description [tl]";
+								exp[6] = "Cashier";
 							//ptbr
-								exp[7] = "Atendimento de grupos de vestibulandos e de alunos do ensino fundamental e médio para resolução de apostilas. Também trabalhei com correção das mesmas e fiscalização de provas e simulados.";
+								exp[7] = "Operadora de caixa";
 
-							// both
-								exp[8] = "Sistema pH de Ensino LTDA";
+							// eng
+								exp[8] = "eng description [tl]";
+							//ptbr
+								exp[9] = "Atendimento a clientes nativos e estrangeiros, finalização da venda no PDV, cadastros de clientes no sistema e efetivação de trocas ou devoluções através do mesmo, conferência de dinheiro em espécie e do extrato de vendas de diferentes máquinas de cartão. Também era responsável pelo arquivamento dos pedidos de venda de cada vendedor e pela gravação de seu nome em sua devida venda no sistema. Muita agilidade era necessária, pois não era ideal manter uma fila com clientes em espera."
 
-								// ICAD PORRA
+						// 1. PH
+
+							// eng
+								exp[10] = "Maths Auxiliary Teacher";
+							//ptbr
+								exp[11] = "Monitora de Matemática";
+
+							// eng
+								exp[12] = "eng description [tl]";
+							//ptbr
+								exp[13] = "Atendimento de grupos de vestibulandos e de alunos do ensino fundamental e médio para resolução de apostilas. Também trabalhei com correção das mesmas e fiscalização de provas e simulados.";
 
 
 
@@ -149,18 +164,30 @@
 								educ[7] = "<b>Ensino Médio Completo</b>";
 
 							// eng
-								educ[8] = "<a href = 'http:\\\\prouniportal.mec.gov.br/'>Prouni</a> 100% Scholarship.</a>";
+								educ[8] = "Full Scholarship funded by <a href = 'http:\\\\prouniportal.mec.gov.br/'>Prouni</a>.</a>";
 							//ptbr
 								educ[9] = "Bolsa 100% pelo <a href = 'http:\\\\prouniportal.mec.gov.br/'>Prouni</a>.";
 
 							// eng
-								educ[10] = "<a href = 'https:\\\\www.ismart.org.br/'>ISMART</a> 100% Scholarship.";
+								educ[10] = "Full Scholarship funded by <a href = 'https:\\\\www.ismart.org.br/'>ISMART</a>.";
 							//ptbr
 								educ[11] = "Bolsa 100% pelo <a href = 'https:\\\\www.ismart.org.br/'>ISMART</a>.";
 
 
 
 		// Works
+
+			var workstext = [];
+
+							// eng
+								workstext[0] = "Works";
+							//ptbr
+								workstext[1] = "Ilustrações";
+
+							// eng
+								workstext[2] = "See more";
+							//ptbr
+								workstext[3] = "Ver mais";
 
 			var thumbnail = [];
 
@@ -189,12 +216,24 @@
 
 			// Projects
 
+			var titleproject = [];
+							// eng
+								titleproject[0]= "Projects";
+							// ptbr
+								titleproject[1]= "Projetos";
+
 			var thumbproject = [];
 
 								thumbproject[0]= "projects/thumb_shapearena.jpg";
 								thumbproject[1]= "";
 
+			// Skills
 
+			var skills = [];
+							// eng
+								skills[0]= "Skills";
+							// ptbr
+								skills[1]= "Habilidades";
 
 
 

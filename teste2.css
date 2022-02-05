@@ -1,0 +1,55 @@
+html {
+  overflow: hidden;
+}
+body {
+  background: #000000;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.parent {
+  position: relative;
+  display: inline-block;
+}
+.bg {
+  display: inline-block;
+}
+.circles {
+  position: absolute;
+  width: 425px;
+  height: 425px;
+  transition: 0.01s linear;
+}
+.circle {
+  overflow: hidden;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 0.1s linear;
+}
+.circle {
+  height: 276px;
+  width: 276px;
+  background: #ffffff;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.fg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 0.01s linear;
+}
+.outer-circle {
+  width: 425px;
+  height: 425px;
+  display: flex;
+  position: absolute;
+  background: url("https://i.ibb.co/56ynbck/circle.png");
+  background-repeat: no-repeat;
+}

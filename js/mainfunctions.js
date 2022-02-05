@@ -74,11 +74,19 @@ function translate() {
     // ABOUT
     document.getElementById("abt_title").innerHTML = about[0];
     document.getElementById("abt_text").innerHTML = about[2];
+    // WORKS
+    document.getElementById("works_title").innerHTML = workstext[0];
+    document.getElementById("more_text").innerHTML = workstext[2];
+    // PROJECTS
+    document.getElementById("projects_title").innerHTML = titleproject[0];
     // EXPERIENCE
     document.getElementById("exp_title").innerHTML = exp[0];
-    document.getElementById("exp_employer0").innerHTML = exp[8];
-    document.getElementById("exp_jobtitle0").innerHTML = exp[4];
-    document.getElementById("exp_jobdesc0").innerHTML = exp[6];
+    document.getElementById("exp_jobtitle2").innerHTML = exp[2];
+    document.getElementById("exp_jobdesc2").innerHTML = exp[4];
+    document.getElementById("exp_jobtitle1").innerHTML = exp[6];
+    document.getElementById("exp_jobdesc1").innerHTML = exp[8];
+    document.getElementById("exp_jobtitle0").innerHTML = exp[10];
+    document.getElementById("exp_jobdesc0").innerHTML = exp[12];
     // EDUCATION
     document.getElementById("educ_title").innerHTML = educ[0];
     document.getElementById("educ_major01").innerHTML = educ[2];
@@ -87,7 +95,8 @@ function translate() {
     document.getElementById("educ_desc01").innerHTML = educ[8];
     document.getElementById("educ_desc02").innerHTML = educ[8];
     document.getElementById("educ_desc03").innerHTML = educ[10];
-
+    // SKILLS
+    document.getElementById("skills_title").innerHTML = skills[0];
 	}
 
   // TRANSLATE TO PTBR
@@ -107,11 +116,21 @@ function translate() {
     // ABOUT
     document.getElementById("abt_title").innerHTML = about[1];
     document.getElementById("abt_text").innerHTML = about[3];
+    // WORKS
+    document.getElementById("works_title").innerHTML = workstext[1];
+    document.getElementById("more_text").innerHTML = workstext[3];
+    // PROJECTS
+    document.getElementById("projects_title").innerHTML = titleproject[1];
+
+    projects_title
     // EXPERIENCE
     document.getElementById("exp_title").innerHTML = exp[1];
-    document.getElementById("exp_employer0").innerHTML = exp[8];
-    document.getElementById("exp_jobtitle0").innerHTML = exp[5];
-    document.getElementById("exp_jobdesc0").innerHTML = exp[7];
+    document.getElementById("exp_jobtitle2").innerHTML = exp[3];
+    document.getElementById("exp_jobdesc2").innerHTML = exp[5];
+    document.getElementById("exp_jobtitle1").innerHTML = exp[7];
+    document.getElementById("exp_jobdesc1").innerHTML = exp[9];
+    document.getElementById("exp_jobtitle0").innerHTML = exp[11];
+    document.getElementById("exp_jobdesc0").innerHTML = exp[13];
     // EDUCATION
     document.getElementById("educ_title").innerHTML = educ[1];
     document.getElementById("educ_major01").innerHTML = educ[3];
@@ -120,5 +139,7 @@ function translate() {
     document.getElementById("educ_desc01").innerHTML = educ[9];
     document.getElementById("educ_desc02").innerHTML = educ[9];
     document.getElementById("educ_desc03").innerHTML = educ[11];
+    // SKILLS
+    document.getElementById("skills_title").innerHTML = skills[1];
 	}
 }

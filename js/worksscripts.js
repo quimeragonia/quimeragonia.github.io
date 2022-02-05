@@ -9,7 +9,7 @@ function loadWorks () {
       document.getElementById("project" + String(n)).src = thumbproject[n];
 }
 
-function ampliar (i) {
+function ampliar (imgI) {
   // Y atual da página
   maintainPageY = window.pageYOffset;
   // Hides entire page
@@ -20,10 +20,10 @@ function ampliar (i) {
   document.body.style.transition = "all 0.3s";
 	document.body.style.backgroundColor = "black";
   // Displays image
-  document.getElementById("full" + String(i)).style.transition = "all 0.3s";
-  document.getElementById("full" + String(i)).style.display = "flex";
+  document.getElementById("full" + String(imgI)).style.transition = "all 0.3s";
+  document.getElementById("full" + String(imgI)).style.display = "flex";
   // id to close
-  idImg = i;
+  idImg = imgI;
 }
 
 function fechar () {

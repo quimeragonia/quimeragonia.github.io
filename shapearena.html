@@ -19,7 +19,7 @@
     <script type = "text/javascript" src = "js/mainfunctions.js"></script>
 </head>
 
-<body><div id = "allpage">
+<body>
     <div id="mobile-menu-open" class="shadow-large">
         <i class="fa fa-bars" aria-hidden="true"></i></div>
 
@@ -76,6 +76,7 @@
             <div class="row">
                 <div class="project shadow-large normaltext" style ="padding-top: 10px; padding-bottom: 10px;">
                     <p id ="shapearenadesc">blablabla falar sobre como fui designer no jogo etc, sendo o mais notável a tela principal. mais abaixo você pode ver um currículo de todas as animações pelas quais fui responsável.</p>
+                    <br><b>Página em construção.</b>
                     <!-- End .project-info -->
                 </div>
             </div>
@@ -83,36 +84,53 @@
     <!-- END descrição -->
 
         <br><br>
-        <button onclick="test(1);">Fundo shape</button>---<button onclick="test(2);">Fundo quadro</button>
+        <button onclick="shapenavigation(0);">Tela principal (voltar)</button>---
+        <button onclick="test(2);">Parte testes</button>---
+        <button onclick="toggleapagador();">Apagador</button>
         <br><br>
     <!-- BEGIN quadro shape -->
         <div class ="container">
           <div id ="ShapeCanvas" class = "projecttext shadow-large">
+            <!-- Moldura -->
+
             <div id = "initialtext">
 
                 Please click on the buttons below.<br><br>
-                <button id = "list_general" onclick ="generatelist0();">General</button><br>
-                <button id = "list_hazards" onclick ="generatelist1();">Hazards</button><br>
-                <button id = "list_skills" onclick ="generatelist2();">Shape Skills</button><br>
-                <button id = "list_unused" onclick ="generatelist3();">Unused</button><br>
+                <button id = "list_general" onclick ="shapenavigation(1);">General</button><br>
+                <button id = "list_hazards" onclick ="shapenavigation(2);">Hazards</button><br>
+                <button id = "list_skills" onclick ="shapenavigation(3);">Shape Skills</button><br>
+                <button id = "list_unused" onclick ="shapenavigation(4);">Unused</button><br>
 
             </div>
-
-            <div id ="general0">
+            <div id = "apagador">
             </div>
-            <div id ="general1">
+            <div class = "bordaquadro">
             </div>
-            <div id ="general2">
+            <div id = "general0">
             </div>
-            <div id ="general3">
+            <div id = "general1">
             </div>
-            <div id ="general4">
+            <div id = "general2">
             </div>
-            <div id ="hazards0">
+            <div id = "general3">
             </div>
-            <div id ="hazards1">
+            <div id = "general4">
             </div>
-            <div id ="hazards2">
+            <div id = "general5">
+            </div>
+            <div id = "general6">
+            </div>
+            <div id = "hazards0">
+            </div>
+            <div id = "hazards1">
+            </div>
+            <div id = "hazards2">
+            </div>
+            <div id = "hazards3">
+            </div>
+            <div id = "hazards4">
+            </div>
+            <div id = "hazards5">
             </div>
 
             <!-- Mainscreen -->
@@ -140,7 +158,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2020 YOUR NAME
+                        Copyright &copy; 2021 GABRIELLA RUIVO LIMA
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -174,9 +192,6 @@
         </div>
     </footer>
     <!-- End footer -->
-
-    </div>
-    <!-- End #allpage -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>

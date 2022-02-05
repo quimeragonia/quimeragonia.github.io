@@ -2,7 +2,7 @@ animações:
 GERAL
 - tela principal OK
 - shapes OK
-- balinha girando + brilho
+- balinha girando + brilho OK
 - apagador
 - plataforma OK
 - lupa
@@ -18,7 +18,7 @@ HAZARDS
 - bomba
 - battleroyale OK
 - atirador + bullet
-- pilar + poeira
+- pilar + poeira OK
 - toinhoinhoim da flecha
 3 coisas + 2 coisas enormes (pilar e battleroyale)
 

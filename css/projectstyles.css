@@ -32,9 +32,14 @@ Palette
 
 }
 
+body {
+      user-select:none;
+}
+
 .normaltext {
   color: #74808a;
   font-size: 0.9em;
+  user-select:text;
 }
 
 #ShapeCanvas {
@@ -83,6 +88,18 @@ Palette
   color: #fff;
 }
 
+.bordaquadro {
+  float: left;
+  display: block;
+  position: absolute;
+  background: url('../projects/shapearena/moldura.png') left top;
+  background-size: cover;
+  background-clip: border-box;
+  width: 100%;
+  height: 100%;
+  z-index: 100000;
+  pointer-events: none;
+}
 /*
 para responsividade do texto (exemplo:)
 font-size: 2vw;
@@ -94,6 +111,7 @@ margin-top: 20%;
 
 #initialtext {
   position: absolute;
+  display: block;
   float: left;
   text-align: center;
   top: 20%;
@@ -104,6 +122,7 @@ margin-top: 20%;
   padding: none;
   z-index: 2;
   line-height: 4vw;
+  user-select:none;
 }
 
 #list_general:hover {
@@ -122,7 +141,45 @@ margin-top: 20%;
     color: #8db591;
 }
 
+/* Transição apagador */
 
+#apagador {
+    display: inline-block; /* orig: inline-block */
+    float: left;
+    position: absolute;
+    left: 100%;
+    bottom: 4%;
+    width: calc(19.9% * 1.04); /* width of each frame */
+    height: 0;
+    padding-bottom: calc(48.0% * 1.04); /* height of the spritesheet. must be one line */
+    background: url('../projects/shapearena/Apagador_V2.png') left center; /* link to spritesheet */
+    background-size: auto 100%;
+    z-index: 100001;
+    }
+
+.animationapagador {
+    animation: apagadorpassando 4s ease-in; /* play: animation timing. steps: number of frames in the animation. */
+}
+@keyframes apagadorpassando { /* fazer ele andar pra baixo com css */
+  0%  { left: 100%;}
+  80% { left: -100%;}
+  100%{ left: -100%;}
+}
+
+.animationbgsumindo {
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    animation: imagemapagando 4s ease-in;
+  }
+
+@keygrames imagemapagando {
+  0%  { width: 100%;}
+  80% { width: 0%;}
+  100%{ width: 0%;}
+}
+
+/**/
 /* Main Screen Pietà OK */
 #MainScreen {
     display: block;
@@ -145,7 +202,7 @@ margin-top: 20%;
 /* shapes OK */
 
 #general0 { /* circle */
-    display: inline-block; /* orig: inline-block */
+    display: none; /* orig: inline-block */
     float: left;
     position: absolute;
     top: 50%;
@@ -163,7 +220,7 @@ margin-top: 20%;
 }
 
 #general1 { /* square */
-    display: inline-block; /* orig: inline-block */
+    display: none; /* orig: inline-block */
     float: left;
     position: absolute;
     top: 50%;
@@ -181,7 +238,7 @@ margin-top: 20%;
 }
 
 #general2 { /* triangle */
-    display: inline-block; /* orig: inline-block */
+    display: none; /* orig: inline-block */
     float: left;
     position: absolute;
     top: 50%;
@@ -199,7 +256,7 @@ margin-top: 20%;
 }
 
 #general3 { /* star */
-    display: inline-block; /* orig: inline-block */
+    display: none; /* orig: inline-block */
     float: left;
     position: absolute;
     top: 50%;
@@ -219,7 +276,7 @@ margin-top: 20%;
 
 /* plataforma OK */
 #general4 {
-    display: inline-block; /* orig: inline-block */
+    display: none; /* orig: inline-block */
     float: left;
     position: absolute;
     top: 50%;
@@ -237,10 +294,54 @@ margin-top: 20%;
     to {background-position: -1600% top;}
 }
 
+/* balinha OK */
+
+#general5 { /* brilho */
+    display: none; /* orig: inline-block */
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    width: 10.0%; /* width of each frame */
+    height: 0;
+    padding-bottom: 9.1%; /* height of the spritesheet. must be one line */
+    background: url('../projects/shapearena/spritesheet_brilho.png') left center; /* link to spritesheet */
+    background-size: auto 100%;
+    animation: brilho 0.6s steps(7) infinite; /* play: animation timing. steps: number of frames in the animation. */
+}
+
+@keyframes brilho {
+  from {background-position: 0 top;}
+    to {background-position: -700% top;}
+}
+
+#general6 { /* balinha */
+  display: none; /* orig: inline-block */
+  float: left;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  width: 10.0%; /* width of each frame */
+  height: 0;
+  padding-bottom: 9.1%; /* height of the spritesheet. must be one line */
+  background: url('../projects/shapearena/bala_girar.png') left center; /* link to spritesheet */
+  background-size: auto 100%;
+  transform: rotate(-55deg);
+  animation: balinhagiro 2s ease-in-out infinite; /* play: animation timing. steps: number of frames in the animation. */
+}
+
+@keyframes balinhagiro {
+  0  {transform: rotate(-55deg);}
+  50% {transform: rotate(-35deg);}
+  100%{transform: rotate(-55deg);}
+}
+
+
+
 /* battle royale OK */
 
 #hazards0 {
-    display: inline-block; /* orig: inline-block */
+    display: none; /* orig: inline-block */
     float: left;
     position: absolute;
     top: 20%;
@@ -258,7 +359,7 @@ margin-top: 20%;
 }
 
 #hazards1 {
-    display: inline-block; /* orig: inline-block */
+    display: none; /* orig: inline-block */
     float: left;
     position: absolute;
     top: 20%;
@@ -276,7 +377,7 @@ margin-top: 20%;
 }
 
 #hazards2 {
-    display: inline-block; /* orig: inline-block */
+    display: none; /* orig: inline-block */
     float: left;
     position: absolute;
     top: 20%;
@@ -288,44 +389,61 @@ margin-top: 20%;
     background-size: 100% auto;
 }
 
-/* pilar */
+/* pilar OK */
 
 #hazards3 { /*pilar descendo */
-    display: inline-block; /* orig: inline-block */
+    display: none; /* orig: inline-block */
     float: left;
     position: absolute;
-    top: 20%;
-    left: 20%;
-    width: calc(73.2% * 0.6); /* width of each frame */
+    right: 10%;
+    width: calc(24% * 0.41); /* width of each frame */
     height: 0;
-    padding-bottom: calc(73.5% * 0.6); /* height of the spritesheet. must be one line */
-    background: url('../projects/shapearena/senoide2_spritesheet.png') left center; /* link to spritesheet */
+    padding-bottom: calc(119% * 0.41); /* height of the spritesheet. must be one line */
+    background: url('../projects/shapearena/Pilar.png') left center; /* link to spritesheet */
     background-size: auto 100%;
-    animation: pilardescendo 1s steps(16) infinite; /* play: animation timing. steps: number of frames in the animation. */
+    animation: pilardescendo 4s alternate linear infinite; /* play: animation timing. steps: number of frames in the animation. */
 }
 @keyframes pilardescendo { /* fazer ele andar pra baixo com css */
-  from {background-position: 0 top;}
-    to {background-position: -1600% top;}
+  0%  {bottom: 100%;}
+  80% {bottom: 5%;}
+  100%{bottom: 5%;}
 }
 
 #hazards4 { /*pilar poeira. vou ter que adicionar frames em branco na spritesheet pra ter o pilar descendo */
-    display: inline-block; /* orig: inline-block */
+    display: none; /* orig: inline-block */
     float: left;
     position: absolute;
-    top: 20%;
-    left: 20%;
-    width: calc(73.2% * 0.6); /* width of each frame */
+    bottom: 5%;
+    right: 19%;
+    width: calc(28.1% * 0.5); /* width of each frame */
     height: 0;
-    padding-bottom: calc(73.5% * 0.6); /* height of the spritesheet. must be one line */
-    background: url('../projects/shapearena/senoide2_spritesheet.png') left center; /* link to spritesheet */
+    padding-bottom: calc(15.3% * 0.5); /* height of the spritesheet. must be one line */
+    background: url('../projects/shapearena/spritesheet_poeira.png') left center; /* link to spritesheet */
     background-size: auto 100%;
-    animation: pilarpoeira 1s steps(10) infinite; /* play: animation timing. steps: number of frames in the animation. */
-}
-@keyframes pilarpoeira { /* fazer ele andar pra baixo com css */
-  from {background-position: 0 top;}
-    to {background-position: -1000% top;}
+    animation: pilarpoeira 8s steps(15) infinite; /* play: animation timing. steps: number of frames in the animation. */
 }
 
+#hazards5 { /*pilar poeira. vou ter que adicionar frames em branco na spritesheet pra ter o pilar descendo */
+    display: none; /* orig: inline-block */
+    float: left;
+    position: absolute;
+    bottom: 5%;
+    right: calc(19% - (24% * 0.41) - (28.1% * 0.5)); /* posição right - (width pilar) - (width poeira) */
+    width: calc(28.1% * 0.5); /* width of each frame */
+    height: 0;
+    padding-bottom: calc(15.3% * 0.5); /* height of the spritesheet. must be one line */
+    background: url('../projects/shapearena/spritesheet_poeira.png') left center; /* link to spritesheet */
+    background-size: auto 100%;
+    transform: rotateY(180deg);
+    animation: pilarpoeira 8s steps(15) infinite; /* play: animation timing. steps: number of frames in the animation. */
+}
+
+@keyframes pilarpoeira {
+  0%  {background-position: 0 top;}
+  40% {background-position: 0 top;}
+  50% {background-position: -1500% top;}
+  100%{background-position: -1500% top;}
+}
 
 
 /* ANIMAÇÃO RESPONSIVA SPRITESHEETS */
