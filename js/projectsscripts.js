@@ -1,66 +1,69 @@
+// Pages:
 
-function test(i) {
-  if (i == 1) {
+// Main:    0
+// General: 1
+// Hazards: 2
+// skills:  3
+// unused:  4
 
-    document.getElementById("MainScreen").style.display ="block";
-    document.getElementById("initialtext").style.display ="block";
-  }
-
-  if (i == 2)
-    document.getElementById("MainScreen").style.display ="none";
-
-
-}
-
-function shapenavigation(n, lastpage) {
-  alert(lastpage);
-  toggleapagador(lastpage);
-  //document.getElementById("MainScreen").style.display = "none";
-  //document.getElementById("initialtext").style.display = "none";
+function shapenavigation(nextpage, lastpage) {
   let i;
-  if (n == 0) { // voltar para menu principal
-    document.getElementById("MainScreen").style.display ="block";
-    document.getElementById("initialtext").style.display ="block";
+  let buttonback = document.getElementsByClassName("button_back");
+
+  if (nextpage == 0)
+    for (i = 0; i < buttonback.length; i++)
+        buttonback[i].disabled = true;
+    else
+      for (i = 1; i <= 4; i++)
+        document.getElementById("button" + String(i)).disabled = true;
+
+
+  setTimeout(function() {
+    if (nextpage == 0)
+      for (i = 0; i < buttonback.length; i++)
+        buttonback[i].disabled = false;
+    else
+      for (i = 1; i <= 4; i++)
+          document.getElementById("button" + String(i)).disabled = false;
+    }, 3000);
+  toggleapagador();
+  if (nextpage == 0) { // voltar para menu principal
+    // sair da última página
+    document.getElementById("page" + String(lastpage)).classList.remove("animationpagetransition1");
+    document.getElementById("page" + String(lastpage)).classList.remove("animationpagetransition0");
+    document.getElementById("page" + String(lastpage)).offsetWidth;
+    document.getElementById("page" + String(lastpage)).classList.add("animationpagetransition0");
+    // entrar Main Screen
+    document.getElementById("MainScreen").classList.remove("animationpagetransition1");
+    document.getElementById("initialtext").classList.remove("animationpagetransition1");
+    document.getElementById("MainScreen").classList.add("animationpagetransition1");
+    document.getElementById("initialtext").classList.add("animationpagetransition1");
   }
-  if (n == 1) { // GENERAL
-    i = 0;
-    document.getElementById("pagegeneral").style.display = "inline-block";
-    document.getElementById("general" + String(i)).style.display = "inline-block";
-//    for (i = 0; i < 7; n++) {
-//        document.getElementById("general" + String(i)).style.display = "inline-block";
-//      }
-//    for (i = 0; i < 6; n++) {
-//        document.getElementById("hazards" + String(i)).style.display = "none";
-//      }
-//
-    }
-  if (n == 20) { // HAZARDS
-    for (i = 0; i < 7; n++) {
-        document.getElementById("general" + String(n)).style.display = "none";
-      }
-    for (i = 0; i < 9; n++) {
-        document.getElementById("hazards" + String(n)).style.display = "inline-block";
-      }
-    for (i = 0; i < 1 ;n++) {
-        document.getElementById("project" + String(n)).style.display = "none";
-      }
-    }
-
+  if (nextpage > 0) { // ir para outras páginas
+    // sair de Main Screen
+    document.getElementById("MainScreen").classList.remove("animationpagetransition1");
+    document.getElementById("initialtext").classList.remove("animationpagetransition1");
+    document.getElementById("MainScreen").classList.remove("animationpagetransition0");
+    document.getElementById("initialtext").classList.remove("animationpagetransition0");
+    document.getElementById("MainScreen").classList.add("animationpagetransition0");
+    document.getElementById("initialtext").classList.add("animationpagetransition0");
+    // entrar próxima página
+    document.getElementById("page" + String(nextpage)).classList.remove("animationpagetransition1");
+    document.getElementById("page" + String(nextpage)).offsetWidth;
+    document.getElementById("page" + String(nextpage)).classList.add("animationpagetransition1");
+  }
 }
+function toggleapagador() {
 
-function toggleapagador(lastpage) {
-  if (lastpage == 0) {
     document.getElementById("apagador").classList.remove("animationapagador");
-    document.getElementById("MainScreen").classList.remove("animationpagetransition");
-    document.getElementById("initialtext").classList.remove("animationpagetransition");
+//    document.getElementById("MainScreen").classList.remove("animationpagetransition0");
+//    document.getElementById("initialtext").classList.remove("animationpagetransition0");
     document.getElementById("apagador").offsetWidth;
-
     document.getElementById("apagador").classList.add("animationapagador");
-    document.getElementById("MainScreen").classList.add("animationpagetransition");
-    document.getElementById("initialtext").classList.add("animationpagetransition");
-  }
-}
+//    document.getElementById("MainScreen").classList.add("animationpagetransition0");
+//    document.getElementById("initialtext").classList.add("animationpagetransition0");
 
+}
 
 function translateshape() {
 

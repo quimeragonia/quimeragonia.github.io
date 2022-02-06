@@ -84,7 +84,7 @@
     <!-- END descrição -->
 
         <br><br>
-        <button onclick="shapenavigation(0);">Tela principal (voltar)</button>---
+        <button onclick="shapenavigation(0,1);">Tela principal (voltar)</button>---
         <button onclick="test(2);">Parte testes</button>---
         <button onclick="toggleapagador();">Apagador</button>----
         <button onclick="testediv('pagemain');">Teste div</button>
@@ -105,18 +105,19 @@
                 <div id = "initialtext">
 
                     Please click on the buttons below.<br><br>
-                    <button id = "button_general" onclick = "shapenavigation(1, 0);">General</button><br>
-                    <button id = "button_hazards" onclick = "shapenavigation(2);">Hazards</button><br>
-                    <button id = "button_skills" onclick =  "shapenavigation(3);">Shape Skills</button><br>
-                    <button id = "button_unused" onclick =  "shapenavigation(4);">Unused</button><br>
-
+                    <button id = "button1" onclick = "shapenavigation(1, 0);">General</button><br>
+                    <button id = "button2" onclick = "shapenavigation(2, 0);">Hazards</button><br>
+                    <button id = "button3" onclick =  "shapenavigation(3, 0);">Shape Skills</button><br>
+                    <button id = "button4" onclick =  "shapenavigation(4, 0);">Unused</button><br>
                 </div>
 
             <!-- Elements -->
 
             <div id = "apagador">
             </div>
-            <div id ="pagegeneral" class = "divteste">
+            <div id ="page1">
+              <!-- Back button -->
+                      <button class = "button_back" onclick =  "shapenavigation(0, 1);">Back</button>
               <div id = "general0">
               </div>
               <div id = "general1">
@@ -132,7 +133,9 @@
               <div id = "general6">
               </div>
             </div>
-            <div id ="pagehazards">
+            <div id ="page2">
+              <!-- Back button -->
+                      <button class = "button_back" onclick =  "shapenavigation(0, 2);">Back</button>
               <div id = "hazards0">
               </div>
               <div id = "hazards1">
