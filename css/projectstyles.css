@@ -34,12 +34,14 @@ Palette
 
 body {
       user-select:none;
+      background-color: #fbf2d1;
 }
 
 .normaltext {
   color: #74808a;
   font-size: 0.9em;
   user-select:text;
+  padding: 2%;
 }
 
 #ShapeCanvas {
