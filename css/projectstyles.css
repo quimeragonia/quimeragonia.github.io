@@ -190,7 +190,7 @@ margin-top: 20%;
     display: inline-block; /* orig: inline-block */
     float: left;
     position: absolute;
-    left: 10%;
+    left: 100%;
     bottom: 4%;
     width: calc(19.9% * 1.04);
     height: 0;
