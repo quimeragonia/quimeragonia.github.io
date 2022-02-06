@@ -3,8 +3,7 @@
 // Main:    0
 // General: 1
 // Hazards: 2
-// skills:  3
-// unused:  4
+// unused:  3
 
 function shapenavigation(nextpage, lastpage) {
   let i;
@@ -14,7 +13,7 @@ function shapenavigation(nextpage, lastpage) {
     for (i = 0; i < buttonback.length; i++)
         buttonback[i].disabled = true;
     else
-      for (i = 1; i <= 4; i++)
+      for (i = 1; i <= 3; i++)
         document.getElementById("button" + String(i)).disabled = true;
 
 
@@ -23,7 +22,7 @@ function shapenavigation(nextpage, lastpage) {
       for (i = 0; i < buttonback.length; i++)
         buttonback[i].disabled = false;
     else
-      for (i = 1; i <= 4; i++)
+      for (i = 1; i <= 3; i++)
           document.getElementById("button" + String(i)).disabled = false;
     }, 3000);
   toggleapagador();
