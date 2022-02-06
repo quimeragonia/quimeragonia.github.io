@@ -3,7 +3,7 @@ GERAL
 - tela principal OK
 - shapes OK
 - balinha girando + brilho OK
-- apagador
+- apagador OK
 - plataforma OK
 - lupa
 - semáforo (não tenho a mínima ideia de como vou pegar essa merda)
