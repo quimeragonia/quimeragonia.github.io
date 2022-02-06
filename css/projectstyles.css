@@ -65,6 +65,23 @@ body {
     border: none;
 }
 
+#ShapeCanvas h1 {
+    font-family: 'eraserregular', Lato, sans-serif;
+    text-align: center;
+    font-size: calc(0.6 * 4vw);
+    margin: none;
+    background: none;
+    border: none;
+    z-index: 200;
+    user-select:none;
+    font-weight: normal;
+}
+
+.pagetitles {
+    left: 0;
+    padding-top: 5%;
+}
+
 .boardbg {
     float: left;
     display: block;
@@ -380,11 +397,11 @@ margin-top: 20%;
     display: inline-block; /* orig: inline-block */
     float: left;
     position: absolute;
-    top: 20%;
-    left: 20%;
-    width: calc(73.2% * 0.6); /* width of each frame */
+    top: 10%;
+    right: 10%;
+    width: calc(73.2% * 0.4); /* width of each frame */
     height: 0;
-    padding-bottom: calc(73.5% * 0.6); /* height of the spritesheet. must be one line */
+    padding-bottom: calc(73.5% * 0.4); /* height of the spritesheet. must be one line */
     background: url('../projects/shapearena/senoide1_spritesheet.png') left center; /* link to spritesheet */
     background-size: auto 100%;
     animation: senoide1 1s steps(16) infinite; /* play: animation timing. steps: number of frames in the animation. */
@@ -398,11 +415,11 @@ margin-top: 20%;
     display: inline-block; /* orig: inline-block */
     float: left;
     position: absolute;
-    top: 20%;
-    left: 20%;
-    width: calc(73.2% * 0.6); /* width of each frame */
+    top: 10%;
+    right: 10%;
+    width: calc(73.2% * 0.4); /* width of each frame */
     height: 0;
-    padding-bottom: calc(73.5% * 0.6); /* height of the spritesheet. must be one line */
+    padding-bottom: calc(73.5% * 0.4); /* height of the spritesheet. must be one line */
     background: url('../projects/shapearena/senoide2_spritesheet.png') left center; /* link to spritesheet */
     background-size: auto 100%;
     animation: senoide2 1s steps(16) infinite; /* play: animation timing. steps: number of frames in the animation. */
@@ -416,11 +433,11 @@ margin-top: 20%;
     display: inline-block; /* orig: inline-block */
     float: left;
     position: absolute;
-    top: 20%;
-    left: 20%;
-    width: calc(73.2% * 0.6); /* width of each frame */
+    top: 10%;
+    right: 10%;
+    width: calc(73.2% * 0.4); /* width of each frame */
     height: 0;
-    padding-bottom: calc(73.5% * 0.6); /* height of the spritesheet. must be one line */
+    padding-bottom: calc(73.5% * 0.4); /* height of the spritesheet. must be one line */
     background: url('../projects/shapearena/zone.png') center center; /* link to spritesheet */
     background-size: 100% auto;
 }
@@ -431,7 +448,7 @@ margin-top: 20%;
     display: inline-block; /* orig: inline-block */
     float: left;
     position: absolute;
-    right: 10%;
+    left: 20%;
     width: calc(24% * 0.41); /* width of each frame */
     height: 0;
     padding-bottom: calc(119% * 0.41); /* height of the spritesheet. must be one line */
@@ -450,7 +467,7 @@ margin-top: 20%;
     float: left;
     position: absolute;
     bottom: 5%;
-    right: 19%;
+    left: calc(29% - (24% * 0.41) - (28.1% * 0.5)); /* posição right - (width pilar) - (width poeira) */
     width: calc(28.1% * 0.5); /* width of each frame */
     height: 0;
     padding-bottom: calc(15.3% * 0.5); /* height of the spritesheet. must be one line */
@@ -464,7 +481,7 @@ margin-top: 20%;
     float: left;
     position: absolute;
     bottom: 5%;
-    right: calc(19% - (24% * 0.41) - (28.1% * 0.5)); /* posição right - (width pilar) - (width poeira) */
+    left: 29%;
     width: calc(28.1% * 0.5); /* width of each frame */
     height: 0;
     padding-bottom: calc(15.3% * 0.5); /* height of the spritesheet. must be one line */
