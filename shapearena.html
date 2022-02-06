@@ -86,55 +86,65 @@
         <br><br>
         <button onclick="shapenavigation(0);">Tela principal (voltar)</button>---
         <button onclick="test(2);">Parte testes</button>---
-        <button onclick="toggleapagador();">Apagador</button>
+        <button onclick="toggleapagador();">Apagador</button>----
+        <button onclick="testediv('pagemain');">Teste div</button>
         <br><br>
     <!-- BEGIN quadro shape -->
         <div class ="container">
-          <div id ="ShapeCanvas" class = "projecttext shadow-large">
+          <div id ="ShapeCanvas" class = "projecttext shadow-large"><!--<div class = "divteste">-->
             <!-- Moldura -->
-
-            <div id = "initialtext">
-
-                Please click on the buttons below.<br><br>
-                <button id = "list_general" onclick ="shapenavigation(1);">General</button><br>
-                <button id = "list_hazards" onclick ="shapenavigation(2);">Hazards</button><br>
-                <button id = "list_skills" onclick ="shapenavigation(3);">Shape Skills</button><br>
-                <button id = "list_unused" onclick ="shapenavigation(4);">Unused</button><br>
-
-            </div>
-            <div id = "apagador">
-            </div>
             <div class = "bordaquadro">
             </div>
-            <div id = "general0">
-            </div>
-            <div id = "general1">
-            </div>
-            <div id = "general2">
-            </div>
-            <div id = "general3">
-            </div>
-            <div id = "general4">
-            </div>
-            <div id = "general5">
-            </div>
-            <div id = "general6">
-            </div>
-            <div id = "hazards0">
-            </div>
-            <div id = "hazards1">
-            </div>
-            <div id = "hazards2">
-            </div>
-            <div id = "hazards3">
-            </div>
-            <div id = "hazards4">
-            </div>
-            <div id = "hazards5">
-            </div>
 
-            <!-- Mainscreen -->
-            <div id ="MainScreen">
+
+              <!-- Mainscreen -->
+              <div id ="MainScreen">
+              </div>
+              <!-- Initial menu -->
+
+                <div id = "initialtext">
+
+                    Please click on the buttons below.<br><br>
+                    <button id = "button_general" onclick = "shapenavigation(1, 0);">General</button><br>
+                    <button id = "button_hazards" onclick = "shapenavigation(2);">Hazards</button><br>
+                    <button id = "button_skills" onclick =  "shapenavigation(3);">Shape Skills</button><br>
+                    <button id = "button_unused" onclick =  "shapenavigation(4);">Unused</button><br>
+
+                </div>
+
+            <!-- Elements -->
+
+            <div id = "apagador">
+            </div>
+            <div id ="pagegeneral" class = "divteste">
+              <div id = "general0">
+              </div>
+              <div id = "general1">
+              </div>
+              <div id = "general2">
+              </div>
+              <div id = "general3">
+              </div>
+              <div id = "general4">
+              </div>
+              <div id = "general5">
+              </div>
+              <div id = "general6">
+              </div>
+            </div>
+            <div id ="pagehazards">
+              <div id = "hazards0">
+              </div>
+              <div id = "hazards1">
+              </div>
+              <div id = "hazards2">
+              </div>
+              <div id = "hazards3">
+              </div>
+              <div id = "hazards4">
+              </div>
+              <div id = "hazards5">
+              </div>
             </div>
 
             <!-- bg -->
@@ -142,6 +152,7 @@
             </div>
 
           </div>
+      <!--  </div> div do divteste -->
         </div>
 
 

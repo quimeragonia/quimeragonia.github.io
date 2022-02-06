@@ -12,10 +12,11 @@ function test(i) {
 
 }
 
-function shapenavigation(n) {
-  //toggleapagador();
-  document.getElementById("initialtext").opacity = "none";
-  document.getElementById("MainScreen").opacity = "none";
+function shapenavigation(n, lastpage) {
+  alert(lastpage);
+  toggleapagador(lastpage);
+  //document.getElementById("MainScreen").style.display = "none";
+  //document.getElementById("initialtext").style.display = "none";
   let i;
   if (n == 0) { // voltar para menu principal
     document.getElementById("MainScreen").style.display ="block";
@@ -23,6 +24,7 @@ function shapenavigation(n) {
   }
   if (n == 1) { // GENERAL
     i = 0;
+    document.getElementById("pagegeneral").style.display = "inline-block";
     document.getElementById("general" + String(i)).style.display = "inline-block";
 //    for (i = 0; i < 7; n++) {
 //        document.getElementById("general" + String(i)).style.display = "inline-block";
@@ -30,9 +32,7 @@ function shapenavigation(n) {
 //    for (i = 0; i < 6; n++) {
 //        document.getElementById("hazards" + String(i)).style.display = "none";
 //      }
-//    for (i = 0; i < 1 ;n++) {
-//        document.getElementById("project" + String(i)).style.display = "none";
-//      }
+//
     }
   if (n == 20) { // HAZARDS
     for (i = 0; i < 7; n++) {
@@ -48,12 +48,17 @@ function shapenavigation(n) {
 
 }
 
-function toggleapagador() {
-  document.getElementById("apagador").classList.remove("animationapagador");
-  document.getElementById("MainScreen").classList.remove("animationbgsumindo");
-  document.getElementById("apagador").offsetWidth;
-  document.getElementById("apagador").classList.add("animationapagador");
-  document.getElementById("MainScreen").classList.add("animationbgsumindo");
+function toggleapagador(lastpage) {
+  if (lastpage == 0) {
+    document.getElementById("apagador").classList.remove("animationapagador");
+    document.getElementById("MainScreen").classList.remove("animationpagetransition");
+    document.getElementById("initialtext").classList.remove("animationpagetransition");
+    document.getElementById("apagador").offsetWidth;
+
+    document.getElementById("apagador").classList.add("animationapagador");
+    document.getElementById("MainScreen").classList.add("animationpagetransition");
+    document.getElementById("initialtext").classList.add("animationpagetransition");
+  }
 }
 
 

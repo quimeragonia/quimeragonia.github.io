@@ -112,6 +112,7 @@ margin-top: 20%;
 #initialtext {
   position: absolute;
   display: block;
+  overflow: hidden;
   float: left;
   text-align: center;
   top: 20%;
@@ -125,23 +126,31 @@ margin-top: 20%;
   user-select:none;
 }
 
-#list_general:hover {
+#button_general:hover {
     color: #5ac8fb;
 }
 
-#list_hazards:hover {
+#button_hazards:hover {
     color: #f26c4f;
 }
 
-#list_skills:hover {
+#button_skills:hover {
     color: #efd87a;
 }
 
-#list_unused:hover {
+#button_unused:hover {
     color: #8db591;
 }
 
-/* Transição apagador */
+#pagegeneral {
+  display: none;
+}
+
+#pagehazards {
+  display: none;
+}
+
+/* Transição apagador OK */
 
 #apagador {
     display: inline-block; /* orig: inline-block */
@@ -160,29 +169,29 @@ margin-top: 20%;
 .animationapagador {
     animation: apagadorpassando 4s ease-in; /* play: animation timing. steps: number of frames in the animation. */
 }
-@keyframes apagadorpassando { /* fazer ele andar pra baixo com css */
+@keyframes apagadorpassando {
   0%  { left: 100%;}
   80% { left: -100%;}
   100%{ left: -100%;}
 }
 
-.animationbgsumindo {
-    overflow: hidden;
-    left: 0;
-    top: 0;
-    animation: imagemapagando 4s ease-in;
+.animationpagetransition {
+    animation: imagemapagando 2.8s ease-in forwards;
+    clip-path: inset(0% 0% 0% 0%); /* top left bottom right */
   }
 
-@keygrames imagemapagando {
-  0%  { width: 100%;}
-  80% { width: 0%;}
-  100%{ width: 0%;}
+@keyframes imagemapagando {
+  0%  { clip-path: inset(0 0 0 0); /* top left bottom right */  }
+  80%{  clip-path: inset(0 100% 0 0); /* top left bottom right */  }
+  100%{ clip-path: inset(0 100% 0 0); /* top left bottom right */ }
 }
 
-/**/
+
+
 /* Main Screen Pietà OK */
 #MainScreen {
     display: block;
+    overflow: hidden;
     float: left;
     position: absolute;
     top: 0;
@@ -197,6 +206,22 @@ margin-top: 20%;
     z-index: 1;
     image-rendering: -webkit-optimize-contrast;
     image-rendering: high-quality;
+}
+
+#contentinitialtext {
+    position: absolute;
+    display: inline-block;
+    white-space:nowrap;
+    text-overflow: clip;
+    display: block;
+    overflow: hidden;
+    float: left;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: none;
+    padding: none;
 }
 
 /* shapes OK */
