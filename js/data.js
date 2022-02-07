@@ -9,7 +9,7 @@
 						// Language
 
 							// when it's in english
-								navi[0] = "Em Português";
+								navi[0] = "Em Português asdadasdadadsa";
 							// when it's in portuguese
 								navi[1] = "In English";
 
@@ -61,7 +61,7 @@
 							// eng
 								cover[0] = "Quimeranoxia";
 							// ptbr
-								cover[1] = "Quimeranóxia";
+								cover[1] = "Quimeranoxia";
 
 							// eng
 								cover[2] = "Design and Illustration";
