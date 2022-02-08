@@ -83,34 +83,47 @@
 								about[1] = "Sobre Mim";
 
 							// eng
-								about[2] = "Page under construction. Thank you for the patience.<br><br>e-mail: gabriella.ruivo.1@gmail.com";
+								about[2] = "Hello there, I use many pseudonyms but if you've opened this page it means that you're here to know a bit more about my works, and for that, i thank you in advance for the attention!<br><br>Drowned in curiosity, I consider myself an <b>interdisciplinary</b> kinda person and a fast learner. My heart beats both for art and technology, but though i seek, in the long run, to specialize in illustration, editorial design and webdesign, I make a point to not limit my fascination to any field, and like to see them connecting. The world is too big and interesting!<br><br>This means I also have a <b>wide range of tastes</b>: my interests go from wholesome children's stories to the occasional psychological horror. <br><br>I strive to show my passion through any work i do, giving it my all, and am very adaptable. If you have any nice ideas, <a href='#contact'>let's grab a cup of coffe and talk</a>!";
 							// ptbr
-								about[3] = "Página em construção. Obrigada pela paciência.<br><br>e-mail: gabriella.ruivo.1@gmail.com";
-//Hey there, <b style = 'color: #000;'>Gabriella Ruivo</b> here!<br><br>I'm a Brazilian Digital Media Design student at university PUC-Rio, currently in my 4th semester and an intern at <a href = 'http://www.icad.puc-rio.br/'>ICAD Games</a>. <br><br>Drowned in <b>curiosity</b>, I consider myself an interdisciplinary kinda person. My heart beats both for art and technology, but though i seek to specialize in illustration and animation, I make a point to not limit my fascination to any field, and like to see them connecting. The world is too big and interesting!<br><br>This means I also have a <b>wide range of tastes</b>: my interests go from wholesome children's stories to the occasional psychological horror. I also have a thing for glitch art and old-school tech aesthetics.<br><br>I strive to show my passion through my work, giving it my all, and am very adaptable. If you have any nice ideas, let's talk!
-
-//"Olá, <b style = 'color: #000;'>Gabriella Ruivo</b> aqui!<br><br>Sou estudante de Design de Mídia Digital na PUC-Rio, atualmente no meu quarto semestre e estagiando no <a href = 'http://www.icad.puc-rio.br/'>ICAD Games</a>.<br><br>Afogada em <b>curiosidade</b>, eu me considero uma pessoa interdisciplinar. Meu coração bate para arte e tecnologia, e embora eu procure me especializar em ilustração e animação, não limito minha fascinação para nenhum campo, e gosto de vê-los se conectando. O mundo é grande e interessante demais!<br><br>Isso quer dizer que eu tenho uma <b>ampla gama de gostos</b>: meus interesses vão de histórias infantis até o ocasional horror psicológico. Também tenho algo por arte glitch e estéticas de tech retrô.<br><br>Eu procuro mostrar minha paixão pelas coisas através do meu trabalho, dando meu melhor, e sou muito adaptável. Se você tiver alguma ideia, vamos conversar!
-
+								about[3] = "Olá, eu uso vários pseudônimos mas se você abriu esta página é porque quer conhecer um pouco mais do meu trabalho, então desde já agradeço muito pela atenção!<br><br>Afogada em curiosidade, eu me considero uma pessoa muito <b>interdisciplinar</b> e apta para aprendizado rápido. Meu coração bate para arte e tecnologia, e embora, a longa data, eu procure me especializar em ilustração, design editorial e webdesign, não limito minha fascinação para nenhum campo, e gosto de vê-los se conectando. O mundo é grande e interessante demais!<br><br>Isso quer dizer que eu tenho uma <b>ampla gama de gostos</b>: meus interesses vão de histórias infantis até o ocasional horror psicológico. <br><br>Eu procuro mostrar minha paixão pelas coisas através de qualquer função que estiver desempenhando, dando meu melhor, e sou muito adaptável. Se você tiver alguma ideia, <a href='#contact'>vamos pegar um copo de café e conversar</a>!<br><br><br>Página em construção. Obrigada pela paciência.";
 
 		// Experience
 
 			var exp = [];
+
+
 
 							// eng
 								exp[0] = "Experience";
 							//ptbr
 								exp[1] = "Experiência Profissional";
 
+
+
+						// 4. BOTECO DA VILA
+
+							// eng
+								exp[14] = "Waiter";
+							//ptbr
+								exp[15] = "Volante";
+
+							// eng
+								exp[16] = "eng description [tl]";
+							//ptbr
+								exp[17] = "Organização e limpeza do evento, e principal ponto de comunicação entre o cliente e os estabelecimentos gastronômicos. Lançava as vendas nas mesas, encaminhava pedidos a seus respectivos estabelecimentos e os servia, necessitando intercalar etapas e informar-me constantemente quanto à atualização frequente dos cardápios para um atendimento com fluidez.";
+
+
 						// 3. ICAD
 
 							// eng
-								exp[2] = "Designer and Animator";
+								exp[10] = "Designer and Animator";
 							//ptbr
-								exp[3] = "Designer e Animadora";
+								exp[11] = "Designer e Animadora";
 
 							// eng
-								exp[4] = "eng description [tl]";
+								exp[12] = "eng description [tl]";
 							//ptbr
-								exp[5] = "Laboratório para pesquisa e desenvolvimento de jogos. Trabalhei com uma equipe para desenvolvimento do jogo <a href ='https://store.steampowered.com/app/1222390/Shape_Arena/'>Shape Arena</a>, lançado oficialmente em Ago/2020 na plataforma de jogos Steam.";
+								exp[13] = "Laboratório para pesquisa e desenvolvimento de jogos. Trabalhei com uma equipe para desenvolvimento do jogo <a href ='https://store.steampowered.com/app/1222390/Shape_Arena/'>Shape Arena</a>, lançado oficialmente em Ago/2020 na plataforma de jogos Steam.";
 
 						// 2. Brinkcenter
 
@@ -127,14 +140,14 @@
 						// 1. PH
 
 							// eng
-								exp[10] = "Maths Auxiliary Teacher";
+								exp[2] = "Maths Auxiliary Teacher";
 							//ptbr
-								exp[11] = "Monitora de Matemática";
+								exp[3] = "Monitora de Matemática";
 
 							// eng
-								exp[12] = "eng description [tl]";
+								exp[4] = "eng description [tl]";
 							//ptbr
-								exp[13] = "Atendimento de grupos de vestibulandos e de alunos do ensino fundamental e médio para resolução de apostilas. Também trabalhei com correção das mesmas e fiscalização de provas e simulados.";
+								exp[5] = "Atendimento de grupos de vestibulandos e de alunos do ensino fundamental e médio para resolução de apostilas. Também trabalhei com correção das mesmas e fiscalização de provas e simulados.";
 
 
 
@@ -234,6 +247,21 @@
 								skills[0]= "Skills";
 							// ptbr
 								skills[1]= "Habilidades";
+
+
+
+			// Contact
+
+			var contact = [];
+							// eng
+								contact[0]= "Get In Touch";
+							// ptbr
+								contact[1]= "Contate-me";
+
+							// eng
+								contact[2]= "Send";
+							// ptbr
+								contact[3]= "Enviar";
 
 
 

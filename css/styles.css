@@ -26,7 +26,7 @@ Palette
 
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   background-color: #fff;           /* 1st bg colour   */
 }
 
@@ -41,6 +41,14 @@ p {
 
 body a{
   text-decoration: none;
+  color: #783c55;
+  font-weight: bold;
+}
+
+body a:hover{
+  text-decoration: none;
+  color: #cb666b;
+  font-weight: bold;
 }
 
 body a:active{
@@ -112,6 +120,7 @@ header {
   animation-iteration-count: 1;
   animation-timing-function: ease;
   animation-duration: 0.75s;
+  font-weight: 400;
 }
 
 header ul {
@@ -164,10 +173,16 @@ div.sticky {
 
 #menu {
   z-index: 30;
+  font-weight: 400;
+}
+
+#menu:a {
+  font-weight: 400;
 }
 
 #menu.active {
   display: block;
+  font-weight: 400;
 }
 
 #menuX {
@@ -203,6 +218,27 @@ div.sticky {
     transform: rotate(-45deg);
 }
 
+#mobile-otherpages-back {
+  display: none;
+  cursor: pointer;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  height: 35px;
+  width: 35px;  /* maintain 1:1 aspect ratio */
+  color: #783c55;
+  font-size: 1.5em;
+  z-index: 20;
+  padding: 0 7px;
+  border-radius: 4px;
+  background: #fff;
+  font-weight: normal;
+}
+
+#mobile-otherpages-back a:hover{
+  color: #cb666b;
+}
+
 #mobile-menu-open {
   display: none;
   cursor: pointer;
@@ -214,7 +250,8 @@ div.sticky {
   z-index: 20;
   padding: 0 7px;
   border-radius: 4px;
-  background: #fff
+  background: #fff;
+  font-weight: normal;
 }
 
 #mobile-menu-close {
@@ -727,12 +764,17 @@ footer {
   vertical-align: middle;
 }
 
+#seemore a{
+  color: #dcd9d9;
+}
+
 #seemoretext {
   display: inline;
-  font: 1.2em bold, 'Lato', sans-serif;
   color: #783c55;
   padding-right: 5px;
   text-decoration: none;
+  text-transform: uppercase;
+  font-weight: lighter;
 }
 
 #seemoretext a {
@@ -741,6 +783,7 @@ footer {
 
 #seemoretext a:hover {
     text-decoration: none;
+    color: #dcd9d9;
 }
 
 #seemorearrow {
@@ -1080,7 +1123,7 @@ footer {
     display: block;
   }
 
-  #mobile-menu-open, #mobile-menu-close, #mobile-menu-bg {
+  #mobile-menu-open, #mobile-menu-close, #mobile-menu-bg, #mobile-otherpages-back {
     text-align: center;
     display: block;
   }
@@ -1096,11 +1139,13 @@ footer {
   #menu p {
     font-size: clamp(10px, 10px + 1vw, 20px);
     line-height: 3.0;
+    letter-spacing: 2px;
   }
 
   #menu li {
     display: block;
     margin-bottom: clamp (-20px, -10px, 0px);
+    letter-spacing: 2px;
   }
 
   #lead-content h1 {
