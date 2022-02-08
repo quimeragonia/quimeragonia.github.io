@@ -219,8 +219,8 @@ div.sticky {
     transform: rotate(-45deg);
 }
 
-#mobile-otherpages-back {
-  display: none;
+#otherpages-back {
+  display: block;
   cursor: pointer;
   position: fixed;
   right: 10px;
@@ -234,10 +234,24 @@ div.sticky {
   border-radius: 4px;
   background: #fff;
   font-weight: normal;
+  animation-name: slideBack;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-duration: 0.75s;
 }
 
-#mobile-otherpages-back a:hover{
+#otherpages-back a:hover{
   color: #cb666b;
+}
+
+@keyframes slideBack {
+  0% {
+    transform: translateX(100%)
+  }
+
+  100% {
+    transform: translateX(0)
+  }
 }
 
 #mobile-menu-open {
