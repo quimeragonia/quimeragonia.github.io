@@ -9,7 +9,7 @@
 						// Language
 
 							// when it's in english
-								navi[0] = "Em Português 0asdaspor234";
+								navi[0] = "Em Português";
 							// when it's in portuguese
 								navi[1] = "In English";
 
