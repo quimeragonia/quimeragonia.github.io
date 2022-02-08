@@ -898,6 +898,42 @@ footer {
   font-size: 1.2em
 }
 
+#languages {
+  padding: 50px 15px;
+  text-align: center;
+  background: #fff;
+}
+
+#languages h2 {
+  color: #374054;
+  margin-bottom: 50px
+}
+
+#languages ul {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 800px
+}
+
+#languages li {
+  display: inline-block;
+  margin: 7px;
+  padding: 5px 10px;
+  color: #374054;
+  background: #e4e4ea;
+  list-style: none;
+  cursor: default;
+  font-size: 1.2em
+}
+
+.languageslevel {
+  font-size: 0.7em;
+  text-transform: uppercase;
+  font-style: normal;
+  display: block;
+}
+
 #contact {
   padding: 50px 15px;
   background: #783c55;

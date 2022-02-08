@@ -55,8 +55,9 @@ function changeLanguage() {
 }
 
 function translate() {
-
 	// TRANSLATE TO ENG
+  let i, j;
+
 	if (lang == 0)	{
     // NAVIGATION
     document.getElementById("navi_lang").innerHTML = navi[0];
@@ -99,6 +100,9 @@ function translate() {
     document.getElementById("educ_desc03").innerHTML = educ[10];
     // SKILLS
     document.getElementById("skills_title").innerHTML = skills[0];
+    // LANGUAGES
+    for (i = 0, j = 0; i <= 6 && j <= 3; i += 2, j++)
+         document.getElementById("text_lang" + String(j)).innerHTML = languages[i];
     // CONTACT
     document.getElementById("text_contact0").innerHTML = contact[0];
     document.getElementById("text_contact1").innerHTML = contact[2];
@@ -127,15 +131,16 @@ function translate() {
     // PROJECTS
     document.getElementById("projects_title").innerHTML = titleproject[1];
 
-    projects_title
     // EXPERIENCE
     document.getElementById("exp_title").innerHTML = exp[1];
-    document.getElementById("exp_jobtitle2").innerHTML = exp[3];
-    document.getElementById("exp_jobdesc2").innerHTML = exp[5];
+    document.getElementById("exp_jobtitle0").innerHTML = exp[3];
+    document.getElementById("exp_jobdesc0").innerHTML = exp[5];
     document.getElementById("exp_jobtitle1").innerHTML = exp[7];
     document.getElementById("exp_jobdesc1").innerHTML = exp[9];
-    document.getElementById("exp_jobtitle0").innerHTML = exp[11];
-    document.getElementById("exp_jobdesc0").innerHTML = exp[13];
+    document.getElementById("exp_jobtitle2").innerHTML = exp[11];
+    document.getElementById("exp_jobdesc2").innerHTML = exp[13];
+    document.getElementById("exp_jobtitle3").innerHTML = exp[15];
+    document.getElementById("exp_jobdesc3").innerHTML = exp[17];
     // EDUCATION
     document.getElementById("educ_title").innerHTML = educ[1];
     document.getElementById("educ_major01").innerHTML = educ[3];
@@ -146,6 +151,9 @@ function translate() {
     document.getElementById("educ_desc03").innerHTML = educ[11];
     // SKILLS
     document.getElementById("skills_title").innerHTML = skills[1];
+    // LANGUAGES
+    for (i = 1, j = 0; i <= 7 && j <= 3; i += 2, j++)
+         document.getElementById("text_lang" + String(j)).innerHTML = languages[i];
     // CONTACT
     document.getElementById("text_contact0").innerHTML = contact[1];
     document.getElementById("text_contact1").innerHTML = contact[3];

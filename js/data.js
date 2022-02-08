@@ -250,6 +250,36 @@
 
 
 
+
+			// Languages
+
+			var languages = [];
+							// eng
+								languages[0]= "Languages";
+							// ptbr
+								languages[1]= "Idiomas";
+
+
+							// eng
+								languages[2]= "English <i class ='languageslevel'>(fluent)</i>";
+							// ptbr
+								languages[3]= "Inglês <i class ='languageslevel'>(fluente)</i>";
+
+
+							// eng
+								languages[4]= "Portuguese <div class ='languageslevel'>(native)</div>";
+							// ptbr
+								languages[5]= "Português <div class ='languageslevel'>(nativo)</div>";
+
+
+							
+
+
+							// eng
+								languages[6]= "Spanish <div class ='languageslevel'>(basic)</div>";
+							// ptbr
+								languages[7]= "Espanhol <div class ='languageslevel'>(básico)</div>";
+
 			// Contact
 
 			var contact = [];
