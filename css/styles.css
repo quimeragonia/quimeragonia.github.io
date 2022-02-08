@@ -182,6 +182,8 @@ div.sticky {
 #menu.active {
   display: block;
   font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.2px;
 }
 
 #menuX {
