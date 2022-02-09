@@ -1,4 +1,5 @@
 var idImg = -1;
+var maxDesenhos = 9;
 
 function loadWorks () {
   for (let n = 0; n < 9;n++) {

@@ -159,3 +159,4 @@ function translate() {
     document.getElementById("text_contact1").innerHTML = contact[3];
 	}
 }
+
