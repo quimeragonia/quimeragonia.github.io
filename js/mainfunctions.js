@@ -29,7 +29,6 @@ window.onload = function() {
     }
   // FUNCIONAMENTO
     loadWorks();
-     // manter em último para não quebrar
   }
 }
 
