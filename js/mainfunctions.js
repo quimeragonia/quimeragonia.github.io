@@ -11,7 +11,7 @@ window.onload = function() {
   // WORKS
   // Detecta se o link ptbr foi dado para traduzir em português
   if (document.referrer == "https://quimeranoxia.github.io/referrers/worksptbr")
-    lang = 1;
+    document.getElementById("works_title").innerHTML = workstext[1];
 
   // SHAPE ARENA
   // Detecta se o link ptbr foi dado para traduzir em português
@@ -23,11 +23,13 @@ window.onload = function() {
   if (window.location.href == "file:///D:/github/quimeranoxia.github.io/shapearena.html" || window.location.href == "https://quimeranoxia.github.io/shapearena")
     translateshape();
   else {
-    if (window.location.href == "file:///D:/github/quimeranoxia.github.io/index.html" || window.location.href == "https://quimeranoxia.github.io/")
+    if (window.location.href == "file:///D:/github/quimeranoxia.github.io/index.html" || window.location.href == "https://quimeranoxia.github.io/") {
       loadProjectThumbs();
+      translate();
+    }
   // FUNCIONAMENTO
     loadWorks();
-    translate(); // manter em último para não quebrar
+     // manter em último para não quebrar
   }
 }
 
