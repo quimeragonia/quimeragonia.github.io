@@ -294,6 +294,15 @@
 								contact[3]= "Enviar";
 
 
+			// Miscellaneous
+
+			var misc = [];
+							// eng
+								misc[0]= "See more";
+							// ptbr
+								misc[1]= "Ver mais";
+
+
 
 			// PROJECT PAGES
 
@@ -338,9 +347,9 @@
 								shapedesc[11]= "Não usados";
 
 							// eng
-								shapedesc[12]= "our team";
+								shapedesc[12]= "Our team";
 							// ptbr
-								shapedesc[13]= "nossa equipe";
+								shapedesc[13]= "Nossa equipe";
 
 							// eng
 								shapedesc[14]= "Back";
