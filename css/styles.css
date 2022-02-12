@@ -901,18 +901,24 @@ footer {
   font-size: 0.9em;
 }
 
-.project-link {
+.project-link, .project-link p {
   text-decoration: none;
   color: #cb666b;
   font-weight: bold;
+}
+
+.project-link {
   transition: color 0.3s, padding 0.3s;
+}
+
+.project-link:hover, .project-link p:hover, .project-link:active, .project-link p:active {
+  text-decoration: none;
+  color: #783c55;
+  font-weight: bold;
 }
 
 .project-link:hover, .project-link:active {
   padding-left: 15px;
-  text-decoration: none;
-  color: #783c55;
-  font-weight: bold;
 }
 
 #more-projects {

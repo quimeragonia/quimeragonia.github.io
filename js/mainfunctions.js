@@ -26,7 +26,6 @@ window.onload = function() {
   // FUNCIONAMENTO
     translate();
     loadWorks();
-    alert(lang);
   }
 }
 
@@ -163,7 +162,7 @@ function translate() {
         vP[i].innerHTML = misc[3];
     document.getElementById("text_projects0").innerHTML = titleproject[1];
     document.getElementById("text_projects1").innerHTML = shapedesc[1];
-    document.getElementById("shapelinksteam").innerHTML = misc[4];
+    document.getElementById("shapelinksteam").innerHTML = misc[5];
     // EXPERIENCE
     document.getElementById("exp_title").innerHTML = exp[1];
     document.getElementById("exp_jobtitle0").innerHTML = exp[3];
