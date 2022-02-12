@@ -13,7 +13,7 @@ function shapenavigation(nextpage, lastpage) {
     for (i = 0; i < buttonback.length; i++)
         buttonback[i].disabled = true;
     else
-      for (i = 1; i <= 3; i++)
+      for (i = 1; i <= buttonback.length; i++)
         document.getElementById("button" + String(i)).disabled = true;
 
 
@@ -22,7 +22,7 @@ function shapenavigation(nextpage, lastpage) {
       for (i = 0; i < buttonback.length; i++)
         buttonback[i].disabled = false;
     else
-      for (i = 1; i <= 3; i++)
+      for (i = 1; i <= buttonback.length; i++)
           document.getElementById("button" + String(i)).disabled = false;
     }, 3000);
   toggleapagador();
@@ -38,7 +38,7 @@ function shapenavigation(nextpage, lastpage) {
     document.getElementById("MainScreen").classList.add("animationpagetransition1");
     document.getElementById("initialtext").classList.add("animationpagetransition1");
   }
-  if (nextpage > 0) { // ir para outras páginas
+  else if (nextpage > 0) { // ir para outras páginas
     // sair de Main Screen
     document.getElementById("MainScreen").classList.remove("animationpagetransition1");
     document.getElementById("initialtext").classList.remove("animationpagetransition1");
@@ -55,13 +55,8 @@ function shapenavigation(nextpage, lastpage) {
 function toggleapagador() {
 
     document.getElementById("apagador").classList.remove("animationapagador");
-//    document.getElementById("MainScreen").classList.remove("animationpagetransition0");
-//    document.getElementById("initialtext").classList.remove("animationpagetransition0");
     document.getElementById("apagador").offsetWidth;
     document.getElementById("apagador").classList.add("animationapagador");
-//    document.getElementById("MainScreen").classList.add("animationpagetransition0");
-//    document.getElementById("initialtext").classList.add("animationpagetransition0");
-
 }
 
 function translateshape() {
@@ -77,9 +72,8 @@ function translateshape() {
     document.getElementById("navi_projects").innerHTML = navi[10];
     document.getElementById("navi_skills").innerHTML = navi[12];
     document.getElementById("navi_contact").innerHTML = navi[14];
-    // NAME & OCCUPATION
-    document.getElementById("shapearenadesc").innerHTML = shapedesc[0];
     // SHAPE: INITIAL TEXT
+    document.getElementById("projectdesc0").innerHTML = shapedesc[2];
 	}
 
   // TRANSLATE TO PTBR
@@ -92,8 +86,7 @@ function translateshape() {
     document.getElementById("navi_projects").innerHTML = navi[11];
     document.getElementById("navi_skills").innerHTML = navi[13];
     document.getElementById("navi_contact").innerHTML = navi[15];
-    // NAME & OCCUPATION
-    document.getElementById("myname").innerHTML = shapedesc[1];
     // SHAPE: INITIAL TEXT
+    document.getElementById("projectdesc0").innerHTML = shapedesc[3];
 	}
 }

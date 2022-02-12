@@ -28,7 +28,7 @@
     </header>
     <!-- End header -->
     <div id="otherpages-back" class="shadow-large">
-        <a href="/"><i class="fa fa-chevron-left arrow arrowbackmobile" aria-hidden="true" style ="animation: pulsate 0s;"></i></a></div>
+        <a href="/"><i class="fa fa-chevron-left arrow arrowbackmobile otherpages-button" aria-hidden="true" style ="animation: pulsate 0s;"></i></a></div>
 
 
 
@@ -42,10 +42,25 @@
     <!-- BEGIN descrição -->
         <div class="container">
             <div class="row">
-                <div class="project shadow-large normaltext">
-                    <p id ="shapearenadesc">falar sobre como fui designer no jogo etc, sendo o mais notável a tela principal. mais abaixo você pode ver um currículo de todas as animações pelas quais fui responsável.</p>
-                    <br><b>Página em construção.</b>
+                <div class="projectcontainer shadow-large normaltext">
+                    <p id ="projectdesc0">
+                    Shape Arena is a free multiplayer party game made with Unity developed by <a href='http://www.icad.puc-rio.br/shape-arena/#'>ICAD Games Research Lab</a>. I was part of the very lovely dev team as a designer and animator.<br><br>
+
+                    <b>In Shape Arena, you control one of four shapes (circle, square, triangle or star) drawn on a blackboard. You can move and jump, and each shape has its own attributes and skill. Your objective is to grab more candy than your peers, while avoiding losing one candy off your punctuation because of items or being poofed by the many hazards thrown at you on the screen (and the fun part is, you can throw your dear friends into them!).</b><br><br>
+
+                    The lab hosted a tournament for it with huge success at <a href ='https://www.sbgames.org/'>SBGames 2019</a>, the biggest academic event for Games & Digital Entertainment from Latin America, with over 20 people, ages ranging from children to adults. Triangle won, if you're curious! Much to our delight, each player developed their own playstyle and, by the end, chose a 'main' to compete with.<br><br>
+
+                    It has also been featured in some youtubers' Let's Plays (like this <a href='https://www.youtube.com/watch?v=CC-kLPmRuGA'>one</a>)!<br><br>
+
+                    It would mean the world to me if you gave our game a little try! Grab some friends, controllers (only one player with a keyboard is supported, I'm afraid), and download it for free here on <a href ='https://store.steampowered.com/app/1222390/Shape_Arena/'>Steam</a>.<br><br>
+
+                    <b>Down here is an interactive portfolio where you can see some of my art and animations made for it, most notably the main screen.</b><br><br>
+
+
+
+                    <br><b>(Page still under construction. Unfinished: Hazards & Unused)</b>
                     <!-- End .project-info -->
+                    </p>
                 </div>
             </div>
         </div>
@@ -73,6 +88,7 @@
                     <button id = "button1" onclick = "shapenavigation(1, 0);">General</button><br>
                     <button id = "button2" onclick = "shapenavigation(2, 0);">Hazards</button><br>
                     <button id = "button3" onclick =  "shapenavigation(3, 0);">Unused</button><br>
+                    <button id = "button4" onclick =  "shapenavigation(4, 0);">Our team</button><br>
                 </div>
 
 
@@ -142,6 +158,18 @@
               </div>
               <div id = "hazards9">
               </div>
+            </div>
+
+            <div id ="page3">
+                <!-- Back button -->
+                      <button class = "button_back" onclick =  "shapenavigation(0, 3);">Back</button>
+                <!-- Unused -->
+            </div>
+
+            <div id ="page4">
+                <!-- Back button -->
+                      <button class = "button_back" onclick =  "shapenavigation(0, 4);">Back</button>
+                <!-- Team -->
             </div>
 
             <!-- bg -->

@@ -108,7 +108,7 @@
 								exp[15] = "Volante";
 
 							// eng
-								exp[16] = "eng description [tl]";
+								exp[16] = "Organization and cleaning, and the main communicator between clients and the food establishments and bars. Responsible for checkout, delivering of order to the respective establishment, and serving at the tables. Extra attention needed for menu changes and for timing, as the client pays in advance, demanding fast flow and precise serving.";
 							//ptbr
 								exp[17] = "Organização e limpeza do evento, e principal ponto de comunicação entre o cliente e os estabelecimentos gastronômicos. Lançava as vendas nas mesas, encaminhava pedidos a seus respectivos estabelecimentos e os servia, necessitando intercalar etapas e informar-me constantemente quanto à atualização frequente dos cardápios para um atendimento com fluidez.";
 
@@ -121,7 +121,7 @@
 								exp[11] = "Designer e Animadora";
 
 							// eng
-								exp[12] = "eng description [tl]";
+								exp[12] = "Lab for game research and development. I worked with a team on the development of the game <a href ='https://store.steampowered.com/app/1222390/Shape_Arena/'>Shape Arena</a>, launched on Steam officially on August 2020.";
 							//ptbr
 								exp[13] = "Laboratório para pesquisa e desenvolvimento de jogos. Trabalhei com uma equipe para desenvolvimento do jogo <a href ='https://store.steampowered.com/app/1222390/Shape_Arena/'>Shape Arena</a>, lançado oficialmente em Ago/2020 na plataforma de jogos Steam.";
 
@@ -133,7 +133,7 @@
 								exp[7] = "Operadora de caixa";
 
 							// eng
-								exp[8] = "eng description [tl]";
+								exp[8] = "Processing and receiving payment, serving both Portuguese and English-speaking clients. Also responsible for the archiving of seller's commission sales in the system.";
 							//ptbr
 								exp[9] = "Atendimento a clientes nativos e estrangeiros, finalização da venda no PDV, cadastros de clientes no sistema e efetivação de trocas ou devoluções através do mesmo, conferência de dinheiro em espécie e do extrato de vendas de diferentes máquinas de cartão. Também era responsável pelo arquivamento dos pedidos de venda de cada vendedor e pela gravação de seu nome em sua devida venda no sistema. Muita agilidade era necessária, pois não era ideal manter uma fila com clientes em espera."
 
@@ -145,7 +145,7 @@
 								exp[3] = "Monitora de Matemática";
 
 							// eng
-								exp[4] = "eng description [tl]";
+								exp[4] = "Assistance to students with both school and university entrance exams by helping solve problems from coursebooks. Also worked with correction of said coursebooks, and the giving and supervising of simulated exams.";
 							//ptbr
 								exp[5] = "Atendimento de grupos de vestibulandos e de alunos do ensino fundamental e médio para resolução de apostilas. Também trabalhei com correção das mesmas e fiscalização de provas e simulados.";
 
@@ -286,7 +286,7 @@
 							// eng
 								contact[0]= "Get In Touch";
 							// ptbr
-								contact[1]= "Contate-me";
+								contact[1]= "Contate-Me";
 
 							// eng
 								contact[2]= "Send";
@@ -297,9 +297,20 @@
 
 			// PROJECT PAGES
 
-				// SHAPE ARENA
+				// SHAPE ARENA THUMB DESC
 
 			var shapedesc = [];
 
-							shapedesc[0]= "Shape Arena é um jogo multiplayer 2D local no qual os jogadores controlam guerreiras formas geométricas habilmente desenhadas no quadro negro, lutando para coletar todas as balinhas e conquistar a maior pontuação.";
-							shapedesc[1]= "Shape Arena é um jogo multiplayer 2D local no qual os jogadores controlam guerreiras formas geométricas habilmente desenhadas no quadro negro, lutando para coletar todas as balinhas e conquistar a maior pontuação.";
+							// eng
+								shapedesc[0]= "Shape Arena is a free multiplayer party game made with Unity developed by <a href='http://www.icad.puc-rio.br/shape-arena/#'>ICAD Games Research Lab</a>. I was part of the dev team as designer and animator. You can check the project's page for an interactive portfolio of some of my work on the game.<br><a class = 'project-link' href='/shapearena'> > View Project</a><br><a class = 'project-link' href ='https://store.steampowered.com/app/1222390/Shape_Arena/'> > Link To Steam Page</a>";
+
+							// ptbr
+								shapedesc[1]= "Shape Arena é um jogo multiplayer grátis feito com Unity desenvolvido pelo laboratório de pesquisas <a href='http://www.icad.puc-rio.br/shape-arena/#'>ICAD/VisionLab</a>. Eu fui parte da equipe de desenvolvedores como designer e animadora.  Na página do projeto, você vai encontrar um portfólio interativo com uma parte do meu trabalho no jogo.<br><a class = 'project-link' href='/shapearena'> > Visualizar Projeto</a><br><a class = 'project-link' href ='https://store.steampowered.com/app/1222390/Shape_Arena/'> > Link Para Página Da Steam</a>";
+
+				// SHAPE ARENA PAGE DESC
+
+			
+							// eng
+								shapedesc[2]= "Shape Arena is a free multiplayer party game made with Unity developed by <a href='http://www.icad.puc-rio.br/shape-arena/#'>ICAD Games Research Lab</a>. I was part of the very lovely dev team as a designer and animator.<br><br>In Shape Arena, you control one of four shapes (circle, square, triangle or star) drawn on a blackboard. You can move and jump, and each shape has its own attributes and skill. Your objective is to grab more candy than your peers, while avoiding losing one candy off your punctuation because of items or being poofed by the many hazards thrown at you on the screen (and the fun part is, you can throw your dear friends into them!).<br><br>The lab hosted a tournament for it with huge success at <a href ='https://www.sbgames.org/'>SBGames 2019</a>, the biggest academic event for Games & Digital Entertainment from Latin America, with over 20 people, ages ranging from children to adults. Triangle won, if you're curious! Much to our delight, each player developed their own playstyle and, by the end, chose a 'main' to compete with.<br><br>It has also been featured in some youtubers' Let's Plays (like this <a href='https://www.youtube.com/watch?v=CC-kLPmRuGA'>one</a>)!<br><br>It would mean the world to me if you gave our game a little try! Grab some friends, controllers (only one player with a keyboard is supported, I'm afraid), and download it for free here on <a href ='https://store.steampowered.com/app/1222390/Shape_Arena/'>Steam</a>.<br><br><b>Down here is an interactive portfolio where you can see some of my art and animations made for it, most notably the main screen.</b><br><br><br><b>(Page still under construction. Unfinished: Hazards & Unused)</b>";
+							// ptbr
+								shapedesc[3]= "Shape Arena é um jogo multiplayer grátis feito com Unity desenvolvido pelo laboratório de pesquisas <a href='http://www.icad.puc-rio.br/shape-arena/#'>ICAD/VisionLab</a>. Eu fui parte da maravilhosa equipe de desenvolvedores como designer e animadora.<b>Em Shape Arena, você controla uma de quatro formas (círculo, quadrado, triângulo ou estrela) desenhadas numa lousa. Você pode se mover e pular, e cada forma tem seus próprios atributos e habilidade. Seu objetivo é pegar mais doces do que seus adversários, enquanto evita perder um doce da sua pontuação devido a itens ou ter sido morto por um dos muitos perigos indo atrás de você na tela (e a parte legal é jogar seus queridos amigos neles!).</b><br><br><br><br>O ICAD fez um torneio pro jogo com grande sucesso na <a href ='https://www.sbgames.org/'>SBGames 2019</a>, o maior acadêmico da América Latina na área de Jogos e Entretenimento Digital, com participação de mais de 20 pessoas, desde crianças até adultos. O triângulo venceu, se bateu curiosidade! Pra nossa alegria, cada jogador desenvolveu seu próprio estilo de jogo e, chegando nas finais, as pessoas já tinham escolhido um 'main' pra competir.<br><br>O Shape também já apareceu em alguns Let's Plays de youtubers (tipo <a href='https://www.youtube.com/watch?v=CC-kLPmRuGA'>esse</a>)!<br><br>Eu vou ficar feliz demais se você der uma olhada no nosso jogo! Chame uns amigos, pegue uns controles (só um jogador pode jogar com teclado, infelizmente) e baixe grátis na <a href ='https://store.steampowered.com/app/1222390/Shape_Arena/'>Steam</a>.<br><br><b>Logo abaixo você encontra um portfolio interativo onde coloquei uma parte da minha arte e animações feitas pro jogo, mais notadamente a tela principal.</b><br><br><br><b>(Página ainda em construção. Não finalizados ainda: Hazards & Unused)</b>";

@@ -40,15 +40,19 @@ p {
   display: inline;
 }
 
-.boldlinks a{
+a {
+  transition: color 0.3s, padding 0.3s, background-color 0.2s;
+}
+
+.boldlinks a {
   text-decoration: none;
-  color: #783c55;
+  color: #cb666b;
   font-weight: bold;
 }
 
 .boldlinks a:hover{
   text-decoration: none;
-  color: #cb666b;
+  color: #783c55;
   font-weight: bold;
 }
 
@@ -78,7 +82,7 @@ body a:active{
 .no-js #experience-timeline>div h3 {
   font-size: 1.5em;
   font-weight: 300;
-  color: #374054;
+  color: #783c55;
   display: inline-block;
   margin: 0
 }
@@ -238,9 +242,18 @@ div.sticky {
   animation-iteration-count: 1;
   animation-timing-function: ease;
   animation-duration: 0.75s;
+  transition: margin-right 0.3s;
 }
 
-#otherpages-back a:hover{
+#otherpages-back:hover, #otherpages-back:active{
+  margin-right: 6px;
+}
+
+.otherpages-button {
+  transition: color 0.3s;
+}
+
+.otherpages-button:hover, .otherpages-button:active{
   color: #cb666b;
 }
 
@@ -643,7 +656,7 @@ footer {
   font-weight: 500;
   float: left;
   margin: 0;
-  color: #374054
+  color:#783c55
 }
 
 .education-block span {
@@ -856,28 +869,35 @@ footer {
   top: 50%;
   transform: translateY(-50%);
   margin-left: 300px;
-  padding: 15px
+  padding: 25px;
+  padding-bottom: 30px;
 }
 
 .project-info h3 {
   font-size: 1.8em;
   font-weight: 300;
-  color: #374054;
-  margin: 0 0 15px 0
+  color: #783c55;
+  margin: 0 0 15px 0;
+  text-align: center;
 }
 
 .project-info p {
   color: #74808a;
   margin: 0 0 15px 0;
-  font-size: 0.9em
+  font-size: 0.9em;
 }
-/*
-.no-image .project-info {
-  position: relative;
-  margin: 0;
-  padding: 30px 15px;
-  transform: none
-}*/
+
+.project-link {
+  transition: 0.5s padding-left;
+}
+
+.project-link a {
+  transition: 0.5s padding-left;
+}
+
+.project-link:hover, .project-link:active {
+  padding-left: 15px;
+}
 
 #more-projects {
   display: none
@@ -886,11 +906,10 @@ footer {
 #skills {
   padding: 50px 15px;
   text-align: center;
-  background: #fff;
 }
 
 #skills h2 {
-  color: #374054;
+  color: #783c55;
   margin-bottom: 50px
 }
 
@@ -905,21 +924,20 @@ footer {
   display: inline-block;
   margin: 7px;
   padding: 5px 10px;
-  color: #374054;
-  background: #e4e4ea;
+  color: #783c55;
+  background: #ccc;
   list-style: none;
   cursor: default;
-  font-size: 1.2em
+  font-size: 1.2em;
 }
 
 #languages {
   padding: 50px 15px;
   text-align: center;
-  background: #fff;
 }
 
 #languages h2 {
-  color: #374054;
+  color: #783c55;
   margin-bottom: 50px
 }
 
@@ -934,8 +952,8 @@ footer {
   display: inline-block;
   margin: 7px;
   padding: 5px 10px;
-  color: #374054;
-  background: #e4e4ea;
+  color: #783c55;
+  background: #ccc;
   list-style: none;
   cursor: default;
   font-size: 1.2em
@@ -1029,7 +1047,7 @@ footer {
 }
 
 .optional-section h2 {
-  color: #374054
+  color: #783c55
 }
 
 .optional-section-block {
@@ -1044,7 +1062,7 @@ footer {
 .optional-section-block h3 {
   font-weight: 500;
   margin: 0 0 15px 0;
-  color: #374054
+  color: #783c55
 }
 
 .optional-section-block h4 {
@@ -1246,7 +1264,7 @@ footer {
       text-align: center;
       font-size: 1.5em;
       font-weight: 300;
-      color: #374054;
+      color: #783c55;
       margin: 20px 0 15px 0
     }
 

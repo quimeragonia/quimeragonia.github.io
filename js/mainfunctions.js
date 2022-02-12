@@ -79,7 +79,8 @@ function translate() {
     document.getElementById("works_title").innerHTML = workstext[0];
     document.getElementById("more_text").innerHTML = workstext[2];
     // PROJECTS
-    document.getElementById("projects_title").innerHTML = titleproject[0];
+    document.getElementById("text_projects0").innerHTML = titleproject[0];
+    document.getElementById("text_projects1").innerHTML = shapedesc[0];
     // EXPERIENCE
     document.getElementById("exp_title").innerHTML = exp[0];
     document.getElementById("exp_jobtitle0").innerHTML = exp[2];
@@ -129,7 +130,8 @@ function translate() {
     document.getElementById("works_title").innerHTML = workstext[1];
     document.getElementById("more_text").innerHTML = workstext[3];
     // PROJECTS
-    document.getElementById("projects_title").innerHTML = titleproject[1];
+    document.getElementById("text_projects0").innerHTML = titleproject[1];
+    document.getElementById("text_projects1").innerHTML = shapedesc[1];
 
     // EXPERIENCE
     document.getElementById("exp_title").innerHTML = exp[1];
