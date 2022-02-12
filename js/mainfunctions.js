@@ -29,7 +29,7 @@ window.onload = function() {
   }
 }
 
-function linktopage(nextpage) { // Formato: 0 ou 1, "/shapearena" ou "/works"
+function linktopage(nextpage) { // Formato: "/shapearena" ou "/works"
   if (lang === 0)
     window.location.replace(nextpage);
   else if (lang === 1)
