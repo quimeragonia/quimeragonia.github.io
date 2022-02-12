@@ -302,6 +302,15 @@
 							// ptbr
 								misc[1]= "Ver mais";
 
+							// eng
+								misc[2]= "View Project";
+							// ptbr
+								misc[3]= "Visualizar Projeto";
+
+							// eng
+								misc[4]= "Link To Steam Page";
+							// ptbr
+								misc[5]= "Link Para Página na Steam";
 
 
 			// PROJECT PAGES

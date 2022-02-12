@@ -34,7 +34,10 @@ function linktopage(nextpage) { // Formato: 0 ou 1, "/shapearena" ou "/works"
   if (lang === 0)
     window.location.replace(nextpage);
   else if (lang === 1)
-    window.location.replace("/referrers" + nextpage + "ptbr");
+    if (nextpage == "/")
+      window.location.replace("/ptbr");
+    else
+      window.location.replace("/referrers" + nextpage + "ptbr");
 }
 
 function mobilemenuabrir () {
@@ -79,6 +82,7 @@ function changeLanguage() {
 function translate() {
 	// TRANSLATE TO ENG
   let i, j;
+  let vP = document.getElementsByClassName("viewproject");
 
 	if (lang == 0)	{
     // NAVIGATION
@@ -101,8 +105,11 @@ function translate() {
     document.getElementById("works_title").innerHTML = workstext[0];
     document.getElementById("more_text").innerHTML = workstext[2];
     // PROJECTS
+    for (i = 0; i < vP.length; i++)
+        vP[i].innerHTML = misc[2];
     document.getElementById("text_projects0").innerHTML = titleproject[0];
     document.getElementById("text_projects1").innerHTML = shapedesc[0];
+    document.getElementById("shapelinksteam").innerHTML = misc[4];
     // EXPERIENCE
     document.getElementById("exp_title").innerHTML = exp[0];
     document.getElementById("exp_jobtitle0").innerHTML = exp[2];
@@ -152,9 +159,11 @@ function translate() {
     document.getElementById("works_title").innerHTML = workstext[1];
     document.getElementById("more_text").innerHTML = workstext[3];
     // PROJECTS
+    for (i = 0; i < vP.length; i++)
+        vP[i].innerHTML = misc[3];
     document.getElementById("text_projects0").innerHTML = titleproject[1];
     document.getElementById("text_projects1").innerHTML = shapedesc[1];
-
+    document.getElementById("shapelinksteam").innerHTML = misc[4];
     // EXPERIENCE
     document.getElementById("exp_title").innerHTML = exp[1];
     document.getElementById("exp_jobtitle0").innerHTML = exp[3];
