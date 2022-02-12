@@ -44,6 +44,10 @@ a {
   transition: color 0.3s, padding 0.3s, background-color 0.2s;
 }
 
+.nostylebutton {
+  border: none;
+}
+
 .boldlinks a {
   text-decoration: none;
   color: #cb666b;
