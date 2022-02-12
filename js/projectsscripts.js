@@ -65,14 +65,18 @@ function translateshape() {
 	// TRANSLATE TO ENG
 	if (lang == 0)	{
     // SHAPE ARENA
-    for (i = 2, j = 0; i <= 15 && j <= 6; i += 2, j++)
-         document.getElementById("projecttext" + String(j)).innerHTML = shapedesc[i];
+    for (i = 2, j = 0; i <= 12 && j <= 5; i += 2, j++)
+        document.getElementById("projecttext" + String(j)).innerHTML = shapedesc[i];
+    for (j = 6; j <=9 ; j++)
+        document.getElementById("projecttext" + String(j)).innerHTML = shapedesc[14];
 	}
 
   // TRANSLATE TO PTBR
 	if (lang == 1)	{
     // SHAPE ARENA
-    for (i = 3, j = 0; i <= 15 && j <= 6; i += 2, j++)
-         document.getElementById("text_lang" + String(j)).innerHTML = shapedesc[i];
+    for (i = 3, j = 0; i <= 13 && j <= 5; i += 2, j++)
+        document.getElementById("projecttext" + String(j)).innerHTML = shapedesc[i];
+    for (j = 6; j <= 9; j++)
+        document.getElementById("projecttext" + String(j)).innerHTML = shapedesc[15];
 	}
 }
