@@ -44,8 +44,10 @@ a {
   transition: color 0.3s, padding 0.3s, background-color 0.2s;
 }
 
-.nostylebutton {
+button {
+  padding: 0;
   border: none;
+  background: none;
 }
 
 .boldlinks a {
@@ -900,15 +902,17 @@ footer {
 }
 
 .project-link {
-  transition: 0.5s padding-left;
-}
-
-.project-link a {
-  transition: 0.5s padding-left;
+  text-decoration: none;
+  color: #cb666b;
+  font-weight: bold;
+  transition: color 0.3s, padding 0.3s;
 }
 
 .project-link:hover, .project-link:active {
   padding-left: 15px;
+  text-decoration: none;
+  color: #783c55;
+  font-weight: bold;
 }
 
 #more-projects {
