@@ -312,7 +312,6 @@
 							// ptbr
 								misc[5]= "Link Para Página na Steam";
 
-
 			// PROJECT PAGES
 
 				// SHAPE ARENA THUMB DESC

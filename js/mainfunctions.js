@@ -23,10 +23,17 @@ window.onload = function() {
   if (window.location.href == "file:///D:/github/quimeranoxia.github.io/shapearena.html" || window.location.href == "https://quimeranoxia.github.io/shapearena")
     translateshape();
   else {
+    if (window.location.href == "file:///D:/github/quimeranoxia.github.io/index.html" || window.location.href == "https://quimeranoxia.github.io/")
+      loadProjectThumbs();
   // FUNCIONAMENTO
-    translate();
     loadWorks();
+    translate(); // manter em último para não quebrar
   }
+}
+
+function loadProjectThumbs() {
+ for (let n = 0; n < 1 ;n++)
+      document.getElementById("project" + String(n)).src = thumbproject[n];
 }
 
 function linktopage(nextpage) { // Formato: "/shapearena" ou "/works"
@@ -83,6 +90,7 @@ function translate() {
   let i, j;
   let vP = document.getElementsByClassName("viewproject");
   let mT = document.getElementsByClassName("text_more");
+  let bT = document.getElementsByClassName("text_back");
 
 	if (lang == 0)	{
     // NAVIGATION
