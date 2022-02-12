@@ -10,8 +10,10 @@ window.onload = function() {
 
   // WORKS
   // Detecta se o link ptbr foi dado para traduzir em português
-  if (document.referrer == "https://quimeranoxia.github.io/referrers/worksptbr")
+  if (document.referrer == "https://quimeranoxia.github.io/referrers/worksptbr") {
+    lang = 1;
     document.getElementById("works_title").innerHTML = workstext[1];
+  }
 
   // SHAPE ARENA
   // Detecta se o link ptbr foi dado para traduzir em português
