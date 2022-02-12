@@ -3,16 +3,37 @@ var lang = 0;
 var maintainPageY = -1;
 
 window.onload = function() {
-
-  if (window.location.href == "file:///D:/github/quimeranoxia.github.io/shapearena.html" || window.location.href == "https://quimeranoxia.github.io/shapearena")
-    translateshape();
-  else {
-  loadWorks();
+  // MAIN PAGE
   // Detecta se o link ptbr foi dado para traduzir em português
   if (document.referrer == "https://quimeranoxia.github.io/ptbr")
     lang = 1;
-  translate();
+
+  // WORKS
+  // Detecta se o link ptbr foi dado para traduzir em português
+  if (document.referrer == "https://quimeranoxia.github.io/worksptbr")
+    lang = 1;
+
+  // SHAPE ARENA
+  // Detecta se o link ptbr foi dado para traduzir em português
+  if (document.referrer == "https://quimeranoxia.github.io/shapearenaptbr")
+    lang = 1;
+
+
+  // TRADUÇÃO
+  if (window.location.href == "file:///D:/github/quimeranoxia.github.io/shapearena.html" || window.location.href == "https://quimeranoxia.github.io/shapearena")
+    translateshape();
+  else {
+  // FUNCIONAMENTO
+    translate();
+    loadWorks();
   }
+}
+
+function linktopage(nextpage) { // Formato: 0 ou 1, "/shapearena" ou "/works"
+  if (lang === 0)
+    window.location.replace(nextpage);
+  else if (lang === 1)
+    window.location.replace(nextpage + "ptbr");
 }
 
 function mobilemenuabrir () {
