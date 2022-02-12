@@ -311,7 +311,7 @@
 			var shapedesc = [];
 
 							// eng
-								shapedesc[0]= "Shape Arena is a free multiplayer party game made with Unity developed by <a href='http://www.icad.puc-rio.br/shape-arena/#'>ICAD Games Research Lab</a>. I was part of the dev team as a designer and animator. You can check the project's page for an interactive portfolio of some of my work on the game.<br><a class = 'project-link' href='/shapearena'> > View Project</a><br><a class = 'project-link' href ='https://store.steampowered.com/app/1222390/Shape_Arena/'> > Link To Steam Page</a>";
+								shapedesc[0]= "Shape Arena is a free multiplayer party game made with Unity developed by <a href='http://www.icad.puc-rio.br/shape-arena/#'>ICAD Games Research Lab</a>. I was part of the dev team as a designer and animator. You can check the project's page for an interactive portfolio of some of my work on the game.<br><a class = 'project-link' onclick='linktopage('/shapearena');'> > View Project</a><br><a class = 'project-link' href ='https://store.steampowered.com/app/1222390/Shape_Arena/'> > Link To Steam Page</a>";
 
 							// ptbr
 								shapedesc[1]= "Shape Arena é um jogo multiplayer grátis feito com Unity desenvolvido pelo laboratório de pesquisas <a href='http://www.icad.puc-rio.br/shape-arena/#'>ICAD/VisionLab</a>. Eu fui parte da equipe de desenvolvedores como designer e animadora.  Na página do projeto, você vai encontrar um portfólio interativo com uma parte do meu trabalho no jogo.<br><a class = 'project-link' href='/shapearena'> > Visualizar Projeto</a><br><a class = 'project-link' href ='https://store.steampowered.com/app/1222390/Shape_Arena/'> > Link Para Página Da Steam</a>";
