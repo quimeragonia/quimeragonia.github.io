@@ -82,6 +82,7 @@ function translate() {
 	// TRANSLATE TO ENG
   let i, j;
   let vP = document.getElementsByClassName("viewproject");
+  let mT = document.getElementsByClassName("text_more");
 
 	if (lang == 0)	{
     // NAVIGATION
@@ -102,7 +103,8 @@ function translate() {
     document.getElementById("abt_text").innerHTML = about[2];
     // WORKS
     document.getElementById("works_title").innerHTML = workstext[0];
-    document.getElementById("more_text").innerHTML = workstext[2];
+    for (i = 0; i < mT.length; i++)
+        mT[i].innerHTML = misc[0];
     // PROJECTS
     for (i = 0; i < vP.length; i++)
         vP[i].innerHTML = misc[2];
@@ -156,7 +158,8 @@ function translate() {
     document.getElementById("abt_text").innerHTML = about[3];
     // WORKS
     document.getElementById("works_title").innerHTML = workstext[1];
-    document.getElementById("more_text").innerHTML = workstext[3];
+    for (i = 0; i < mT.length; i++)
+        mT[i].innerHTML = misc[1];
     // PROJECTS
     for (i = 0; i < vP.length; i++)
         vP[i].innerHTML = misc[3];

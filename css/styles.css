@@ -802,39 +802,23 @@ footer {
     user-select:none;
 }
 
-#seemore {
+.seemore {
   vertical-align: middle;
-}
-
-#seemore a{
-  color: #dcd9d9;
-}
-
-#seemoretext {
+  color: #783c55;
   display: inline;
   color: #783c55;
+  font-size: 1.3em;
   padding-right: 5px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: lighter;
-}
-
-#seemoretext a {
   text-decoration: none;
+  letter-spacing: 1px;
+  transition: padding-left 0.3s;
 }
 
-#seemoretext a:hover {
-    text-decoration: none;
-    color: #dcd9d9;
-}
-
-#seemorearrow {
-  display: inline-block;
-  height: 32px;
-  width: 32px;
-  border-radius: 50%;
-  border: 3px solid #783c55;
-  transform: rotate(-90deg);
+.seemore:hover, .seemore:active{
+  padding-left: 15px;
 }
 
 .arrow {
