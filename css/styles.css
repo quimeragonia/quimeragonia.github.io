@@ -853,6 +853,7 @@ footer {
 
 .project-image {
   float: left;
+  cursor: pointer;
 }
 
 .project-image h3 {
