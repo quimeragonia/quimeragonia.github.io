@@ -60,33 +60,19 @@ function toggleapagador() {
 }
 
 function translateshape() {
+  let i, j;
 
 	// TRANSLATE TO ENG
 	if (lang == 0)	{
-    // DESC
-    document.getElementById("navi_lang").innerHTML = navi[0];
-		document.getElementById("navi_about").innerHTML = navi[2];
-    document.getElementById("navi_works").innerHTML = navi[4];
-		document.getElementById("navi_experience").innerHTML = navi[6];
-    document.getElementById("navi_education").innerHTML = navi[8];
-    document.getElementById("navi_projects").innerHTML = navi[10];
-    document.getElementById("navi_skills").innerHTML = navi[12];
-    document.getElementById("navi_contact").innerHTML = navi[14];
-    // SHAPE: INITIAL TEXT
-    document.getElementById("projectdesc0").innerHTML = shapedesc[2];
+    // SHAPE ARENA
+    for (i = 2, j = 0; i <= 15 && j <= 6; i += 2, j++)
+         document.getElementById("projecttext" + String(j)).innerHTML = shapedesc[i];
 	}
 
   // TRANSLATE TO PTBR
 	if (lang == 1)	{
-    document.getElementById("navi_lang").innerHTML = navi[1];
-		document.getElementById("navi_about").innerHTML = navi[3];
-    document.getElementById("navi_works").innerHTML = navi[5];
-		document.getElementById("navi_experience").innerHTML = navi[7];
-    document.getElementById("navi_education").innerHTML = navi[9];
-    document.getElementById("navi_projects").innerHTML = navi[11];
-    document.getElementById("navi_skills").innerHTML = navi[13];
-    document.getElementById("navi_contact").innerHTML = navi[15];
-    // SHAPE: INITIAL TEXT
-    document.getElementById("projectdesc0").innerHTML = shapedesc[3];
+    // SHAPE ARENA
+    for (i = 3, j = 0; i <= 15 && j <= 6; i += 2, j++)
+         document.getElementById("text_lang" + String(j)).innerHTML = shapedesc[i];
 	}
 }
