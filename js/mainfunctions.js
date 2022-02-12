@@ -26,6 +26,7 @@ window.onload = function() {
   // FUNCIONAMENTO
     translate();
     loadWorks();
+    alert(lang);
   }
 }
 
@@ -33,7 +34,7 @@ function linktopage(nextpage) { // Formato: 0 ou 1, "/shapearena" ou "/works"
   if (lang === 0)
     window.location.replace(nextpage);
   else if (lang === 1)
-    window.location.replace("/referrers/" + nextpage + "ptbr");
+    window.location.replace("/referrers" + nextpage + "ptbr");
 }
 
 function mobilemenuabrir () {
