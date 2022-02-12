@@ -6,6 +6,7 @@ function loadWorks () {
       document.getElementById("img" + String(n)).src = thumbnail[n];
       document.getElementById("full" + String(n)).src = full[n];
   }
+  alert("loadworks funcionou");
 }
 
 function ampliar (imgI) {
