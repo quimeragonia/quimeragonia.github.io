@@ -1,8 +1,7 @@
 var idImg = -1;
-var maxDesenhos = 12;
 
 function loadWorks () {
-  for (let n = 0; n < maxDesenhos;n++) {
+  for (let n = 0; n < 12; n++) {
       document.getElementById("img" + String(n)).src = thumbnail[n];
       document.getElementById("full" + String(n)).src = full[n];
   }
