@@ -1,0 +1,9 @@
+Hello there. You can know me by my surname, <b>Ruivo</b>. I am a 25 years old artist based in the city of São Paulo, Brazil, as of 2022 (originally born in Rio de Janeiro).<br><br>I am known to be a fast learner, and do not shy away from functions outside my field; rather, they <b>add to each other</b>. I make a very important point not to limit my interests and fascination, as the world is too big and interesting.<br><br>My Design approach focuses on narrative and storytelling
+
+
+Feel free to<a href='#contact'>contact me</a> about work or just to tell me about your favourite film, I'm very chatty!
+
+#783c55 - colour1
+#cb666b - colour2
+#dc9e76 - colour3
+#fbf2d1 - colour4 (or 1st bg)
