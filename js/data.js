@@ -177,9 +177,9 @@
 								educ[7] = "<b>Ensino Médio Completo</b>";
 
 							// eng
-								educ[8] = "Full Scholarship funded by <a href = 'http:\\\\prouniportal.mec.gov.br/'>Prouni</a>.</a>";
+								educ[8] = "Full Scholarship funded by <a href = 'http:\\\\prouniportal.mec.gov.br/'>Prouni</a>. Interrupted due to the pandemic, as the scholarship ended.";
 							//ptbr
-								educ[9] = "Bolsa 100% pelo <a href = 'http:\\\\prouniportal.mec.gov.br/'>Prouni</a>.";
+								educ[9] = "Bolsa 100% pelo <a href = 'http:\\\\prouniportal.mec.gov.br/'>Prouni</a>. Estudos interrompidos devido à pandemia, pois a bolsa acabou.";
 
 							// eng
 								educ[10] = "Full Scholarship funded by <a href = 'https:\\\\www.ismart.org.br/'>ISMART</a>.";
