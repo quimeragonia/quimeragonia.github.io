@@ -103,28 +103,28 @@
 						// 6. GRUPO PRO ROCKET
 
 							// eng
-								exp[22] = "Administrative Assistant";
+	//							exp[22] = "Administrative Assistant";
 							//ptbr
-								exp[23] = "Auxiliar Administrativo";
+	//							exp[23] = "Auxiliar Administrativo";
 
 							// eng
-								exp[24] = "lorem ipsum0 COLOCAR LINK P/ PDF";
+	//							exp[24] = "lorem ipsum0 COLOCAR LINK P/ PDF";
 							//ptbr
-								exp[25] = "lorem ipsum1";
+	//							exp[25] = "lorem ipsum1";
 
 
 
 						// 5. ODONTOCOMPANY
 
 							// eng
-								exp[18] = "Receptionist";
+	//							exp[18] = "Receptionist";
 							//ptbr
-								exp[19] = "Recepcionista";
+	//							exp[19] = "Recepcionista";
 
 							// eng
-								exp[20] = "lorem ipsum2";
+	//							exp[20] = "lorem ipsum2";
 							//ptbr
-								exp[21] = "lorem ipsum3";
+	//							exp[21] = "lorem ipsum3";
 
 
 
