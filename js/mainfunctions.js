@@ -25,7 +25,7 @@ window.onload = function() {
   if (window.location.href == "file:///D:/github/quimeragonia.github.io/shapearena.html" || window.location.href == "https://quimeragonia.github.io/shapearena")
     translateshape();
   else {
-    if (window.location.href == "file:///D:/github/quimeragonia.github.io/index.html" || window.location.href == "https://quimeranoxia.github.io/") {
+    if (window.location.href == "file:///D:/github/quimeragonia.github.io/index.html" || window.location.href == "https://quimeragonia.github.io/") {
       loadProjectThumbs();
      // translate();
     }
