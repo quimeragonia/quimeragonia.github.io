@@ -25,9 +25,9 @@ window.onload = function() {
   if (window.location.href == "file:///D:/github/quimeragonia.github.io/shapearena.html" || window.location.href == "https://quimeragonia.github.io/shapearena")
     translateshape();
   else {
-    if (window.location.href == "file:///D:/github/quimeragonia.github.io/index.html" || window.location.href == "https://quimeragonia.github.io/") {
+    if (window.location.href == "file:///D:/github/quimeragonia.github.io/index.html" || window.location.href == "https://quimeranoxia.github.io/") {
       loadProjectThumbs();
-      translate();
+     // translate();
     }
   // FUNCIONAMENTO
     loadWorks();
@@ -80,7 +80,7 @@ function changeLanguage() {
     else
       lang = 0;
 
-  if (window.location.href == "file:///D:/github/quimeragonia.github.io/shapearena.html" || window.location.href == "https://quimeragonia.github.io/shapearena")
+  if (window.location.href == "file:///D:/github/quimeranoxia.github.io/shapearena.html" || window.location.href == "https://quimeranoxia.github.io/shapearena")
         translateshape();
   else {
         translate();
