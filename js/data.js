@@ -59,9 +59,9 @@
 
 			var cover = [];
 							// eng
-								cover[0] = "Quimeranoxia";
+								cover[0] = "Gabriella Ruivo";
 							// ptbr
-								cover[1] = "Quimeranoxia";
+								cover[1] = "Gabriella Ruivo";
 
 							// eng
 								cover[2] = "Design and Illustration";
@@ -83,9 +83,9 @@
 								about[1] = "Sobre Mim";
 
 							// eng
-								about[2] = "Hello there. You can know me by my surname, <b>Ruivo</b>. I am a 25 years old freelancer artist based in the city of São Paulo, Brazil, as of 2022 (originally born in Rio de Janeiro).<br><br>I am known to be a fast learner, and do not shy away from functions outside my field; rather, they <b>add to each other</b>. I make a very important point not to limit my interests and fascination, as the world is too big and interesting!<br><br>My approach on Design focuses on giving the brand its own narrative and storytelling, and I like to play with symbolism in some of my compositions. I also take person or character portrait commissions.<br><br>I am open to any kind of work, not just content-related. If you're interested, have any ideas you want to share, or would just like to tell me about your favourite film (I'm chatty, I'd love to hear), feel most welcome to <a href='#contact'>contact me</a>!";
+								about[2] = "Gabriella Ruivo is a designer based in the city of Rio de Janeiro, Brazil. Areas of interest include (but are not limited to): webdesign, editorial design, and illustration. <a href='#contact'>E-mail me</a>.";
 							// ptbr
-								about[3] = "Olá. Pode me chamar de <b>Ruivo</b> (meu sobrenome). Tenho 25 anos e sou artista freelancer, morando na cidade de São Paulo desde o início de 2022 (originalmente do Rio).<br><br>Me conhecem como uma pessoa apta a aprendizado rápido, e eu não evito funções fora do meu campo; para mim, toda experiência se <b>complementa</b>. Acho muito importante não limitar meus interesses e fascinação, já que o mundo é grande e interessante demais.<br><br>Minha abordagem em Design foca em fazer máximo uso de visuais para dar à marca sua própria narrativa e <i>storytelling</i>, e gosto de empregar simbolismo em algumas das minhas composições. Eu também faço encomendas de retratos estilizados de pessoas e personagens.<br><br>Caso tenha se interessado, quiser compartilhar alguma ideia, ou só me contar do seu filme favorito (AMO conversar, adoraria ouvir!), sinta-se à vontade para <a href='#contact'>me contatar</a>!";
+								about[3] = "Gabriella Ruivo é designer residente do caos organizado da cidade do Rio de Janeiro. Áreas de interesse incluem (mas não se limitam a): webdesign, design editorial e ilustração. <a href='#contact'>Mande-me um e-mail</a>.";
 
 		// Experience
 
@@ -97,6 +97,35 @@
 								exp[0] = "Experience";
 							//ptbr
 								exp[1] = "Experiência Profissional";
+
+
+
+						// 6. GRUPO PRO ROCKET
+
+							// eng
+								exp[22] = "Administrative Assistant";
+							//ptbr
+								exp[23] = "Auxiliar Administrativo";
+
+							// eng
+								exp[24] = "lorem ipsum0 COLOCAR LINK P/ PDF";
+							//ptbr
+								exp[25] = "lorem ipsum1";
+
+
+
+						// 5. ODONTOCOMPANY
+
+							// eng
+								exp[18] = "Receptionist";
+							//ptbr
+								exp[19] = "Recepcionista";
+
+							// eng
+								exp[20] = "lorem ipsum2";
+							//ptbr
+								exp[21] = "lorem ipsum3";
+
 
 
 
@@ -177,9 +206,9 @@
 								educ[7] = "<b>Ensino Médio Completo</b>";
 
 							// eng
-								educ[8] = "Full Scholarship funded by <a href = 'http:\\\\prouniportal.mec.gov.br/'>Prouni</a>. Interrupted due to the pandemic, as the scholarship ended.";
+								educ[8] = "Full Scholarship funded by <a href = 'http:\\\\prouniportal.mec.gov.br/'>Prouni</a>.";
 							//ptbr
-								educ[9] = "Bolsa 100% pelo <a href = 'http:\\\\prouniportal.mec.gov.br/'>Prouni</a>. Estudos interrompidos devido à pandemia, pois a bolsa acabou.";
+								educ[9] = "Bolsa 100% pelo <a href = 'http:\\\\prouniportal.mec.gov.br/'>Prouni</a>.";
 
 							// eng
 								educ[10] = "Full Scholarship funded by <a href = 'https:\\\\www.ismart.org.br/'>ISMART</a>.";
@@ -204,33 +233,33 @@
 
 			var thumbnail = [];
 
-								thumbnail[0]= "images/thumb_aneldevidro1920.jpg";
-								thumbnail[1]= "images/thumb_shuwukong1920.jpg";
-								thumbnail[2]= "images/thumb_rabbitstarvation1920.jpg";
-								thumbnail[3]= "images/thumb_miranharafinha1920.jpg";
+								thumbnail[0]= "images/thumb_comish.jpg";
+								thumbnail[1]= "images/thumb_aneldevidro1920.jpg";
+								thumbnail[2]= "images/thumb_cherubini.jpg";
+								thumbnail[3]= "images/thumb_rabbitstarvation1920.jpg";
 								thumbnail[4]= "images/thumb_rinnekun1920.jpg";
-								thumbnail[5]= "images/thumb_giorno1920.jpg";
+								thumbnail[5]= "images/thumb_miranharafinha1920.jpg";
 								thumbnail[6]= "images/thumb_detetive1920.jpg";
-								thumbnail[7]= "images/thumb_mika.jpg";
+								thumbnail[7]= "images/thumb_shuwukong1920.jpg";
 								thumbnail[8]= "images/thumb_summervintage011920.jpg";
 								thumbnail[9]= "images/thumb_shutea.jpg";
-								thumbnail[10]="images/thumb_ranmasol.jpg";
-								thumbnail[11]="images/thumb_generation457.jpg";
+								thumbnail[10]="images/thumb_giorno1920.jpg";
+								thumbnail[11]="images/thumb_ranmasol.jpg";
 
 			var full = [];
 
-								full[0]= "images/full_aneldevidro1920.jpg";
-								full[1]= "images/full_shuwukong1920.jpg";
-								full[2]= "images/full_rabbitstarvation1920.jpg";
-								full[3]= "images/full_miranharafinha1920.jpg";
+								full[0]= "images/full_comish1920.jpg";
+								full[1]= "images/full_aneldevidro1920.jpg";
+								full[2]= "images/full_cherubini1920.jpg";
+								full[3]= "images/full_rabbitstarvation1920.jpg";
 								full[4]= "images/full_rinnekun1920.jpg";
-								full[5]= "images/full_giorno1920.jpg";
+								full[5]= "images/full_miranharafinha1920.jpg";
 								full[6]= "images/full_detetive1920.gif";
-								full[7]= "images/full_mika.jpg";
+								full[7]= "images/full_shuwukong1920.jpg";
 								full[8]= "images/full_summervintage011920.jpg";
 								full[9]= "images/full_shutea.jpg";
-								full[10]="images/full_ranmasol.jpg";
-								full[11]="images/full_generation457.jpg";
+								full[10]="images/full_giorno1920.jpg";
+								full[11]="images/full_ranmasol.jpg";
 
 
 			// Projects

@@ -33,7 +33,6 @@ window.onload = function() {
     loadWorks();
   }
 }
-
 function loadProjectThumbs() {
  for (let n = 0; n < 1 ;n++)
       document.getElementById("project" + String(n)).src = thumbproject[n];
@@ -98,9 +97,9 @@ function translate() {
 	if (lang == 0)	{
     // NAVIGATION
     document.getElementById("navi_lang").innerHTML = navi[0];
-		document.getElementById("navi_about").innerHTML = navi[2];
+	document.getElementById("navi_about").innerHTML = navi[2];
     document.getElementById("navi_works").innerHTML = navi[4];
-		document.getElementById("navi_experience").innerHTML = navi[6];
+	document.getElementById("navi_experience").innerHTML = navi[6];
     document.getElementById("navi_education").innerHTML = navi[8];
     document.getElementById("navi_projects").innerHTML = navi[10];
     document.getElementById("navi_skills").innerHTML = navi[12];
@@ -132,6 +131,10 @@ function translate() {
     document.getElementById("exp_jobdesc2").innerHTML = exp[12];
     document.getElementById("exp_jobtitle3").innerHTML = exp[14];
     document.getElementById("exp_jobdesc3").innerHTML = exp[16];
+	document.getElementById("exp_jobtitle4").innerHTML = exp[18];
+    document.getElementById("exp_jobdesc4").innerHTML = exp[20];
+	document.getElementById("exp_jobtitle5").innerHTML = exp[22];
+    document.getElementById("exp_jobdesc5").innerHTML = exp[24];
     // EDUCATION
     document.getElementById("educ_title").innerHTML = educ[0];
     document.getElementById("educ_major01").innerHTML = educ[2];
@@ -153,9 +156,9 @@ function translate() {
   // TRANSLATE TO PTBR
 	if (lang == 1)	{
     document.getElementById("navi_lang").innerHTML = navi[1];
-		document.getElementById("navi_about").innerHTML = navi[3];
+	document.getElementById("navi_about").innerHTML = navi[3];
     document.getElementById("navi_works").innerHTML = navi[5];
-		document.getElementById("navi_experience").innerHTML = navi[7];
+	document.getElementById("navi_experience").innerHTML = navi[7];
     document.getElementById("navi_education").innerHTML = navi[9];
     document.getElementById("navi_projects").innerHTML = navi[11];
     document.getElementById("navi_skills").innerHTML = navi[13];
@@ -187,6 +190,10 @@ function translate() {
     document.getElementById("exp_jobdesc2").innerHTML = exp[13];
     document.getElementById("exp_jobtitle3").innerHTML = exp[15];
     document.getElementById("exp_jobdesc3").innerHTML = exp[17];
+	document.getElementById("exp_jobtitle4").innerHTML = exp[19];
+    document.getElementById("exp_jobdesc4").innerHTML = exp[21];
+	document.getElementById("exp_jobtitle5").innerHTML = exp[23];
+    document.getElementById("exp_jobdesc5").innerHTML = exp[25];
     // EDUCATION
     document.getElementById("educ_title").innerHTML = educ[1];
     document.getElementById("educ_major01").innerHTML = educ[3];
