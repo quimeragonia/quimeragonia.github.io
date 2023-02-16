@@ -164,7 +164,7 @@
 							// eng
 								exp[8] = "Processing and receiving payment, serving both Portuguese and English-speaking clients. Also responsible for the archiving of seller's commission sales in the system.";
 							//ptbr
-								exp[9] = "Atendimento a clientes nativos e estrangeiros, finalização da venda no PDV, cadastros de clientes no sistema e efetivação de trocas ou devoluções através do mesmo, conferência de dinheiro em espécie e do extrato de vendas de diferentes máquinas de cartão. Também era responsável pelo arquivamento dos pedidos de venda de cada vendedor e pela gravação de seu nome em sua devida venda no sistema. Muita agilidade era necessária, pois não era ideal manter uma fila com clientes em espera."
+								exp[9] = "Atendimento a clientes nativos e estrangeiros, finalização da venda no PDV, cadastros de clientes no sistema e efetivação de trocas ou devoluções através do mesmo, conferência de dinheiro em espécie e do extrato de vendas de diferentes máquinas de cartão. Também era responsável pelo arquivamento dos pedidos de venda de cada vendedor e pela gravação de seu nome em sua devida venda no sistema.";
 
 						// 1. PH
 
