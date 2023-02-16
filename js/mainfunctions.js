@@ -23,7 +23,7 @@ window.onload = function() {
 
   // TRADUÇÃO
   if (window.location.href == "file:///D:/github/quimeragonia.github.io/shapearena.html" || window.location.href == "https://quimeragonia.github.io/shapearena")
-    translateshape();
+    //translateshape();
   else {
     if (window.location.href == "file:///D:/github/quimeragonia.github.io/index.html" || window.location.href == "https://quimeragonia.github.io/") {
       loadProjectThumbs();
@@ -80,7 +80,7 @@ function changeLanguage() {
     else
       lang = 0;
 
-  if (window.location.href == "file:///D:/github/quimeranoxia.github.io/shapearena.html" || window.location.href == "https://quimeranoxia.github.io/shapearena")
+  if (window.location.href == "file:///D:/github/quimeragonia.github.io/shapearena.html" || window.location.href == "https://quimeragonia.github.io/shapearena")
         translateshape();
   else {
         translate();
@@ -131,10 +131,6 @@ function translate() {
     document.getElementById("exp_jobdesc2").innerHTML = exp[12];
     document.getElementById("exp_jobtitle3").innerHTML = exp[14];
     document.getElementById("exp_jobdesc3").innerHTML = exp[16];
-	document.getElementById("exp_jobtitle4").innerHTML = exp[18];
-    document.getElementById("exp_jobdesc4").innerHTML = exp[20];
-	document.getElementById("exp_jobtitle5").innerHTML = exp[22];
-    document.getElementById("exp_jobdesc5").innerHTML = exp[24];
     // EDUCATION
     document.getElementById("educ_title").innerHTML = educ[0];
     document.getElementById("educ_major01").innerHTML = educ[2];
@@ -190,10 +186,6 @@ function translate() {
     document.getElementById("exp_jobdesc2").innerHTML = exp[13];
     document.getElementById("exp_jobtitle3").innerHTML = exp[15];
     document.getElementById("exp_jobdesc3").innerHTML = exp[17];
-	document.getElementById("exp_jobtitle4").innerHTML = exp[19];
-    document.getElementById("exp_jobdesc4").innerHTML = exp[21];
-	document.getElementById("exp_jobtitle5").innerHTML = exp[23];
-    document.getElementById("exp_jobdesc5").innerHTML = exp[25];
     // EDUCATION
     document.getElementById("educ_title").innerHTML = educ[1];
     document.getElementById("educ_major01").innerHTML = educ[3];
