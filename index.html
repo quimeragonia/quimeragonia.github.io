@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quimerafólio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <script type = "text/javascript" src = "js/data.js"></script>
+    <script type = "text/javascript" src = "js/worksscripts.js"></script>
+    <script type = "text/javascript" src = "js/mainfunctions.js"></script>
+</head>
+
+<body><div id = "allpage">
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i></div>
+
+    <!-- End #mobile-menu-toggle -->
+    <header class="sticky noselect">
+
+        <div id="mobile-menu-close">
+            <div id ="mobile-menu-bg"></div>
+            <div id = "menuX" aria-hidden="true" class ="shadow"></div>
+
+        </div>
+
+
+
+        <ul id="menu" class="shadow" style ="z-index: 30;">
+            <li>
+                <a href="#about"><p id = "navi_about">About</p></a>
+            </li>
+            <li>
+                <a href="#works"><p id = "navi_works">Works</p></a>
+            </li>
+            <li>
+                <a href="#projects"><p id = "navi_projects">Projects</p></a>
+            </li>
+            <li>
+                <a href="#experience"><p id = "navi_experience">Experience</p></a>
+            </li>
+            <li>
+                <a href="#education"><p id = "navi_education">Education</p></a>
+            </li>
+
+            <li>
+                <a href="#skills"><p id = "navi_skills">Skills</p></a>
+            </li>
+            <li>
+                <a href="#contact"><p id = "navi_contact">Contact</p></a>
+            </li>
+            <li>
+                <a onclick = "changeLanguage();" style="cursor: pointer; border-bottom-width: 1px;border-bottom-style: solid."><b><p id = "navi_lang">Em Português</p></b></a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <!-- BEGIN #lead -->
+    <div id="lead">
+        <div id="lead-content">
+            <h1><p id="myname">Gabriella Ruivo</p></h1>
+            <h2><p id="occ">Design and Illustration</p></h2>
+            <a href="/cv/Gabriella Ruivo CV_ptbr.pdf" class="btn-rounded-white" target="_blank"><p id="cv">Download Resume</p></a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true" style = "padding-left: 1px;"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <!-- BEGIN #about -->
+    <div id="about">
+        <div class="container boldlinks">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading"><p id="abt_title">About Me</p></h2>
+                </div>
+                <div class="col-md-8">
+                    <p id ="abt_text">
+                        Gabriella Ruivo is a designer based in the city of Rio de Janeiro, Brazil. Areas of interest include (but are not limited to): webdesign, editorial design, and illustration. <a href='#contact'>E-mail me</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <!-- BEGIN #works -->
+    <div id="works" class="background-alt boldlinks">
+        <h2 class="heading"><p id = "works_title">Works</p></h2>
+        <div class="container">
+		
+            <div class="row" oncontextmenu="return false;">
+                <!-- id = "wx" serve para esconder os works dependendo do tamanho da tela -->
+                <div class="work shadow-large" id = "w0">
+
+                    <div class="work-thumb">
+                        <img src="images/project.jpg" id = "img0" onclick = "ampliar(0);" />
+
+                    </div>
+                </div>
+                <!-- End .work 0 -->
+
+                <div class="work shadow-large" id = "w1">
+
+                    <div class="work-thumb">
+                        <img src="images/project.jpg" id = "img1" onclick = "ampliar(1);" />
+
+                    </div>
+                </div>
+                <!-- End .work 1 -->
+
+                <div class="work shadow-large" id = "w2">
+
+                    <div class="work-thumb">
+                        <img src="images/project.jpg" id = "img2" onclick = "ampliar(2);" />
+
+                    </div>
+                </div>
+                <!-- End .work 2 -->
+
+                <div class="work shadow-large" id = "w3">
+
+                    <div class="work-thumb">
+                        <img src="images/project.jpg" id = "img3" onclick = "ampliar(3);" />
+
+                    </div>
+                </div>
+                <!-- End .work 3 -->
+
+                <div class="work shadow-large" id = "w4">
+
+                    <div class="work-thumb">
+                        <img src="images/project.jpg" id = "img4" onclick = "ampliar(4);" />
+
+                    </div>
+                </div>
+                <!-- End .work 4 -->
+
+                <div class="work shadow-large" id = "w5">
+
+                    <div class="work-thumb">
+                        <img src="images/project.jpg" id = "img5" onclick = "ampliar(5);" />
+
+                    </div>
+                </div>
+                <!-- End .work 5 -->
+
+                <div class="work shadow-large" id = "w6">
+
+                    <div class="work-thumb">
+                        <img src="images/project.jpg" id = "img6" onclick = "ampliar(6);" />
+
+                    </div>
+                </div>
+                <!-- End .work 6 -->
+
+                <div class="work shadow-large" id = "w7">
+
+                    <div class="work-thumb">
+                        <img src="images/project.jpg" id = "img7" onclick = "ampliar(7);" />
+
+                    </div>
+                </div>
+                <!-- End .work 7 -->
+
+                <div class="work shadow-large" id = "w8">
+
+                    <div class="work-thumb">
+                        <img src="images/project.jpg" id = "img8" onclick = "ampliar(8);" />
+
+                    </div>
+                </div>
+                <!-- End .work 8 -->
+            </div>
+			
+			
+            <!-- SEE MORE BUTTON -->
+            <button class = "seemore" onclick="linktopage('/works');">
+                
+                  &nbsp;<p class ="text_more">See more</p>
+                
+                
+                  <i class="fa fa-chevron-right arrow" aria-hidden="true" style = "padding-left: 3px;">
+                  </i>
+            </button>
+        </div>
+    </div>
+    <!-- End #works -->
+
+    <!-- BEGIN #projects -->
+    <div id="projects">
+        <h2 class="heading"><p id ="text_projects0">Projects</p></h2>
+        <div class="container boldlinks">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image" onclick="linktopage('/shapearena');">
+                        <h3 >Game: Shape Arena</h3>
+                        <img src="images/project.jpg"  id = "project0"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Game: Shape Arena</h3>
+                        <p id = "text_projects1">
+                             Shape Arena is a Free-To-Play multiplayer party game made with Unity developed by <a href='http://www.icad.puc-rio.br/shape-arena/#'>ICAD Games Research Lab</a>. I was part of the dev team as a designer and animator. You can check the project's page for an interactive portfolio of some of my work on the game
+						</p>
+                        <br>
+                        <br><button class = "bold-links project-link" onclick="linktopage('/shapearena');"><p class = "viewproject">View Project</p> ></button>
+                        <br><a class = 'project-link' href ='https://store.steampowered.com/app/1222390/Shape_Arena/'><p id = "shapelinksteam">Link To Steam Page</p> ></a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image" onclick ="window.open('/projects/prorocket/beneficiosprorocket_timevendas.pdf','_blank'); return false;">
+                        <h3>Pro Rocket Benefits</h3>
+                        <img src="images/project.jpg"   id = "project1"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Pro Rocket Benefits</h3>
+						<p id = "text_projects2">
+                            Informational presentation and PDF for the benefits offered by Pro Rocket Group to its workers.
+                        </p>
+						<br>
+                        <br><a class = 'project-link' href ='/cv/Gabriella Ruivo CV_ptbr.pdf' target="_blank" rel="noopener noreferrer"><p id = "shapelinksteam">View PDF</p> ></a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+	</div>
+    <!-- End #projects -->
+
+    <!-- BEGIN #experience -->
+    <div id="experience" class="background-alt boldlinks">
+        <h2 class="heading"><p id = "exp_title">Experience</p></h2>
+		
+		<div id = "exp_hide" style = "max-height: 800vh; overflow: hidden; transition: all 0.6s ease-out;">
+			<div id="experience-timeline">
+
+
+				<div data-date="2022-2023">
+					<h3>Grupo Pro Rocket</h3>
+					<h4><p id = "exp_jobtitle5">Administrative Assistant</p></h4>
+					<p id = "exp_jobdesc5" class = "vtlcontent">
+						text.
+					</p>
+				</div>
+				<div data-date="2022">
+					<h3>OdontoCompany</h3>
+					<h4><p id = "exp_jobtitle4">Receptionist</p></h4>
+					<p id = "exp_jobdesc4" class = "vtlcontent">
+						text.
+					</p>
+				</div>
+				<a name = "testt"></a>
+				<div data-date="2022">
+					<h3>Vila na Praia 2022, Equipe Boteco da Vila</h3>
+					<h4><p id = "exp_jobtitle3">Cashier Waiter</p></h4>
+					<p id = "exp_jobdesc3" class = "vtlcontent">
+						Organization and cleaning, and the main communicator between clients and the food establishments and bars. Responsible for checkout, delivering of order to the respective establishment, and serving at the tables. Extra attention needed for menu changes and for timing, as the client pays in advance, demanding fast flow and precise serving.
+					</p>
+				</div>
+				<div data-date="2019 - 2020">
+					<h3>Intelligent Games, divisão de ICAD/VisionLab, Estágio PUC-Rio</h3>
+					<h4><p id = "exp_jobtitle2">Designer and Animator</p></h4>
+					<p id = "exp_jobdesc2" class = "vtlcontent">
+						Lab for game research and development. I worked with a team on the development of the game <a href ='https://store.steampowered.com/app/1222390/Shape_Arena/'>Shape Arena</a>, launched on Steam officially on August 2020.
+					</p>
+				</div>
+				<div data-date="2018">
+					<h3>Brink Center</h3>
+					<h4><p id = "exp_jobtitle1">Cashier</p></h4>
+					<p id = "exp_jobdesc1" class = "vtlcontent">
+						Processing and receiving payment, serving both Portuguese and English-speaking clients. Also responsible for the archiving of seller's commission sales in the system.
+					</p>
+				</div>
+				<div data-date="2014">
+					<h3>Sistema pH de Ensino</h3>
+					<h4><p id = "exp_jobtitle0">Maths Auxiliary Teacher</p></h4>
+					<p id = "exp_jobdesc0" class = "vtlcontent">
+						Assistance to students with both school and university entrance exams by helping solve problems from coursebooks. Also worked with correction of said coursebooks, and the giving and supervising of simulated exams.
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- BLUR --> 
+		<div id = "exp_blur" style = "z-index: 9999;position: relative; top: -25px; padding-bottom: 100px; filter: blur(10px); background-color: inherit;overflow: hidden;">
+		</div>
+		
+		<!-- SHOW MORE BUTTON -->
+            <button class = "showmore showmoreinactive" onclick = "showMore('exp');" style = "position: relative;top: -65px;">
+                
+                  &nbsp;<p class ="text_showmore">See more</p>
+                
+                
+                  <i class="fa fa-chevron-down arrow showmorearrow" aria-hidden="true" style = "padding-left: 3px;display: inline-block;">
+                  </i>
+            </button>
+    </div>
+	
+    <!-- End #experience -->
+
+    <!-- BEGIN #education -->
+    <div id="education" class ="boldlinks">
+        <h2 class="heading"><p id ="educ_title">Education</p></h2>
+		
+		<div class="education-block">
+            <h3><p id ="educ_major00"><b>Graphic Design Course</b></p></h3>
+            <span class="education-date">2023 - PRESENT, Rio de Janeiro, BRA</span>
+            <h4><p id = "educ_fac00">SENAC - Serviço Nacional de Aprendizagem Comercial</p></h4>
+            <p id = "educ_desc00">
+              
+            </p>
+        </div>
+        <!-- End .education-block -->
+		
+        <div class="education-block">
+            <h3><p id ="educ_major01"><b>Design - Digital Media Major</b> (Interrupted)</p></h3>
+            <span class="education-date">2018 - 2021, Rio de Janeiro, BRA</span>
+            <h4><p id = "educ_fac01">PUC-Rio - Pontifícia Universidade Católica</p></h4>
+            <p id = "educ_desc01">
+              
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3><p id ="educ_major02"><b>Mechanical Engineering Major</b> (Interrupted)</p></h3>
+            <span class="education-date">2014 - 2017, Rio de Janeiro, BRA</span>
+            <h4><p id = "educ_fac02">PUC-Rio - Pontifícia Universidade Católica</p></h4>
+            <p id = "educ_desc02">
+              
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3><p id ="educ_major03"><b>High School</b> (Complete)</p></h3>
+            <span class="education-date">2011 - 2013, Rio de Janeiro, BRA</span>
+            <h4><p id = "educ_fac03">Colégio Santo Inácio</p></h4>
+            <p id = "educ_desc03">
+              Full Scholarship funded by <a href = 'https:\www.ismart.org.br/'>ISMART</a>.
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+    </div>
+    <!-- End #education -->
+
+
+
+    <div id="skills" class ="background-alt">
+        <h2 class="heading"><p id ="skills_title">Skills</p></h2>
+        <ul>
+            <li>Photoshop</li>
+            <li>Illustrator</li>
+            <li>Indesign</li>
+            <li>Paint Tool SAI</li>
+            <li>SolidWorks</li>
+            <li>Blender</li>
+            <li>Microsoft Word</li>
+            <li>Microsoft Excel</li>
+            <li>C</li>
+            <li>Javascript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            
+        </ul>
+    </div>
+    <!-- End #languages -->
+
+    <div id="languages" class ="background-alt">
+        <h2 class="heading"><p id ="text_lang0">Languages</p></h2>
+        <ul>
+            <li><p id ="text_lang1">English <i class ="languageslevel">(fluent)</i></p></li><br>
+            <li><p id = "text_lang2">Portuguese <i class ="languageslevel">(native)</i></p></li>
+            <li><p id ="text_lang3">Spanish <i class ="languageslevel">(basic)</i></p></li>
+        </ul>
+    </div>
+    <!-- End #languages -->
+
+    <div id="contact">
+        <h2><p id = "text_contact0">Get in Touch</a></h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/f/mwkypkea">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit"><p id = "text_contact1">Send</p></button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2022-2023 G. RUIVO
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank" style="display: none;"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank" style="display: none;"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    </div>
+    <!-- End #allpage -->
+
+    <!-- ESTOQUE DE IMAGENS AMPLIADAS -->
+    <div id = "imagemampliada" oncontextmenu="return false;">
+
+      <div id = "X" onclick = "fechar();"></div>
+
+      <img id = "full0"/>
+      <img id = "full1"/>
+      <img id = "full2"/>
+      <img id = "full3"/>
+      <img id = "full4"/>
+      <img id = "full5"/>
+      <img id = "full6"/>
+      <img id = "full7"/>
+      <img id = "full8"/>
+	  
+	  <img id = "full9"/>
+	  <img id = "full10"/>
+	  <img id = "full11"/>
+	  <img id = "full11"/>
+    </div>
+    <!-- Fim do estoque de imagens ampliadas -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+
+</body>
+
+</html>
