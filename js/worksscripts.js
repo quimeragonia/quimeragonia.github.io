@@ -16,7 +16,7 @@ function ampliar (imgI) {
   document.getElementById("imagemampliada").style.display = "flex";
   // Transition to black bg
   document.body.style.transition = "all 0.3s";
-	document.body.style.backgroundColor = "black";
+  document.body.style.backgroundColor = "black";
   // Displays image
   document.getElementById("full" + String(imgI)).style.transition = "all 0.3s";
   document.getElementById("full" + String(imgI)).style.display = "flex";

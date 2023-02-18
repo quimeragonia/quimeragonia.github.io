@@ -47,7 +47,6 @@ window.onload = function() {
     }
   // FUNCIONAMENTO GERAL
     loadWorks();
-	
   }
 }
 function loadProjectThumbs() {
@@ -69,9 +68,9 @@ function showMore(p) {
 		if (contentExp.style.maxHeight != maxHeightContent + "vh") {	// OPENS
 			showSwitch = true;
 			if (lang == 0)
-			textShowMore.innerHTML = misc[6];
+				textShowMore.innerHTML = misc[6];
 			else if (lang == 1)
-			textShowMore.innerHTML = misc[7];
+				textShowMore.innerHTML = misc[7];
 			arrow.classList.remove("fa-chevron-down");
 			contentShowMore.classList.remove("showmoreinactive");
 			arrow.classList.add("fa-chevron-up");
@@ -81,10 +80,9 @@ function showMore(p) {
 		} else {													// CLOSES
 			showSwitch = false;
 			if (lang == 0)
-			textShowMore.innerHTML = misc[0];
+				textShowMore.innerHTML = misc[0];
 			else if (lang == 1)
-			textShowMore.innerHTML = misc[1];
-		
+				textShowMore.innerHTML = misc[1];
 			contentExp.style.maxHeight = hideContent * maxHeightContent + "vh";
 			arrow.classList.remove("fa-chevron-up");
 			contentShowMore.classList.remove("showmoreactive");
