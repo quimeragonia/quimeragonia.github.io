@@ -814,7 +814,7 @@ footer {
   font-weight: lighter;
   text-decoration: none;
   letter-spacing: 1px;
-  transition: padding-left 0.3s;
+  transition: padding 0.3s;
 }
 
 .seemore:hover, .seemore:active{
@@ -829,12 +829,43 @@ footer {
   color: #783c55;
 }
 
+.showmore {
+  position: relative;
+  top: 0px;
+  vertical-align: middle;
+  color: #783c55;
+  display: inline;
+  color: #783c55;
+  font-size: 1.3em;
+  padding-right: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: lighter;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+  padding: 15px;
+  z-index: 10000;
+}
+
+.showmore:hover, .showmore:active {
+  
+  }
+
+.showmoreinactive:hover, .showmoreinactive:active{
+  transform: translate(0, 15px);
+}
+
+.showmoreactive:hover, .showmoreactive:active{
+  transform: translate(0, -15px);
+}
+
 /* FIM DISPLAY ARTES */
 
 #projects {
   padding: 50px 15px;
   border-bottom: 1px solid #dcd9d9;
-  text-align: center
+  text-align: center;
 }
 
 #projects h2 {
@@ -848,7 +879,7 @@ footer {
   margin: 0 auto 30px auto;
   overflow: hidden;
   background: #fff;
-  border-radius: 4px
+  border-radius: 4px;
 }
 
 .project-image {

@@ -103,28 +103,28 @@
 						// 6. GRUPO PRO ROCKET
 
 							// eng
-	//							exp[22] = "Administrative Assistant";
+								exp[22] = "Administrative Assistant";
 							//ptbr
-	//							exp[23] = "Auxiliar Administrativo";
+								exp[23] = "Auxiliar Administrativo";
 
 							// eng
-	//							exp[24] = "lorem ipsum0 COLOCAR LINK P/ PDF";
+								exp[24] = "";
 							//ptbr
-	//							exp[25] = "lorem ipsum1";
+								exp[25] = "Finanças 360° em empresa multi-franquias. Bater os caixas. Conciliação de cartões. Entrada de notas fiscais. Lançamento de contas a pagar. Conciliação bancária. Suporte geral aos times na linha de frente e organização das informações do financeiro, para que estejam devidamente legíveis pelo gerente financeiro e diretores na hora de tomar decisões. Auxílio ao RH com agendamento de entrevistas e registro. Também prestei serviços de design na confecção de peças gráficas. Atualmente em home office.";
 
 
 
 						// 5. ODONTOCOMPANY
 
 							// eng
-	//							exp[18] = "Receptionist";
+								exp[18] = "Receptionist";
 							//ptbr
-	//							exp[19] = "Recepcionista";
+								exp[19] = "Recepcionista";
 
 							// eng
-	//							exp[20] = "lorem ipsum2";
+								exp[20] = "";
 							//ptbr
-	//							exp[21] = "lorem ipsum3";
+								exp[21] = "Acompanhava toda a rotina de procedimentos odontológicos contratados. Administrava toda a documentação, contas a receber dos pacientes, o atendimento por tel. e WhatsApp, a agenda dos doutores, e os registros de comissão das vendedoras e orçamentistas. Também era a responsável pelo fechamento do caixa e por treinar funcionárias quanto ao mesmo.";
 
 
 
@@ -206,9 +206,9 @@
 								educ[7] = "<b>Ensino Médio Completo</b>";
 
 							// eng
-								educ[8] = "Full Scholarship funded by <a href = 'http:\\\\prouniportal.mec.gov.br/'>Prouni</a>.";
+								educ[8] = "";
 							//ptbr
-								educ[9] = "Bolsa 100% pelo <a href = 'http:\\\\prouniportal.mec.gov.br/'>Prouni</a>.";
+								educ[9] = "";
 
 							// eng
 								educ[10] = "Full Scholarship funded by <a href = 'https:\\\\www.ismart.org.br/'>ISMART</a>.";
@@ -225,11 +225,6 @@
 								workstext[0] = "Works";
 							//ptbr
 								workstext[1] = "Ilustrações";
-
-							// eng
-								workstext[2] = "See more";
-							//ptbr
-								workstext[3] = "Ver mais";
 
 			var thumbnail = [];
 
@@ -273,7 +268,7 @@
 			var thumbproject = [];
 
 								thumbproject[0]= "projects/thumb_shapearena.jpg";
-								thumbproject[1]= "";
+								thumbproject[1]= "projects/thumb_prorocket.jpg";
 
 			// Skills
 
@@ -338,6 +333,13 @@
 								misc[1]= "Ver mais";
 
 							// eng
+								misc[6]= "Hide";
+							// ptbr
+								misc[7]= "Voltar";
+
+
+
+							// eng
 								misc[2]= "View Project";
 							// ptbr
 								misc[3]= "Visualizar Projeto";
@@ -346,6 +348,7 @@
 								misc[4]= "Link To Steam Page";
 							// ptbr
 								misc[5]= "Link Para Página na Steam";
+							
 
 			// PROJECT PAGES
 
@@ -357,8 +360,8 @@
 								shapedesc[0]= "Shape Arena is a free multiplayer party game made with Unity developed by <a href='http://www.icad.puc-rio.br/shape-arena/#'>ICAD Games Research Lab</a>. I was part of the dev team as a designer and animator. You can check the project's page for an interactive portfolio of some of my work on the game.";
 							// ptbr
 								shapedesc[1]= "Shape Arena é um jogo multiplayer grátis feito com Unity desenvolvido pelo laboratório de pesquisas <a href='http://www.icad.puc-rio.br/shape-arena/#'>ICAD/VisionLab</a>. Eu fui parte da equipe de desenvolvedores como designer e animadora.  Na página do projeto, você vai encontrar um portfólio interativo com uma parte do meu trabalho no jogo.";
-				// SHAPE ARENA PAGE DESC
 
+				// SHAPE ARENA PAGE DESC
 			
 							// eng
 								shapedesc[2]= "Shape Arena is a free multiplayer party game made with Unity developed by <a href='http://www.icad.puc-rio.br/shape-arena/#'>ICAD Games Research Lab</a>. I was part of the very lovely dev team as a designer and animator.<br><br><b>In Shape Arena, you control one of four shapes (circle, square, triangle or star) drawn on a blackboard. You can move and jump, and each shape has its own attributes and skill. Your objective is to grab more candy than your peers, while avoiding losing one candy off your punctuation because of items or being poofed by the many hazards thrown at you on the screen (and the fun part is, you can throw your dear friends into them!).</b><br><br>The lab hosted a tournament for it with huge success at <a href ='https://www.sbgames.org/'>SBGames 2019</a>, the biggest academic event for Games & Digital Entertainment from Latin America, with over 20 people, ages ranging from children to adults. Triangle won, if you're curious! Much to our delight, each player developed their own playstyle and, by the end, chose a 'main' to compete with.<br><br>It has also been featured in some youtubers' Let's Plays (like this <a href='https://www.youtube.com/watch?v=CC-kLPmRuGA'>one</a>)!<br><br>It would mean the world to me if you gave our game a little try! Grab some friends, controllers (only one player with a keyboard is supported, I'm afraid), and download it for free here on <a href ='https://store.steampowered.com/app/1222390/Shape_Arena/'>Steam</a>.<br><br><b>Down here is an interactive portfolio where you can see some of my art and animations made for it, most notably the main screen.</b><br><br><br><b>(Page still under construction. Unfinished: Hazards & Unused)</b>";
@@ -396,3 +399,11 @@
 								shapedesc[14]= "Back";
 							// ptbr
 								shapedesc[15]= "Voltar";
+								
+								
+			var prorocketdesc = [];
+			
+							// eng
+								prorocketdesc[0]= "Informational presentation and PDF about the benefits offered by Pro Rocket Group to its collaborators from the salesclerk team.";
+							// ptbr
+								prorocketdesc[1]= "Apresentação e PDF informacional sobre os benefícios oferecidos pelo Grupo Pro Rocket para seus colaboradores do time de vendas.";

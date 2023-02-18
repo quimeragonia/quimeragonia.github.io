@@ -1,6 +1,9 @@
 // Starts in english
 var lang = 0;
 var maintainPageY = -1;
+var maxHeightExp;
+var hideContent;
+var showSwitch = false;
 
 window.onload = function() {
   // MAIN PAGE
@@ -26,16 +29,72 @@ window.onload = function() {
     translateshape();
   else {
     if (window.location.href == "file:///D:/github/quimeragonia.github.io/index.html" || window.location.href == "https://quimeragonia.github.io/") {
-      loadProjectThumbs();
-     // translate();
+      // MAIN PAGE
+	  
+	  // Load Project Thumbs
+	  loadProjectThumbs();
+	  
+	  // Collapse Experience
+	  maxHeightExp = parseInt(document.getElementById("exp_hide").style.maxHeight.slice("",-2)); // em vh, não px
+	  if (window.innerWidth <= 750)
+		  hideContent = 0.17;
+	  else
+		  hideContent = 0.1;
+	  document.getElementById("exp_hide").style.maxHeight = hideContent * maxHeightExp + "vh";
+	  
+	  // Translate page
+      translate();
     }
-  // FUNCIONAMENTO
+  // FUNCIONAMENTO GERAL
     loadWorks();
+	
   }
 }
 function loadProjectThumbs() {
- for (let n = 0; n < 1 ;n++)
-      document.getElementById("project" + String(n)).src = thumbproject[n];
+	var nP;
+	for (let n = 0; n < 2 ;n++) {
+		nP = document.getElementById("project" + String(n));
+		nP.src = thumbproject[n];
+	}
+}
+
+function showMore(p) {
+	if (p === "exp") {
+		var contentExp = document.getElementById("exp_hide");
+		var maxHeightContent = maxHeightExp;
+		var arrow = document.getElementsByClassName("showmorearrow")[0];
+		var contentShowMore = document.getElementsByClassName("showmore")[0];
+		var textShowMore = document.getElementsByClassName("text_showmore")[0];
+		
+		if (contentExp.style.maxHeight != maxHeightContent + "vh") {	// OPENS
+			showSwitch = true;
+			if (lang == 0)
+			textShowMore.innerHTML = misc[6];
+			else if (lang == 1)
+			textShowMore.innerHTML = misc[7];
+			arrow.classList.remove("fa-chevron-down");
+			contentShowMore.classList.remove("showmoreinactive");
+			arrow.classList.add("fa-chevron-up");
+			contentShowMore.classList.add("showmoreactive");
+			maintainPageY = window.pageYOffset;
+			contentExp.style.maxHeight = maxHeightContent + "vh";
+		} else {													// CLOSES
+			showSwitch = false;
+			if (lang == 0)
+			textShowMore.innerHTML = misc[0];
+			else if (lang == 1)
+			textShowMore.innerHTML = misc[1];
+		
+			contentExp.style.maxHeight = hideContent * maxHeightContent + "vh";
+			arrow.classList.remove("fa-chevron-up");
+			contentShowMore.classList.remove("showmoreactive");
+			arrow.classList.add("fa-chevron-down");
+			contentShowMore.classList.add("showmoreinactive");
+			$('html, body').animate({
+				scrollTop: maintainPageY + 'px'
+			}, 600);
+		}
+	}
 }
 
 function linktopage(nextpage) { // Formato: "/shapearena" ou "/works"
@@ -56,7 +115,7 @@ function mobilemenuabrir () {
   document.getElementById("allpage").style.display = "none";
   // Transition to white bg
   document.body.style.transition = "all 0.3s";
-	document.body.style.backgroundColor = "black";
+  document.body.style.backgroundColor = "black";
 }
 
 function mobilemenufechar () {
@@ -74,9 +133,8 @@ function changeLanguage() {
   if (lang != 0 && lang != 1)
     lang = 0;
   else
-    if (lang == 0){
+    if (lang == 0)
       lang = 1;
-    }
     else
       lang = 0;
 
@@ -113,13 +171,19 @@ function translate() {
     document.getElementById("abt_text").innerHTML = about[2];
     // WORKS
     document.getElementById("works_title").innerHTML = workstext[0];
+	//MISC
     for (i = 0; i < mT.length; i++)
-        mT[i].innerHTML = misc[0];
+		mT[i].innerHTML = misc[0];
+    if (showSwitch == false)
+		document.getElementsByClassName("text_showmore")[0].innerHTML = misc[0];
+	else if (showSwitch == true)
+		document.getElementsByClassName("text_showmore")[0].innerHTML = misc[6];
     // PROJECTS
     for (i = 0; i < vP.length; i++)
         vP[i].innerHTML = misc[2];
     document.getElementById("text_projects0").innerHTML = titleproject[0];
     document.getElementById("text_projects1").innerHTML = shapedesc[0];
+	document.getElementById("text_projects2").innerHTML = prorocketdesc[0];
     document.getElementById("shapelinksteam").innerHTML = misc[4];
     // EXPERIENCE
     document.getElementById("exp_title").innerHTML = exp[0];
@@ -131,6 +195,10 @@ function translate() {
     document.getElementById("exp_jobdesc2").innerHTML = exp[12];
     document.getElementById("exp_jobtitle3").innerHTML = exp[14];
     document.getElementById("exp_jobdesc3").innerHTML = exp[16];
+	document.getElementById("exp_jobtitle4").innerHTML = exp[18];
+	document.getElementById("exp_jobdesc4").innerHTML = exp[20];
+	document.getElementById("exp_jobtitle5").innerHTML = exp[22];
+    document.getElementById("exp_jobdesc5").innerHTML = exp[24];
     // EDUCATION
     document.getElementById("educ_title").innerHTML = educ[0];
     document.getElementById("educ_major01").innerHTML = educ[2];
@@ -168,13 +236,19 @@ function translate() {
     document.getElementById("abt_text").innerHTML = about[3];
     // WORKS
     document.getElementById("works_title").innerHTML = workstext[1];
+	// MISC
     for (i = 0; i < mT.length; i++)
         mT[i].innerHTML = misc[1];
+	if (showSwitch == false)
+		document.getElementsByClassName("text_showmore")[0].innerHTML = misc[1];
+	else if (showSwitch == true)
+		document.getElementsByClassName("text_showmore")[0].innerHTML = misc[7];
     // PROJECTS
     for (i = 0; i < vP.length; i++)
         vP[i].innerHTML = misc[3];
     document.getElementById("text_projects0").innerHTML = titleproject[1];
     document.getElementById("text_projects1").innerHTML = shapedesc[1];
+	document.getElementById("text_projects2").innerHTML = prorocketdesc[1];
     document.getElementById("shapelinksteam").innerHTML = misc[5];
     // EXPERIENCE
     document.getElementById("exp_title").innerHTML = exp[1];
@@ -186,6 +260,10 @@ function translate() {
     document.getElementById("exp_jobdesc2").innerHTML = exp[13];
     document.getElementById("exp_jobtitle3").innerHTML = exp[15];
     document.getElementById("exp_jobdesc3").innerHTML = exp[17];
+	document.getElementById("exp_jobtitle4").innerHTML = exp[19];
+    document.getElementById("exp_jobdesc4").innerHTML = exp[21];
+	document.getElementById("exp_jobtitle5").innerHTML = exp[23];
+    document.getElementById("exp_jobdesc5").innerHTML = exp[25];
     // EDUCATION
     document.getElementById("educ_title").innerHTML = educ[1];
     document.getElementById("educ_major01").innerHTML = educ[3];
